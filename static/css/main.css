@@ -1,0 +1,72 @@
+/* Custom styles from original Kirki theme customizations */
+
+/* Top bar styling */
+#sitetopbar {
+    background: #31a3dd;
+    border-bottom: #31a3dd;
+}
+
+#sitetopbar, #sitetopbar a {
+    color: #ffffff;
+}
+
+/* Header styling */
+#awada-header, #awada-header .navbar {
+    background: #ffffff;
+}
+
+.arrow-up {
+    border-bottom: #ffffff;
+}
+
+.navbar-default .navbar-brand, 
+#awada-header .navbar-nav > li > a, 
+.dropdown-menu > li > a,
+.site-title a, 
+.site-description {
+    color: #222222;
+}
+
+#awada-header .dropmenu img {
+    margin-top: -13px;
+}
+
+#awada-header .site-branding-text {
+    margin-top: -13px;
+}
+
+/* Font styling - Contrail One for headings and navigation */
+#awada-header .site-branding-text p,
+#awada-header .site-branding-text h1 {
+    font-family: "Contrail One", "Comic Sans MS", cursive, sans-serif;
+    font-size: 35px;
+}
+
+#awada-header .navbar-nav > li > a {
+    font-family: "Contrail One", "Comic Sans MS", cursive, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, em, blockquote {
+    font-family: "Contrail One", "Comic Sans MS", cursive, sans-serif;
+}
+
+.main_title h2 {
+    font-family: "Contrail One", "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Footer styling */
+#awada_footer_area {
+    background: #000000;
+}
+
+#awada_footer_area li a, #awada_footer_area a {
+    color: #31a3dd;
+}
+
+#copyrights {
+    background: #31a3dd;
+}
+
+#copyrights, .footer-area-menu li a {
+    color: #ffffff;
+}

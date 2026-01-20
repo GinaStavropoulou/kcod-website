@@ -9,10 +9,12 @@
     border-radius: 4px;
     transition: background 0.2s, color 0.2s;
 }
+.btn.filter-btn.active,
 .filter-btn.active {
     background-color: #31a3dd !important;
     border-color: #31a3dd !important;
     color: #fff !important;
+    z-index: 1;
 }
 /* Custom styles from original Kirki theme customizations */
 

@@ -1,17 +1,25 @@
 {{ define "main" }}
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="page-header">
-                <h1>{{ .Title }}</h1>
-            </div>
-            
-            <div class="content">
-                {{ .Content }}
-            </div>
-            
-            <div class="blog-masonry">
-                {{ range (.Paginate (where .Pages "Kind" "page") 6).Pages }}
+<section class="post-wrapper-top section-shadow clearfix">
+    <div class="container">
+        <div class="col-lg-12">
+            <h2>Our Latest <span>{{ .Title }}</span></h2>
+            <ul class="breadcrumb pull-right">
+                <li><a href="/">Home</a><i class="fa fa-chevron-circle-right breadcrumbs_space"></i>{{ .Title }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="blog-wrapper">
+    <div class="container">
+        <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="content" style="margin-bottom: 20px;">
+                    {{ .Content }}
+                </div>
+                
+                <div class="blog-masonry">
+                {{ range (.Paginate (where .Pages "Kind" "page") 9).Pages }}
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <article class="blog-carousel">
                         <div class="blog-header">
@@ -74,5 +82,5 @@
             {{ end }}
         </div>
     </div>
-</div>
+</section>
 {{ end }}

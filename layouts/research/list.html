@@ -1,0 +1,141 @@
+{{ define "main" }}
+<section class="post-wrapper-top section-shadow clearfix">
+    <div class="container">
+        <div class="col-lg-12">
+            <h2>{{ .Title }}</h2>
+            <ul class="breadcrumb pull-right">
+                <li><a href="/">Home</a><i class="fa fa-chevron-circle-right breadcrumbs_space"></i>{{ .Title }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="blog-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="content" style="margin-bottom: 30px;">
+                    {{ .Content }}
+                </div>
+                
+                <!-- Filter Buttons -->
+                <div class="publication-filters" style="margin-bottom: 30px; text-align: center;">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary filter-btn active" data-filter="all">All Publications</button>
+                        <button type="button" class="btn btn-default filter-btn" data-filter="articles">Articles</button>
+                        <button type="button" class="btn btn-default filter-btn" data-filter="reports">Reports</button>
+                        <button type="button" class="btn btn-default filter-btn" data-filter="book_chapters">Book Chapters</button>
+                        <button type="button" class="btn btn-default filter-btn" data-filter="presentations">Presentations</button>
+                    </div>
+                </div>
+                
+                <!-- Publications by Year -->
+                {{ range (where .Pages "Kind" "page").GroupByParam "year" "desc" }}
+                <div class="year-section publication-item" data-year="{{ .Key }}">
+                    <h3 style="color: #31a3dd; border-bottom: 2px solid #31a3dd; padding-bottom: 10px; margin-bottom: 20px;">
+                        <strong>{{ .Key }}</strong>
+                    </h3>
+                    
+                    {{ range .Pages.ByDate.Reverse }}
+                    <div class="publication publication-item" data-category="{{ .Params.category }}" data-year="{{ .Params.year }}" style="margin-bottom: 15px;">
+                        <div class="publication-content">
+                            {{ if .Params.citation }}
+                                {{ .Params.citation | markdownify }}
+                            {{ else }}
+                                <strong>{{ .Params.author }}</strong> ({{ .Params.year }}). <em>{{ .Title }}</em>.
+                                {{ if eq .Params.category "reports" }}
+                                    {{ if .Params.institution }} Onderzoek uitgevoerd in opdracht van {{ .Params.institution }}.{{ end }}
+                                {{ else if eq .Params.category "articles" }}
+                                    {{ if .Params.journal }} <strong>{{ .Params.journal }}</strong>{{ if .Params.volume }}, {{ .Params.volume }}{{ end }}.{{ end }}
+                                {{ else if eq .Params.category "book_chapters" }}
+                                    {{ if .Params.book_title }} In <em>{{ .Params.book_title }}</em>.{{ end }}
+                                    {{ if .Params.publisher }} {{ .Params.publisher }}.{{ end }}
+                                {{ else if eq .Params.category "presentations" }}
+                                    {{ if .Params.conference }} {{ .Params.conference }}.{{ end }}
+                                {{ end }}
+                                {{ if .Params.doi }} <a href="{{ .Params.doi }}" target="_blank">{{ .Params.doi }}</a>{{ end }}
+                                {{ if .Params.external_url }} <a href="{{ .Params.external_url }}" target="_blank">Available here</a>{{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+                
+                <!-- No results message -->
+                <div id="no-results" style="display: none; text-align: center; padding: 40px; color: #666;">
+                    <i class="fa fa-search" style="font-size: 48px; margin-bottom: 15px;"></i>
+                    <h4>No publications found</h4>
+                    <p>Try selecting a different filter category.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript for Filtering -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const publications = document.querySelectorAll('.publication-item');
+    const noResults = document.getElementById('no-results');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+            
+            // Update button states
+            filterButtons.forEach(btn => {
+                btn.classList.remove('btn-primary', 'active');
+                btn.classList.add('btn-default');
+            });
+            this.classList.remove('btn-default');
+            this.classList.add('btn-primary', 'active');
+            
+            // Filter publications
+            let visibleCount = 0;
+            const yearSections = {};
+            
+            publications.forEach(item => {
+                if (item.classList.contains('year-section')) {
+                    const year = item.getAttribute('data-year');
+                    yearSections[year] = false;
+                    return;
+                }
+                
+                const category = item.getAttribute('data-category');
+                const year = item.getAttribute('data-year');
+                
+                if (filter === 'all' || category === filter) {
+                    item.style.display = 'block';
+                    yearSections[year] = true;
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Show/hide year sections
+            publications.forEach(item => {
+                if (item.classList.contains('year-section')) {
+                    const year = item.getAttribute('data-year');
+                    if (yearSections[year]) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            });
+            
+            // Show no results message
+            if (visibleCount === 0) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+            }
+        });
+    });
+});
+</script>
+
+{{ end }}

@@ -68,4 +68,45 @@
         </div>
     </div>
 </section>
+
+<!-- Latest News Section -->
+<section class="white-wrapper section-shadow" id="home_news">
+    <div class="container">
+        <div class="main_title">
+            <h2>Latest News</h2>
+            <hr>
+            <p class="lead">Stay updated with our latest research, announcements, and events</p>
+        </div>
+        
+        <div class="blog-masonry">
+            {{ range first 6 (where (where .Site.Pages "Section" "news") "Kind" "page") }}
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="blog-carousel">
+                    <div class="blog-header">
+                        <h3><a href="{{ .Permalink }}" style="text-decoration: none; color: #333;">{{ .Title }}</a></h3>
+                        <div class="blog-meta">
+                            <span><i class="fa fa-calendar"></i> {{ .Date.Format "Jan 2, 2006" }}</span>
+                        </div>
+                    </div>
+                    <div class="blog-desc">
+                        {{ if .Params.summary }}
+                            {{ .Params.summary | truncate 120 }}
+                        {{ else }}
+                            {{ .Summary | truncate 120 }}
+                        {{ end }}
+                    </div>
+                    <div class="blog-footer" style="margin-top: 15px;">
+                        <a href="{{ .Permalink }}" class="btn btn-sm btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <div class="awada_blog_shadow_main"></div>
+            </div>
+            {{ end }}
+        </div>
+        
+        <div class="text-center" style="margin-top: 30px;">
+            <a href="/news/" class="btn btn-primary btn-lg btn-shadow">View All News <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
 {{ end }}

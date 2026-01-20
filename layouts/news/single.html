@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <article class="news-article">
+                <div class="page-header">
+                    <h1>{{ .Title }}</h1>
+                    <div class="news-meta" style="color: #666; margin-bottom: 20px;">
+                        <i class="fa fa-calendar"></i> {{ .Date.Format "January 2, 2006" }}
+                        <span style="margin-left: 20px;"><i class="fa fa-clock-o"></i> {{ .ReadingTime }} min read</span>
+                    </div>
+                </div>
+                
+                <div class="news-content" style="line-height: 1.6;">
+                    {{ .Content }}
+                </div>
+                
+                <div class="news-navigation" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e0e0e0;">
+                    <a href="/news/" class="btn btn-default">
+                        <i class="fa fa-arrow-left"></i> Back to News
+                    </a>
+                    
+                    {{ with .NextInSection }}
+                    <a href="{{ .Permalink }}" class="btn btn-primary" style="float: right;">
+                        Next: {{ .Title }} <i class="fa fa-arrow-right"></i>
+                    </a>
+                    {{ end }}
+                    
+                    {{ with .PrevInSection }}
+                    <a href="{{ .Permalink }}" class="btn btn-primary" style="float: right; margin-right: 10px;">
+                        Previous: {{ .Title }} <i class="fa fa-arrow-left"></i>
+                    </a>
+                    {{ end }}
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+{{ end }}

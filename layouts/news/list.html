@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>{{ .Title }}</h1>
+            </div>
+            
+            <div class="content">
+                {{ .Content }}
+            </div>
+            
+            <div class="blog-masonry">
+                {{ range (.Paginate (where .Pages "Kind" "page") 6).Pages }}
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="blog-carousel">
+                        <div class="blog-header">
+                            <h3><a href="{{ .Permalink }}" style="text-decoration: none; color: #333;">{{ .Title }}</a></h3>
+                            <div class="blog-meta">
+                                <span><i class="fa fa-calendar"></i> {{ .Date.Format "Jan 2, 2006" }}</span>
+                            </div>
+                        </div>
+                        <div class="blog-desc">
+                            {{ if .Params.summary }}
+                                {{ .Params.summary }}
+                            {{ else }}
+                                {{ .Summary }}
+                            {{ end }}
+                        </div>
+                        <div class="blog-footer" style="margin-top: 15px;">
+                            <a href="{{ .Permalink }}" class="btn btn-sm btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <div class="awada_blog_shadow_main"></div>
+                </div>
+                {{ end }}
+            </div>
+            
+            <!-- Clear floats and ensure pagination stays at bottom -->
+            <div class="clearfix"></div>
+            
+            <!-- Pagination -->
+            {{ if gt .Paginator.TotalPages 1 }}
+            <div class="pagination-wrapper" style="margin-top: 40px; clear: both; width: 100%;">
+                <div class="text-center">
+                    <ul class="pagination pagination-lg">
+                        {{ if .Paginator.HasPrev }}
+                        <li><a href="{{ .Paginator.Prev.URL }}" rel="prev"><i class="fa fa-angle-left"></i> Previous</a></li>
+                        {{ else }}
+                        <li class="disabled"><span><i class="fa fa-angle-left"></i> Previous</span></li>
+                        {{ end }}
+                        
+                        {{ range .Paginator.Pagers }}
+                        {{ if eq . $.Paginator }}
+                        <li class="active"><span>{{ .PageNumber }}</span></li>
+                        {{ else }}
+                        <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                        {{ end }}
+                        {{ end }}
+                        
+                        {{ if .Paginator.HasNext }}
+                        <li><a href="{{ .Paginator.Next.URL }}" rel="next">Next <i class="fa fa-angle-right"></i></a></li>
+                        {{ else }}
+                        <li class="disabled"><span>Next <i class="fa fa-angle-right"></i></span></li>
+                        {{ end }}
+                    </ul>
+                    
+                    <p class="pagination-meta" style="margin-top: 20px; color: #666;">
+                        Showing {{ .Paginator.PageSize }} of {{ .Paginator.TotalNumberOfElements }} articles 
+                        (Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }})
+                    </p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

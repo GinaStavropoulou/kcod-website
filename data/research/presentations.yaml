@@ -1,0 +1,122 @@
+publications:
+  # 2018
+  - title: "Critical Turn in Geomatics and Geospatial Information Systems"
+    category: "presentations"
+    year: 2018
+    author: "Calzati, S."
+    citation: "Calzati, S. (2022). 'Critical Turn' in Geomatics and Geospatial Information Systems: An Epistemologically Sound Foundation for Sustainable Development Goals, Data Power Conference (online), 22-24 June"
+  - title: "Open Data Exposed"
+    category: "presentations"
+    year: 2018
+    author: "van Loenen, B."
+    citation: "Loenen, B. van (2018). Open Data Exposed. Presentation for the Working group open data, Dutch Ministry of Health, Welfare and Sport."
+  - title: "Prospect of open SDI in Developing Countries: Case Study Indonesia"
+    category: "presentations"
+    year: 2018
+    author: "Indrajit, A."
+    citation: "Indrajit, A. (2018) 'Prospect of open SDI in Developing Countries: Case Study Indonesia'. Presentation at AGILE conference Lund Sweden, 13 June."
+  - title: "Societal costs and benefits of high-value open government data"
+    category: "presentations"
+    year: 2018
+    author: "Welle Donker, F."
+    citation: "Welle Donker, F. (2018) 'Societal costs and benefits of high-value open government data: a case study of the Netherlands' . Presentation at AGILE conference Lund Sweden, 13 June."
+  - title: "Assessing the openness of Spatial Data Infrastructures in Europe"
+    category: "presentations"
+    year: 2018
+    author: "Van Loenen, B. Vancauwenberghe, G."
+    citation: "Van Loenen, B. Vancauwenberghe, G., (2018). Assessing the openness of Spatial Data Infrastructures in Europe, AGILE conference Lund, Sweden, 12 June."
+  
+  # 2017
+  - title: "Open SDIs, Sustainable SDIs?"
+    category: "presentations"
+    year: 2017
+    author: "Vancauwenberghe, G., Valečkaitė, K., van Loenen, B. & Welle Donker, F."
+    citation: "Vancauwenberghe, G., Valečkaitė, K., van Loenen, B. & Welle Donker, F. (2017). Open SDIs, Sustainable SDIs?. EuroSDR workshop 'Sustainable open data business models for NMCAs. Delft, the Netherlands, 18 & 19 September 2017."
+  - title: "Assessing the status of Open SDI/INSPIRE in Europe"
+    category: "presentations"
+    year: 2017
+    author: "Vancauwenberghe, G., Valečkaitė, K., van Loenen, B. & Welle Donker, F."
+    citation: "Vancauwenberghe, G., Valečkaitė, K., van Loenen, B. & Welle Donker, F. (2017). Assessing the status of Open SDI/INSPIRE in Europe. INSPIRE Conference 2017. Strasbourg, France, 4-8 September 2017."
+  - title: "Harmonising Open Licences in the European Union"
+    category: "presentations"
+    year: 2017
+    author: "Van Loenen, B. Janssen, K., Valečkaitė, K. & Vancauwenberghe, G."
+    citation: "Van Loenen, B. Janssen, K., Valečkaitė, K. & Vancauwenberghe, G. (2017). Harmonising Open Licences in the European Union. INSPIRE Conference 2017. Strasbourg, France, 4-8 September 2017."
+  - title: "The effects of open data on the business model of National Mapping Agencies"
+    category: "presentations"
+    year: 2017
+    author: "Frederika Welle Donker, Joep Crompvoets, van Loenen"
+    citation: "Welle Donker, F., Crompvoets, J., van Loenen, B. (2017). The effects of open data on the business model of National Mapping Agencies: which adaptations will be required to ensure sustainable financing?  INSPIRE Conference 2017. Strasbourg, France, 4-8 September 2017."
+  - title: "Multi-Domain Master Spatial Data Management for Open SII in Indonesian Smart Cities"
+    category: "presentations"
+    year: 2017
+    author: "Indrajit, A., van Loenen, B. & van Oosterom, P."
+    citation: "Indrajit, A., van Loenen, B. & van Oosterom, P. (2017). Multi-Domain Master Spatial Data Management for Open SII in Indonesian Smart Cities, AGILE 2017 Conference, Wageningen (The Netherlands), 9-12/05/2017."
+  - title: "Open data portals as part of the open data ecosystem?"
+    category: "presentations"
+    year: 2017
+    author: "van Loenen, B. A. Poplin & Crompvoets J."
+    citation: "van Loenen, B. A. Poplin & Crompvoets J. (2017). Open data portals as part of the open data ecosystem? Lessons learned from geoportal research. AGILE 2017 Pre-conference workshop  Open Data for Open Cities, Wageningen (The Netherlands), 9/05/2017."
+  
+  # 2016
+  - title: "Blueprint for the STIG1.0: Defining core SDI principles and setting up performance indicators"
+    category: "presentations"
+    year: 2016
+    author: "Nushi, B., van Loenen, B. & Crompvoets, J."
+    citation: "Nushi, B., van Loenen, B. & Crompvoets, J. (2016), Blueprint for the STIG1.0: Defining core SDI principles and setting up performance indicators. GSDI 15 World Conference, Taipei (Taiwan).  29/11/16 – 2/12/16."
+  - title: "Analyzing Recent Trends and Developments in the SDI Network"
+    category: "presentations"
+    year: 2016
+    author: "Vancauwenberghe, G., Vandenbroucke, D. & Crompvoets, J."
+    citation: "Vancauwenberghe, G., Vandenbroucke, D. & Crompvoets, J. (2016). Analyzing Recent Trends and Developments in the SDI Network. GSDI 15 World Conference, Taipei (Taiwan).  29/11/16 – 2/12/16."
+  - title: "Worldwide status of national geoportals 2016"
+    category: "presentations"
+    year: 2016
+    author: "Crompvoets, J., van Loenen, B. & Teeuwen, R."
+    citation: "Crompvoets, J., van Loenen, B. & Teeuwen, R. (2016). Worldwide status of national geoportals 2016.GSDI 15 World Conference, Taipei (Taiwan).  29/11/16 – 2/12/16."
+  - title: "The Governance of INSPIRE implementation"
+    category: "presentations"
+    year: 2016
+    author: "Crompvoets, J., Masser, I., & Vancauwenberghe, G."
+    citation: "Crompvoets, J., Masser, I., & Vancauwenberghe, G. (2016). The Governance of INSPIRE implementation. Abstract from GSDI 15 World Conference,,Taipei (Taiwan).  29/11/16 – 2/12/16."
+  # 2014
+  - title: "Legal refinement of the LADM standard: more classes of extended code lists with better defined types of Right, Restrictions and Responsibilities?"
+    category: "presentations"
+    year: 2014
+    author: "Lemmen, C., van Loenen, B., van Oosterom, P. J. M., Paasch, J., Paulsson, J., Ploeger, H. D., & Zevenbergen, J."
+    citation: "Lemmen, C., van Loenen, B., van Oosterom, P. J. M., Paasch, J., Paulsson, J., Ploeger, H. D., & Zevenbergen, J. (2014). Legal refinement of the LADM standard: more classes of extended code lists with better defined types of Right, Restrictions and Responsibilities? In R. Alterman (Ed.), PLPR 2014: 8th annual conference on planning, law and property rights. (pp. 1-2). Haifa: International Academic Association on Planning, Law and Property Rights."
+  - title: "Initial analysis of the second FIG 3D cadastres questionnaire: status in 2014 and expectations for 2018"
+    category: "presentations"
+    year: 2014
+    author: "van Oosterom, P. J. M., Stoter, J. E., Ploeger, H. D., Lemmen, C., Thompson, R., & Karki, S."
+    citation: "van Oosterom, P. J. M., Stoter, J. E., Ploeger, H. D., Lemmen, C., Thompson, R., & Karki, S. (2014). Initial analysis of the second FIG 3D cadastres questionnaire: status in 2014 and expectations for 2018. In P. van Oosterom, & E. Fendel (Eds.), Proceedings 4th International Workshop on 3D Cadastres. (pp. 55-74). Copenhagen, Denmark: International Federation of Surveyors (FIG)."
+  - title: "Governance and performance of open spatial data policies in Europe – What can we learn from the INSPIRE Reporting Process?"
+    category: "presentations"
+    year: 2016
+    author: "Vancauwenberghe, G. & van Loenen, B."
+    citation: "Vancauwenberghe, G. & van Loenen, B. (2016). Governance and performance of open spatial data policies in Europe – What can we learn from the INSPIRE Reporting Process? Open Data Research Symposium. Madrid, Spain, 5/10/16."
+  - title: "Governance and performance of open spatial data policies in the context of INSPIRE"
+    category: "presentations"
+    year: 2016
+    author: "Vancauwenberghe, G. & van Loenen, B."
+    citation: "Vancauwenberghe, G. & van Loenen, B. (2016). Governance and performance of open spatial data policies in the context of INSPIRE. INSPIRE Conference 2016. Barcelona, Spain, 26-30 September 2016."
+  - title: "Reviewing the EU Member States' Governance of INSPIRE"
+    category: "presentations"
+    year: 2016
+    author: "Crompvoets, J., Masser, I., Vancauwenberghe, G., & Pauknerova, E."
+    citation: "Crompvoets, J., Masser, I., Vancauwenberghe, G., & Pauknerova, E. (2016). Reviewing the EU Member States' Governance of INSPIRE. Abstract from INSPIRE Conference 2016, Barcelona, Spain. 26-30 September 2016."
+  - title: "First 3D Cadastral Registration of Multi-level Ownerships Rights in the Netherlands"
+    category: "presentations"
+    year: 2016
+    author: "Stoter, J., Ploeger, H., Roes, R., van der Riet, E., Biljecki, F., & Ledoux, H."
+    citation: "Stoter, J., Ploeger, H., Roes, R., van der Riet, E., Biljecki, F., & Ledoux, H. (2016). First 3D Cadastral Registration of Multi-level Ownerships Rights in the Netherlands. In P. van Oosterom, E. Dimopoulou, & E. Fendel (Eds.), Proceedings of the 5th International FIG Workshop on 3D Cadastres. (pp. 491-504). Copenhagen: International Federation of Surveyors (FIG)."
+  - title: "Geographic data as personal data in four EU member states"
+    category: "presentations"
+    year: 2016
+    author: "de Jong, A-J., van Loenen, B., & Zevenbergen, J. A."
+    citation: "de Jong, A-J., van Loenen, B., & Zevenbergen, J. A. (2016). Geographic data as personal data in four EU member states. In L. Halounova, S. Li, V. Safár, M. Tomková, P. Rapant, K. Brázdil, W. Shi, F. Anton, Y. Liu, A. Stein, T. Cheng, C. Pettit, Q-Q. Li, M. Sester, M. A. Mostafavi, M. Madden, X. Tong, M. A. Brovelli, K. Haekyong, H. Kawashima, … A. Coltekin (Eds.), XXIII ISPRS Congress, Commission II. (Vol. III-2, pp. 151-157). (ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences; Vol. III-2). Copernicus. DOI: doi:10.5194/isprsannals-III-2-151-2016."
+  - title: "Performance Measurement of Location Enabled e-Government Processes: A Use Case on Traffic Safety Monitoring"
+    category: "presentations"
+    year: 2016
+    author: "Vandenbroucke, D., & Vancauwenberghe, G."
+    citation: "Vandenbroucke, D., & Vancauwenberghe, G. (2016). Performance Measurement of Location Enabled e-Government Processes: A Use Case on Traffic Safety Monitoring. Abstract from AGU Fall Meeting, San Francisco, United States."

@@ -1,3 +1,19 @@
+/* Publication filter buttons */
+.filter-btn {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    color: #333;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+.filter-btn.active {
+    background-color: #31a3dd !important;
+    border-color: #31a3dd !important;
+    color: #fff !important;
+}
 /* Custom styles from original Kirki theme customizations */
 
 /* Top bar styling */

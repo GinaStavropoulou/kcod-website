@@ -21,44 +21,21 @@
                 <!-- Filter Buttons -->
                 <div class="publication-filters" style="margin-bottom: 30px; text-align: center;">
                     <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary filter-btn active" data-filter="all">All Publications</button>
-                        <button type="button" class="btn btn-default filter-btn" data-filter="articles">Articles</button>
+                        <button type="button" class="btn btn-primary filter-btn active" data-filter="articles">Articles</button>
                         <button type="button" class="btn btn-default filter-btn" data-filter="reports">Reports</button>
                         <button type="button" class="btn btn-default filter-btn" data-filter="book_chapters">Book Chapters</button>
                         <button type="button" class="btn btn-default filter-btn" data-filter="presentations">Presentations</button>
                     </div>
                 </div>
                 
-                <!-- Publications by Year -->
-                {{ range (where .Pages "Kind" "page").GroupByParam "year" "desc" }}
-                <div class="year-section publication-item" data-year="{{ .Key }}">
-                    <h3 style="color: #31a3dd; border-bottom: 2px solid #31a3dd; padding-bottom: 10px; margin-bottom: 20px;">
-                        <strong>{{ .Key }}</strong>
-                    </h3>
-                    
-                    {{ range .Pages.ByDate.Reverse }}
-                    <div class="publication publication-item" data-category="{{ .Params.category }}" data-year="{{ .Params.year }}" style="margin-bottom: 15px;">
-                        <div class="publication-content">
-                            {{ if .Params.citation }}
-                                {{ .Params.citation | markdownify }}
-                            {{ else }}
-                                <strong>{{ .Params.author }}</strong> ({{ .Params.year }}). <em>{{ .Title }}</em>.
-                                {{ if eq .Params.category "reports" }}
-                                    {{ if .Params.institution }} Onderzoek uitgevoerd in opdracht van {{ .Params.institution }}.{{ end }}
-                                {{ else if eq .Params.category "articles" }}
-                                    {{ if .Params.journal }} <strong>{{ .Params.journal }}</strong>{{ if .Params.volume }}, {{ .Params.volume }}{{ end }}.{{ end }}
-                                {{ else if eq .Params.category "book_chapters" }}
-                                    {{ if .Params.book_title }} In <em>{{ .Params.book_title }}</em>.{{ end }}
-                                    {{ if .Params.publisher }} {{ .Params.publisher }}.{{ end }}
-                                {{ else if eq .Params.category "presentations" }}
-                                    {{ if .Params.conference }} {{ .Params.conference }}.{{ end }}
-                                {{ end }}
-                                {{ if .Params.doi }} <a href="{{ .Params.doi }}" target="_blank">{{ .Params.doi }}</a>{{ end }}
-                                {{ if .Params.external_url }} <a href="{{ .Params.external_url }}" target="_blank">Available here</a>{{ end }}
-                            {{ end }}
-                        </div>
+                <!-- Publications -->
+                {{ range (where .Pages "Kind" "page").ByTitle }}
+                <div class="publication publication-item" data-category="{{ .Params.category }}" data-year="{{ .Params.year }}" style="margin-bottom: 20px;">
+                    <div class="publication-content">
+                        {{ if .Params.citation }}
+                            <div style="font-size: 14px; line-height: 1.6;">{{ .Params.citation | markdownify }}</div>
+                        {{ end }}
                     </div>
-                    {{ end }}
                 </div>
                 {{ end }}
                 
@@ -94,36 +71,15 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Filter publications
             let visibleCount = 0;
-            const yearSections = {};
             
             publications.forEach(item => {
-                if (item.classList.contains('year-section')) {
-                    const year = item.getAttribute('data-year');
-                    yearSections[year] = false;
-                    return;
-                }
-                
                 const category = item.getAttribute('data-category');
-                const year = item.getAttribute('data-year');
                 
-                if (filter === 'all' || category === filter) {
+                if (category === filter) {
                     item.style.display = 'block';
-                    yearSections[year] = true;
                     visibleCount++;
                 } else {
                     item.style.display = 'none';
-                }
-            });
-            
-            // Show/hide year sections
-            publications.forEach(item => {
-                if (item.classList.contains('year-section')) {
-                    const year = item.getAttribute('data-year');
-                    if (yearSections[year]) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
-                    }
                 }
             });
             

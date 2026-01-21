@@ -1335,16 +1335,6 @@ p#logo_text_id {
 	justify-content: space-between;
 }
 
-.blog-masonry .blog-carousel .blog-desc {
-	max-height: 80px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-	line-clamp: 3;
-	margin-bottom: 10px;
-}
 .awada_callout_shadow {
     position: absolute;
     left: 0;

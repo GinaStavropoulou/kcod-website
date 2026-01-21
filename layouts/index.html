@@ -79,28 +79,29 @@
         </div>
         
         <div class="blog-masonry">
-            {{ range first 6 (where (where .Site.Pages "Section" "news") "Kind" "page") }}
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="blog-carousel">
-                    <div class="blog-header">
-                        <h3><a href="{{ .Permalink }}" style="text-decoration: none; color: #333;">{{ .Title }}</a></h3>
-                        <div class="blog-meta">
-                            <span><i class="fa fa-calendar"></i> {{ .Date.Format "Jan 2, 2006" }}</span>
+            {{ $news := first 6 (where (where .Site.Pages "Section" "news") "Kind" "page") }}
+            {{ range $n := $news }}
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <article class="blog-carousel">
+                        <div class="blog-header">
+                            <h3><a href="{{ $n.Permalink }}" style="text-decoration: none; color: #333;">{{ $n.Title }}</a></h3>
+                            <div class="blog-meta">
+                                <span><i class="fa fa-calendar"></i> {{ $n.Date.Format "Jan 2, 2006" }}</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="blog-desc">
-                        {{ if .Params.summary }}
-                            {{ .Params.summary | truncate 120 }}
-                        {{ else }}
-                            {{ .Summary | truncate 120 }}
-                        {{ end }}
-                    </div>
-                    <div class="blog-footer" style="margin-top: 15px;">
-                        <a href="{{ .Permalink }}" class="btn btn-sm btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </article>
-                <div class="awada_blog_shadow_main"></div>
-            </div>
+                        <div class="blog-desc">
+                            {{ if $n.Params.summary }}
+                                {{ $n.Params.summary }}
+                            {{ else }}
+                                {{ $n.Summary }}
+                            {{ end }}
+                        </div>
+                        <div class="blog-footer" style="margin-top: 15px;">
+                            <a href="{{ $n.Permalink }}" class="btn btn-sm btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <div class="awada_blog_shadow_main"></div>
+                </div>
             {{ end }}
         </div>
         

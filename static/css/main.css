@@ -5,13 +5,33 @@
     margin-left: -10px;
     margin-right: -10px;
 }
-.blog-masonry .col-lg-4 {
-    width: 33.3333%;
+/* Remove old col-lg-4 for news, use new layout */
+.blog-masonry .col-lg-6,
+.blog-masonry .col-md-6 {
+    width: 50%;
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
     margin-bottom: 20px;
     display: flex;
+}
+/* Remove featured/col-12 styles, keep 2-column layout */
+@media (max-width: 991px) {
+    .blog-masonry .col-lg-6,
+    .blog-masonry .col-md-6 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .blog-masonry .col-lg-6,
+    .blog-masonry .col-md-6,
+    .blog-masonry .col-12 {
+        width: 100%;
+    }
+    .blog-masonry .blog-featured {
+        height: auto;
+        min-height: 220px;
+    }
 }
 .blog-masonry .blog-carousel {
     margin: 0px 0 20px;

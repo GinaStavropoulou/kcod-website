@@ -79,7 +79,7 @@
         </div>
         
         <div class="blog-masonry">
-            {{ $news := first 6 (where (where .Site.Pages "Section" "news") "Kind" "page") }}
+            {{ $news := first 4 (where (where .Site.Pages "Section" "news") "Kind" "page") }}
             {{ range $n := $news }}
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <article class="blog-carousel">

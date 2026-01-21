@@ -1,0 +1,106 @@
+{{ define "main" }}
+<section class="post-wrapper-top section-shadow clearfix">
+    <div class="container">
+        <div class="col-lg-12">
+            <h2>{{ .Title }}</h2>
+            <ul class="breadcrumb pull-right">
+                <li><a href="/">Home</a><i class="fa fa-chevron-circle-right breadcrumbs_space"></i>{{ .Title }}</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="blog-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    
+                
+                <!-- Filter Buttons -->
+                <div class="publication-filters" style="margin-bottom: 30px; text-align: center;">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-lg filter-btn active" data-filter="articles">Articles</button>
+                        <button type="button" class="btn btn-lg filter-btn" data-filter="reports">Reports</button>
+                        <button type="button" class="btn btn-lg filter-btn" data-filter="book-chapters">Book Chapters</button>
+                        <button type="button" class="btn btn-lg filter-btn" data-filter="presentations">Presentations</button>
+                    </div>
+                </div>
+                
+                <!-- Publications: Aggregate from all YAML data files -->
+                {{ $articles := (index .Site.Data.publications "articles").publications }}
+                {{ $reports := (index .Site.Data.publications "reports").publications }}
+                {{ $bookChapters := (index .Site.Data.publications "book-chapters").publications }}
+                {{ $presentations := (index .Site.Data.publications "presentations").publications }}
+                {{ $all := slice }}
+                {{ range $articles }}{{ $all = $all | append . }}{{ end }}
+                {{ range $reports }}{{ $all = $all | append . }}{{ end }}
+                {{ range $bookChapters }}{{ $all = $all | append . }}{{ end }}
+                {{ range $presentations }}{{ $all = $all | append . }}{{ end }}
+                {{ $sorted := sort $all "year" "desc" }}
+                {{ range $sorted }}
+                <div class="publication publication-item" data-category="{{ .category }}" data-year="{{ .year }}" style="margin-bottom: 20px;">
+                    <div class="publication-content">
+                        {{ if .citation }}
+                            <div style="font-size: 14px; line-height: 1.6;">{{ .citation | markdownify }}</div>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+                
+                <!-- No results message -->
+                <div id="no-results" style="display: none; text-align: center; padding: 40px; color: #666;">
+                    <i class="fa fa-search" style="font-size: 48px; margin-bottom: 15px;"></i>
+                    <h4>No publications found</h4>
+                    <p>Try selecting a different filter category.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CSS for filter buttons has been moved to the main stylesheet -->
+<!-- JavaScript for Filtering -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const publications = document.querySelectorAll('.publication-item');
+    const noResults = document.getElementById('no-results');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+
+            // Update button states
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            this.classList.add('active');
+
+            // Filter publications
+            let visibleCount = 0;
+
+            publications.forEach(item => {
+                const category = item.getAttribute('data-category');
+                if (category === filter) {
+                    item.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            // Show no results message
+            if (visibleCount === 0) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+            }
+        });
+    });
+
+    // Show only articles by default
+    filterButtons[0].click();
+});
+</script>
+
+{{ end }}

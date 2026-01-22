@@ -15,10 +15,10 @@
                     <div class="title"><h2>Menu</h2></div>
                     <div class="menu-education-container">
                         <ul id="menu-education" class="menu">
-                            <li class="menu-item"><a href="/education/msc-geomatics/">MSc Geomatics</a></li>
-                            <li class="menu-item"><a href="/education/msc-gima/">MSc GIMA</a></li>
-                            <li class="menu-item"><a href="/education/msc-thesis-topics/">MSc thesis topics</a></li>
-                            <li class="menu-item"><a href="/education/other/">Other education &amp; training</a></li>
+                            <li class="menu-item active"><a href="#" data-topic="geomatics">MSc Geomatics</a></li>
+                            <li class="menu-item"><a href="#" data-topic="gima">MSc GIMA</a></li>
+                            <li class="menu-item"><a href="#" data-topic="topics">MSc thesis topics</a></li>
+                            <li class="menu-item"><a href="#" data-topic="other">Other education &amp; training</a></li>
                         </ul>
                     </div>
                 </div>
@@ -30,11 +30,25 @@
                         <div class="col-lg-12">
                             <div class="blog-carousel post-education">
                                 <div class="content_entry"></div>
-                                <div class="blog-header">
-                                    <h3>{{ .Title }}</h3>
-                                </div>
                                 <div class="blog-desc">
-                                    {{ .Content }}
+                                    {{ $geomatics := .Site.GetPage "section" "education" }}
+                                    {{ $geomaticsPage := $geomatics.Resources.GetMatch "geomatics.md" | default (site.GetPage "/education/geomatics.md") }}
+                                    {{ $gimaPage := $geomatics.Resources.GetMatch "gima.md" | default (site.GetPage "/education/gima.md") }}
+                                    {{ $topicPage := $geomatics.Resources.GetMatch "topics.md" | default (site.GetPage "/education/topics.md") }}
+                                    {{ $otherPage := $geomatics.Resources.GetMatch "other.md" | default (site.GetPage "/education/other.md") }}
+
+                                    <div id="topic-geomatics" class="edu-topic-content" style="display:block;">
+                                        {{ with $geomaticsPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
+                                    </div>
+                                    <div id="topic-gima" class="edu-topic-content" style="display:none;">
+                                        {{ with $gimaPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
+                                    </div>
+                                    <div id="topic-topics" class="edu-topic-content" style="display:none;">
+                                        {{ with $topicPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
+                                    </div>
+                                    <div id="topic-other" class="edu-topic-content" style="display:none;">
+                                        {{ with $otherPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -44,4 +58,21 @@
         </div>
     </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuItems = document.querySelectorAll('#menu-education .menu-item');
+    const topicContents = document.querySelectorAll('.edu-topic-content');
+    menuItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            menuItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+            const topic = this.querySelector('a').getAttribute('data-topic');
+            topicContents.forEach(tc => {
+                tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
+            });
+        });
+    });
+});
+</script>
 {{ end }}

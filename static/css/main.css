@@ -1,3 +1,23 @@
+/* Education content box scroll and sizing overrides */
+
+
+.blog-masonry .blog-carousel {
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.blog-masonry .blog-carousel .blog-desc {
+    max-height: 60vh !important;
+    overflow-y: auto !important;
+}
+
+.blog-masonry .blog-carousel .blog-desc {
+    max-height: 60vh;
+    overflow-y: auto;
+}
 
 /* Publication filter buttons */
 .filter-btn {

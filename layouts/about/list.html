@@ -18,10 +18,10 @@
         <div class="row" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: flex-start; margin-top: 32px;">
             {{/* Staff data (hardcoded for now, could be moved to data file) */}}
             {{ $staff := slice
-                (dict "name" "dr. ir. Bastiaan van Loenen" "role" "Director / Associate Professor" "email" "B.VanLoenen@tudelft.nl" "phone" "+31 (0)15 2782554" "img" "/images/bastiaan.png")
-                (dict "name" "prof. dr. mr. Hendrik Ploeger" "role" "Professor" "email" "H.D.Ploeger@tudelft.nl" "phone" "+31 (0)15 27 82557" "img" "/images/hendrik.jpg")
-                (dict "name" "dr. ir. Frederika Welle Donker" "role" "Assistant Professor" "email" "F.M.Welledonker@tudelft.nl" "phone" "+31 (0)15 278 1383" "img" "/images/FWD.jpg")
-                (dict "name" "Ashraf Bin Ahmad Shaharudin" "role" "PhD Candidate" "email" "A.A.BinAhmadShaharudin@tudelft.nl" "phone" "" "img" "/images/ashraf.jpg")
+                (dict "name" "dr. ir. Bastiaan van Loenen" "role" "Director / Associate Professor" "email" "B.VanLoenen@tudelft.nl" "phone" "+31 (0)15 2782554" "img" "images/bastiaan.png")
+                (dict "name" "prof. dr. mr. Hendrik Ploeger" "role" "Professor" "email" "H.D.Ploeger@tudelft.nl" "phone" "+31 (0)15 27 82557" "img" "images/hendrik.jpg")
+                (dict "name" "dr. ir. Frederika Welle Donker" "role" "Assistant Professor" "email" "F.M.Welledonker@tudelft.nl" "phone" "+31 (0)15 278 1383" "img" "images/FWD.jpg")
+                (dict "name" "Ashraf Bin Ahmad Shaharudin" "role" "PhD Candidate" "email" "A.A.BinAhmadShaharudin@tudelft.nl" "phone" "" "img" "images/ashraf.jpg")
             }}
             {{ range $staff }}
             <div class="staff-card" style="background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10); padding: 24px 18px 18px 18px; max-width: 260px; flex: 1 1 220px; text-align: center; display: flex; flex-direction: column; align-items: center;">

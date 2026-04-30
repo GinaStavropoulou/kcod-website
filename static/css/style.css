@@ -1328,13 +1328,25 @@ p#logo_text_id {
 }
 .blog-masonry .blog-carousel{
 	padding: 10px;
-	box-shadow: 0 0 6px rgba(0,0,0,.7);
-	height: 340px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+    box-shadow: 0 0 6px rgba(0,0,0,.7);
+	max-height: 300px;
 }
 
+.blog-desc .text-content {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+.blog-desc .text-content p {
+	margin-bottom: 0.5em;
+}
+.blog-desc .text-content p:last-child {
+	margin-bottom: 0;
+}
 .awada_callout_shadow {
     position: absolute;
     left: 0;
@@ -1758,9 +1770,9 @@ a.readmore{
 		width: 50%;
 		float: left;
 	}
-	.awada_blog_shadow {
+	/* .awada_blog_shadow {
 		bottom: 4px;
-	}
+	} */
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.services-one .col-sm-6 {
@@ -1770,27 +1782,27 @@ a.readmore{
 		width: 100%;
 		float: left;
 	}
-	.awada_blog_shadow {
+	/* .awada_blog_shadow {
 		bottom: 4px;
-	}
+	} */
 }
 @media only screen and (min-width: 767px) and (max-width: 992px) {
 	.blog-masonry .col-lg-4  {
 		width: 50%;
 		float: left;
 	}
-	.awada_blog_shadow {
+	/* .awada_blog_shadow {
 		bottom: 4px;
-	}
+	} */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.blog-masonry .col-lg-4  {
 		width: 50%;
 		float: left;
 	}
-	.awada_blog_shadow {
+	/* .awada_blog_shadow {
 		bottom: 4px;
-	}
+	} */
 }
 /* HTML formating issue fixed like table, list style, widgets styling etc. v-1.2 [31/08/2016] */
 #sidebar .widget ul li, #awada_footer_area .widget ul li, #two-sidebar .widget ul li {

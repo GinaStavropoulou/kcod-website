@@ -1,3 +1,9 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'Knowledge Centre Open Data - TU Delft'
+
+[pagination]
+pagerSize = 10
+
+[taxonomies]
+year = "years"

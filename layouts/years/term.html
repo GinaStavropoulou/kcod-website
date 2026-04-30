@@ -2,7 +2,7 @@
 <section class="post-wrapper-top section-shadow clearfix">
     <div class="container">
         <div class="col-lg-12">
-            <h2>{{ .Title }}</h2>
+            <h2>News - {{ .Title }}</h2>
         </div>
     </div>
 </section>
@@ -70,12 +70,18 @@
                     </ul>
                     
                     <p class="pagination-meta" style="margin-top: 20px; color: #666;">
-                        Showing {{ .Paginator.PagerSize }} of {{ .Paginator.TotalNumberOfElements }} articles 
+                        Showing {{ len $pages }} of {{ .Paginator.TotalNumberOfElements }} articles 
                         (Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }})
                     </p>
                 </div>
             </div>
             {{ end }}
+            
+            <div style="margin-top: 30px;">
+                <a href="{{ "news/" | absURL }}" class="btn btn-default">
+                    <i class="fa fa-arrow-left"></i> Back to All News
+                </a>
+            </div>
         </div>
         
         <!-- Sidebar -->
@@ -90,7 +96,7 @@
                         {{ $years = $years | append (dict "year" $name "count" (len $taxonomy.Pages)) }}
                     {{ end }}
                     {{ range sort $years "year" "desc" }}
-                    <li>
+                    <li {{ if eq .year $.Title }}class="active" style="font-weight: bold;"{{ end }}>
                         <a href="{{ "years/" | absURL }}{{ .year }}/">{{ .year }}</a>
                     </li>
                     {{ end }}

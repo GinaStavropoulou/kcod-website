@@ -1,0 +1,9 @@
+---
+title: "Workshop Towards Open SDI @ AGILE conference"
+date: 2019-05-28
+draft: false
+---
+
+<p>KCOD organises on Monday June 17 the half day workshop <a href="https://agile-online.org/conference-2019/programme-2019/agile-workshops-2019">Towards Open Spatial Data Infrastructures </a>at the AGILE conference 2019. </p>
+<p>In this workshop, the concept of Open SDI is introduced to describe characterize the development and implementation of more open spatial data infrastructures. During the workshop the ‘Map of Open SDI in Europe’ will be presented, showing the results of three years of exploration of the openness of NSDI implementation in Europe. This ‘Map of Open SDI in Europe’ is developed to provide SDI decision makers, practitioners and researchers with a more comprehensive understanding of the openness of spatial data infrastructures in Europe. During the workshop, several brainstorm sessions will be organized on each of the key dimensions of Open SDIs. The aim of these brainstorm sessions is to develop the concept of Open SDI further especially in the context of the new EU Directive on Open Data and Public Sector Information and its impact on the openness of SDIs across Europe.</p>
+<p>You can register for the workshop <a href="https://www.smarteventscy.com/congress/agile/index.php">here</a>.</p>

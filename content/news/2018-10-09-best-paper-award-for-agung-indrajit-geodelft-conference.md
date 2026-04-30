@@ -1,0 +1,8 @@
+---
+title: "Best paper award for Agung Indrajit @GeoDelft conference"
+date: 2018-10-09
+draft: false
+---
+
+<p>On October 3rd, KCOD’s Agung Indrajit obtained the best paper award at the GeoDelft conference, a conference consisting of t<strong>he ISPRS TC IV ‘Spatial Information sciences’ Symposium, t</strong><strong>he 13th International 3D GeoInfo Conference, t</strong><strong>he 6th International FIG Workshop on 3D Cadastres, and t</strong><strong>he 3rd International Conference on Smart Data and Smart Cities. </strong></p>
+<p>The winning  paper “<a href="http://www.gdmc.nl/3DCadastres/workshop2018/programme/Workshop2018_18.pdf">Designing Open Spatial Information Infrastructure to Support 3D Urban Planning in Jakarta Smart City</a>” discusses the role of land administration in urban planning and Spatial Information Infrastructure (SII).  The article proposes to have spatial planning information as an extension to the Land Administration Domain Model (LADM) in order to support spatial planning. The relevance of spatial planning information to be included into LADM is integral to Land Administration System development. 3D Spatial planning along with 3D land administration will provide a complete scene for land tenure, land valuation, land use, and land development to support sustainable development initiatives. Further, the spatial planning extension will contribute to support the UN member countries in obtaining indicators in the Sustainable Development Goals by improving interoperability and by integrating right, restrictions, and responsibilities from spatial planning and land administration which are often resulted from separate processes by different parties.</p>

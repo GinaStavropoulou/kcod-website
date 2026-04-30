@@ -1,0 +1,7 @@
+---
+title: "KCOD @ Tilting Perspectives 2017"
+date: 2017-05-19
+draft: false
+---
+
+Several KCOD researchers contributed to the 5th bi-annual [TILTing Perspectives](https://www.tilburguniversity.edu/research/institutes-and-research-groups/tilt/events/tilting-perspectives/) conference organised by the Tilburg Institute for Law, Technology, and Society (TILT) from 17-19 May 2017. Lorenzo Dalla Corte was chair of the session ‘Data Science, Civil Rights and Activism’. Bastiaan van Loenen was co-author of a paper on ‘Data sharing mechanisms and privacy challenges in Data Collaboratives: Delphi study of most important issues’, which was presented by Ella Kolkowska (Örebro University) and Iryna Susha (Örebro University/TU Delft). In this paper they explore the concept of ‘data collaboratives’ – cross sector partnerships to leverage new sources of digital data for addressing societal problems. Many of these new sources of digital data, such as “data exhaust” from mobile apps, search engines, personal sensors, are collected by companies. The paper identifies and defines the most important privacy challenges that need to be addressed in the context of data collaboratives and provides guidance on how data can be successfully shared in data collaboratives while respecting data protection interests.

@@ -1,0 +1,8 @@
+---
+title: "Open data day Croatia"
+date: 2018-03-01
+draft: false
+---
+
+<p>On March 2 2018, the Knowledge Centre Open Data will present the status of open geographic data at the Open data day in Croatia. For more information see:</p>
+<p>https://odd.codeforcroatia.org/</p>

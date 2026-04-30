@@ -1,0 +1,9 @@
+---
+title: "GeoBuzz 2017 Impact Open Data on Governance"
+date: 2017-11-28
+draft: false
+---
+
+GeoBuzz is the annual conference and exhibition organised by GeoBusiness Netherlands (umbrella organisation of geosector companies) and GIN – Geo-Information Netherlands. This year, GeoBuzz was held on 21st and 22nd of November in Den Bosch. On 22 November, Frederika Welle Donker of the Open Data Knowledge Centre led a session on effective governance of open geodata at municipal level. This session was held as part of the [E-GOS Local](http://e-gos.eu/2017/01/08/e-gos-local/) project. The E-GOS Local project, co-funded by AMS – Amsterdam Institute for Advanced Metropolitan Solutions, is an extension of the [E-GOS](http://e-gos.eu/) project carried out by Glenn Vancauwenberghe. The E-GOS Local will investigate the governance and performance of open geodata policies at organizational (or micro) level, as well as the link between national and organizational policies (or between macro and micro). A detailed investigation will be made of the open geodata policy of the City of Amsterdam, in which the governance instruments and mechanisms adopted by the City will be assessed as well as the impact of these instruments and mechanisms on the performance of the open geodata policy of the City. In addition, a comparative analysis will be made of the governance model applied in the City of Amsterdam and the governance models of four other municipalities in the Netherlands.
+
+The aim of the session at GeoBuzz was the first step to identify which criteria can be used to assess the governance of open geodata policy at municipal level. With the small but enthusiastic group of participants, the challenges of municipalities in the field of open geodata policy were discussed. Furthermore, interesting suggestions were made, which municipalities could be a good candidate to have their governance model of open geodata policies compared to the City of Amsterdam.

@@ -22,7 +22,7 @@ The ‘[Map of Open SDI in Europe](../../../../opensdi.html)’ explores the ope
 
 
 
-**Part****2: Your view on Open SDI/INSPIRE**
+**Part 2: Your view on Open SDI/INSPIRE**
 
   * Discussion in smaller groups: What do you think about Open SDI?
 

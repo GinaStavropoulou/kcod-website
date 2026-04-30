@@ -26,6 +26,6 @@ More information on the workshop and the INSPIRE Conference 2017 can be found [h
 
 
 
-**Part****2: Your view on Open SDI/INSPIRE**
+**Part 2: Your view on Open SDI/INSPIRE**
 
   * Discussion in smaller groups: What do you think about Open SDI?

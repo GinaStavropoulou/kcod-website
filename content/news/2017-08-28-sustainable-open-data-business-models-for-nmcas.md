@@ -15,7 +15,7 @@ Issues that will discussed will be:
   * Which options do NMCAs have to their disposal to refinance their operational costs?
   * Is the supply of open data living up to expectations?
   * What are the non-financial challenges to implementing open data?
-  * Is there a future for a pan-European open data infrastructure?****
+  * Is there a future for a pan-European open data infrastructure?
 
 
 

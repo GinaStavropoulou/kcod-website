@@ -1,6 +1,7 @@
 ---
 title: "Webinar “legal, governance and ethical challenges in open data”"
 date: 2020-09-29
+years: ["2020"]
 draft: false
 ---
 

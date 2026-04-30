@@ -1,6 +1,7 @@
 ---
 title: "SDI Research and Strategies towards 2030 – Call for abstracts"
 date: 2018-02-05
+years: ["2018"]
 draft: false
 ---
 

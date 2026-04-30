@@ -1,6 +1,7 @@
 ---
 title: "New publication: Beyond Federated Data"
 date: 2023-08-23
+years: ["2023"]
 categories: ["news"]
 draft: false
 ---

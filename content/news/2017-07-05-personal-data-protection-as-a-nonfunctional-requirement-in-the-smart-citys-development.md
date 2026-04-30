@@ -1,6 +1,7 @@
 ---
 title: "Personal Data Protection  in the Smart City"
 date: 2017-07-05
+years: ["2017"]
 draft: false
 ---
 

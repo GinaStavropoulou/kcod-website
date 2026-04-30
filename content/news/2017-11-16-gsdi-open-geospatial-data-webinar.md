@@ -1,6 +1,7 @@
 ---
 title: "GSDI Open Geospatial Data Webinar"
 date: 2017-11-16
+years: ["2017"]
 draft: false
 ---
 

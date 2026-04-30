@@ -1,6 +1,7 @@
 ---
 title: "KCOD @ Tilting Perspectives 2017"
 date: 2017-05-19
+years: ["2017"]
 draft: false
 ---
 

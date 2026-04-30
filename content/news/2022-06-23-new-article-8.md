@@ -1,6 +1,7 @@
 ---
 title: "New article"
 date: 2022-06-23
+years: ["2022"]
 summary: "Identifying and Overcoming the Barriers Towards Open Data of Public Undertakings. Interdisciplinary Description of Complex Systems (INDECS) 20(2): 96-111, authored by Frida Boone, B. van Loenen (2022)"
 author: "admin"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "SDI2030 workshop: final program, presentations and results"
 date: 2018-06-07
+years: ["2018"]
 draft: false
 ---
 

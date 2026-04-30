@@ -1,6 +1,7 @@
 ---
 title: "New book “Open Data Exposed” published"
 date: 2018-10-25
+years: ["2018"]
 draft: false
 ---
 

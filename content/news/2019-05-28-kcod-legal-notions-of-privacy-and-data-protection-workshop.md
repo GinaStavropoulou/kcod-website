@@ -1,6 +1,7 @@
 ---
 title: "KCOD @ Legal notions of privacy and data protection workshop"
 date: 2019-05-28
+years: ["2019"]
 draft: false
 ---
 

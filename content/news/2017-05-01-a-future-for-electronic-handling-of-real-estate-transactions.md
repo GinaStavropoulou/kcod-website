@@ -1,6 +1,7 @@
 ---
 title: "A future for electronic handling of real estate transactions"
 date: 2017-05-01
+years: ["2017"]
 draft: false
 ---
 

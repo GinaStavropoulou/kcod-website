@@ -1,6 +1,7 @@
 ---
 title: "New publication"
 date: 2023-10-13
+years: ["2023"]
 draft: false
 ---
 

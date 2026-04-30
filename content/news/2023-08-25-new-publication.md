@@ -1,6 +1,7 @@
 ---
 title: "New publication: Shaping a Data Commoning Polity"
 date: 2023-08-25
+years: ["2023"]
 categories: ["news"]
 draft: false
 ---

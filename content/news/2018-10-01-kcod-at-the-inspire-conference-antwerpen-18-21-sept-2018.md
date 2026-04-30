@@ -1,6 +1,7 @@
 ---
 title: "KCOD at the INSPIRE conference: Antwerpen 18-21 Sept. 2018"
 date: 2018-10-01
+years: ["2018"]
 draft: false
 ---
 

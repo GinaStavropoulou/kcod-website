@@ -1,6 +1,7 @@
 ---
 title: "Agung Indrajit will defend his dissertation on June 22 at 3pm CET"
 date: 2021-06-01
+years: ["2021"]
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "GeoBuzz 2017 Impact Open Data on Governance"
 date: 2017-11-28
+years: ["2017"]
 draft: false
 ---
 

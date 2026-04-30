@@ -1,6 +1,7 @@
 ---
 title: "KcOD at the Privacy Law Scholars Conference Europe"
 date: 2018-01-29
+years: ["2018"]
 draft: false
 ---
 

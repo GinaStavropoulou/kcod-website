@@ -1,6 +1,7 @@
 ---
 title: "Book chapter on the emergence of Open SDIs in Europe"
 date: 2017-09-26
+years: ["2017"]
 draft: false
 ---
 

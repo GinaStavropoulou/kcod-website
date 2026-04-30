@@ -1,6 +1,7 @@
 ---
 title: "KCOD @ TILTing panel on European data economy"
 date: 2019-05-28
+years: ["2019"]
 draft: false
 ---
 

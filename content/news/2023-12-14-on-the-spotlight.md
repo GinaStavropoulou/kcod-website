@@ -1,6 +1,7 @@
 ---
 title: "On the spotlight"
 date: 2023-12-14
+years: ["2023"]
 categories: ["news"]
 author: "admin"
 draft: false

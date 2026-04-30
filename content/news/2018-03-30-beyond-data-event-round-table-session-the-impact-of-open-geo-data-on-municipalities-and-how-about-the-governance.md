@@ -1,6 +1,7 @@
 ---
 title: "Beyond Data Event Round table session The Impact of Open Geo Data on municipalities: and how about the governance?"
 date: 2018-03-30
+years: ["2018"]
 draft: false
 ---
 

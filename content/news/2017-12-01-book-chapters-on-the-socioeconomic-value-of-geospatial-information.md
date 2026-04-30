@@ -1,6 +1,7 @@
 ---
 title: "GEOValue: The socioeconomic value of geospatial information"
 date: 2017-12-01
+years: ["2017"]
 draft: false
 ---
 

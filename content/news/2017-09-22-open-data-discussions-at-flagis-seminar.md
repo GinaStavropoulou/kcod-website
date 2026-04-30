@@ -1,6 +1,7 @@
 ---
 title: "Open data discussions at FLAGIS seminar"
 date: 2017-09-22
+years: ["2017"]
 draft: false
 ---
 

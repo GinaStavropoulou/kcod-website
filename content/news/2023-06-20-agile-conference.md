@@ -1,6 +1,7 @@
 ---
 title: "AGILE Conference"
 date: 2023-06-20
+years: ["2023"]
 draft: false
 categories: ["news"]
 ---

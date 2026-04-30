@@ -1,6 +1,7 @@
 ---
 title: "Open SDI/INSPIRE Workshop: presentations and results"
 date: 2017-09-05
+years: ["2017"]
 draft: false
 ---
 

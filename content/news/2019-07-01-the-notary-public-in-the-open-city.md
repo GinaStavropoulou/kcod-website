@@ -1,6 +1,7 @@
 ---
 title: "The notary public in the open city"
 date: 2019-07-01
+years: ["2019"]
 draft: false
 ---
 

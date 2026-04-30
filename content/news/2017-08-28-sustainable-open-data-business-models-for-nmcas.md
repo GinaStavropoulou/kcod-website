@@ -1,6 +1,7 @@
 ---
 title: "Sustainable Open Data Business Models for NMCAs"
 date: 2017-08-28
+years: ["2017"]
 draft: false
 ---
 

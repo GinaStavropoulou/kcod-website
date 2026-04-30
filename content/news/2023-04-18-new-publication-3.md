@@ -1,6 +1,7 @@
 ---
 title: "New publication"
 date: 2023-04-18
+years: ["2023"]
 categories: ["news"]
 author: "admin"
 draft: false

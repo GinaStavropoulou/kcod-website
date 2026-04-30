@@ -1,6 +1,7 @@
 ---
 title: "Open SDI: Restoring the balance"
 date: 2019-10-22
+years: ["2019"]
 draft: false
 ---
 

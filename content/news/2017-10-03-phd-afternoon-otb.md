@@ -1,6 +1,7 @@
 ---
 title: "PhD Afternoon OTB"
 date: 2017-10-03
+years: ["2017"]
 draft: false
 ---
 

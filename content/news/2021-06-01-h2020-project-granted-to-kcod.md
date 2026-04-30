@@ -1,6 +1,7 @@
 ---
 title: "H2020 project granted to KCOD"
 date: 2021-06-01
+years: ["2021"]
 draft: false
 ---
 

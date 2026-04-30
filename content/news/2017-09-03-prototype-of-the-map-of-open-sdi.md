@@ -1,6 +1,7 @@
 ---
 title: "Prototype of the Map of Open SDI"
 date: 2017-09-03
+years: ["2017"]
 draft: false
 ---
 

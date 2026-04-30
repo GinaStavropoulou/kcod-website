@@ -1,6 +1,7 @@
 ---
 title: "New Article"
 date: 2022-06-23
+years: ["2022"]
 summary: "Towards digital innovation: Stakeholder interactions in agricultural data ecosystems in Croatia. Interdisciplinary Description of Complex Systems (INDECS) 20(2): 190-209, authored by L. Hrustek, M. Tomičić Furjan, Filip Varga, A. Džidić, B. van Loenen, D. Šalamon (2022)"
 author: "admin"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "KCOD at AGILE conference"
 date: 2018-06-14
+years: ["2018"]
 draft: false
 ---
 

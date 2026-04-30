@@ -1,6 +1,7 @@
 ---
 title: "Data.overheid.nl User Meeting December 2017"
 date: 2017-12-19
+years: ["2017"]
 draft: false
 ---
 

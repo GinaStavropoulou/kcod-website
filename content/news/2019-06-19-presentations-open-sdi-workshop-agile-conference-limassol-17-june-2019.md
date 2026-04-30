@@ -1,6 +1,7 @@
 ---
 title: "Presentations Open SDI Workshop AGILE Conference, Limassol 17 June 2019"
 date: 2019-06-19
+years: ["2019"]
 draft: false
 ---
 

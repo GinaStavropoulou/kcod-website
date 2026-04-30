@@ -1,6 +1,7 @@
 ---
 title: "Best paper award for Agung Indrajit @GeoDelft conference"
 date: 2018-10-09
+years: ["2018"]
 draft: false
 ---
 

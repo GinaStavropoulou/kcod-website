@@ -1,6 +1,7 @@
 ---
 title: "New publication: Urban Digital Twinning as Commoning"
 date: 2023-10-13
+years: ["2023"]
 categories: ["news"]
 draft: false
 ---

@@ -1,6 +1,7 @@
 ---
 title: "New Postdoc on Urbidata: ethics for the (open) data driven city"
 date: 2020-05-19
+years: ["2020"]
 draft: false
 ---
 

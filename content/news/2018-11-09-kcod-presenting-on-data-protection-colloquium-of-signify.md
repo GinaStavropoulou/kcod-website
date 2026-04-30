@@ -1,6 +1,7 @@
 ---
 title: "KCOD presenting on data protection colloquium of Signify"
 date: 2018-11-09
+years: ["2018"]
 draft: false
 ---
 

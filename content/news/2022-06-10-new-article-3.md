@@ -1,6 +1,7 @@
 ---
 title: "New Article"
 date: 2022-06-10
+years: ["2022"]
 summary: "(Non)negotiable spaces of algorithmic governance: Perceptions on the Ubenwa health app as a ‘relocated’ solution. New Media and Society 24(4) (by Anu Masso, Martha Chukwu, and Stefano Calzati)"
 author: "admin"
 ---

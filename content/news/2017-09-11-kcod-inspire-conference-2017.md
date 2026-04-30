@@ -1,6 +1,7 @@
 ---
 title: "KCOD @ INSPIRE Conference 2017"
 date: 2017-09-11
+years: ["2017"]
 draft: false
 ---
 

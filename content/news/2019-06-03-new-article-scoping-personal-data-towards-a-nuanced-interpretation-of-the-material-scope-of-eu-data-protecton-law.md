@@ -1,6 +1,7 @@
 ---
 title: "New article: Scoping Personal Data: Towards a Nuanced Interpretation of the Material Scope of EU Data Protecton Law."
 date: 2019-06-03
+years: ["2019"]
 draft: false
 ---
 

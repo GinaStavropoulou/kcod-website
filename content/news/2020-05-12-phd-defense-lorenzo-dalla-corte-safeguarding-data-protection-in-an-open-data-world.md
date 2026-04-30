@@ -1,6 +1,7 @@
 ---
 title: "PhD Defense Lorenzo Dalla Corte: Safeguarding Data Protection in an Open Data World."
 date: 2020-05-12
+years: ["2020"]
 draft: false
 ---
 

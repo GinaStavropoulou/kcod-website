@@ -1,6 +1,7 @@
 ---
 title: "New article"
 date: 2022-06-23
+years: ["2022"]
 summary: "Flipped Classroom Real-World Activities for Learning Open Computing Concepts. International Journal of Emerging Technologies in Learning (iJET) 17(7): 293-312, authored by I. Bosnić, I. Čavrak, B. van Loenen (2022)"
 author: "admin"
 ---

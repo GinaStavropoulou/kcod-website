@@ -1,6 +1,7 @@
 ---
 title: "New article: SDI stakeholder analysis in the Netherlands"
 date: 2018-09-20
+years: ["2018"]
 draft: false
 ---
 

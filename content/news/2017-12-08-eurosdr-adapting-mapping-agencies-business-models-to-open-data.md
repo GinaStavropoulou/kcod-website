@@ -1,6 +1,7 @@
 ---
 title: "EuroSDR Adapting Mapping Agencies’ Business Models to Open Data"
 date: 2017-12-08
+years: ["2017"]
 draft: false
 ---
 

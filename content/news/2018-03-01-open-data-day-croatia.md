@@ -1,6 +1,7 @@
 ---
 title: "Open data day Croatia"
 date: 2018-03-01
+years: ["2018"]
 draft: false
 ---
 

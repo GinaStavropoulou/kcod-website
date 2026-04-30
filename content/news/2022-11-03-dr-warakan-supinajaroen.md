@@ -1,6 +1,7 @@
 ---
 title: "Dr Warakan Supinajaroen!"
 date: 2022-11-03
+years: ["2022"]
 summary: "On October 31st Warakan Supinajaroen successfully defended his PhD thesis: 'Optimising the Use of National CORS Data in the Context of Thailand: Policy Outlooks from an Data Ecosystem Perspective'. Congrats!"
 author: "admin"
 ---

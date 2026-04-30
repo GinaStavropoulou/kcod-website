@@ -1,6 +1,7 @@
 ---
 title: "Agung Indrajit presented at AGILE 2017"
 date: 2017-05-15
+years: ["2017"]
 draft: false
 ---
 

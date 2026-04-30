@@ -1,6 +1,7 @@
 ---
 title: "ICOD Book of Abstracts"
 date: 2023-02-13
+years: ["2023"]
 categories: ["news"]
 author: "admin"
 draft: false

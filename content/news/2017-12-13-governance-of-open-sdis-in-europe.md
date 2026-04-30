@@ -1,6 +1,7 @@
 ---
 title: "Governance of Open SDI’s in Europe"
 date: 2017-12-13
+years: ["2017"]
 draft: false
 ---
 

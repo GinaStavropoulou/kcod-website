@@ -1,6 +1,7 @@
 ---
 title: "Working group open data Ministry of Health, Welfare and Sport"
 date: 2018-09-20
+years: ["2018"]
 draft: false
 ---
 

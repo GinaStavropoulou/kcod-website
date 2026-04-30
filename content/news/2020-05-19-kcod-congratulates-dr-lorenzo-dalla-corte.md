@@ -1,6 +1,7 @@
 ---
 title: "KCOD congratulates Dr. Lorenzo Dalla Corte"
 date: 2020-05-19
+years: ["2020"]
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "New article on the Registration of Multi"
 date: 2017-06-24
+years: ["2017"]
 draft: false
 ---
 

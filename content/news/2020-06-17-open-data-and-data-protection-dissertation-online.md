@@ -1,6 +1,7 @@
 ---
 title: "Open data and data protection dissertation online"
 date: 2020-06-17
+years: ["2020"]
 draft: false
 ---
 

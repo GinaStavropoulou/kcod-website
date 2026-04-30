@@ -1,6 +1,7 @@
 ---
 title: "﻿3 year grant for SPIDER: open SPatial data Infrastructure eDucation nEtwoRk"
 date: 2019-10-25
+years: ["2019"]
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "IJSDIR article on Assessing the Openness of SDIs"
 date: 2018-03-01
+years: ["2018"]
 draft: false
 ---
 

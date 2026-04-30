@@ -1,6 +1,7 @@
 ---
 title: "Open SDI/INSPIRE workshop @ INSPIRE Conference 2017"
 date: 2017-08-28
+years: ["2017"]
 draft: false
 ---
 

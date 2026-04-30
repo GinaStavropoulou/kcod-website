@@ -1,6 +1,7 @@
 ---
 title: "Seminar reuse of private sector and public sector data"
 date: 2019-03-15
+years: ["2019"]
 draft: false
 ---
 

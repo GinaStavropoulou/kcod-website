@@ -1,6 +1,7 @@
 ---
 title: "New Publication"
 date: 2023-03-24
+years: ["2023"]
 draft: false
 categories: ["news"]
 ---

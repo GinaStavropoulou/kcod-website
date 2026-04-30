@@ -1,6 +1,7 @@
 ---
 title: "Successful EuroSDR workshop at KCOD"
 date: 2017-09-29
+years: ["2017"]
 draft: false
 ---
 

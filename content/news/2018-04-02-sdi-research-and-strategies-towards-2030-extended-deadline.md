@@ -1,6 +1,7 @@
 ---
 title: "‘SDI Research and Strategies towards 2030′: Extended deadline"
 date: 2018-04-02
+years: ["2018"]
 draft: false
 ---
 

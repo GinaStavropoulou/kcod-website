@@ -1,6 +1,7 @@
 ---
 title: "PhD thesis Frederika Welle Donker"
 date: 2017-05-01
+years: ["2017"]
 draft: false
 ---
 

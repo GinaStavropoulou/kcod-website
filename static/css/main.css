@@ -90,3 +90,9 @@ body, h1, h2, h3, h4, h5, h6, p, em, blockquote {
 #copyrights, .footer-area-menu li a {
     color: #ffffff;
 }
+
+.content {
+    padding: 20px;
+	font-size: 18px;
+	line-height:200%;		
+}

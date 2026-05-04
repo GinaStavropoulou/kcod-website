@@ -46,10 +46,18 @@
                             {{ $sorted := sort $all "year" "desc" }}
                             
                             {{ range $sorted }}
-                            <div class="publication publication-item" data-category="{{ .category }}" data-year="{{ .year }}" style="margin-bottom: 20px;">
-                                <div class="publication-content">
+                            <div class="publication publication-item" data-category="{{ .category }}" data-year="{{ .year }}" style="margin-bottom: 25px; padding-left: 25px; position: relative;">                                
+                                <div class="publication-content" style="font-family: 'Lato', sans-serif; font-size: 15px; line-height: 1.8; color: #333;">
                                     {{ if .citation }}
-                                        <div>{{ .citation | markdownify }}</div>
+                                        <div class="citation-text">{{ .citation | markdownify }}</div>
+                                    {{ end }}
+                                    
+                                    {{ if .external_url }}
+                                        <div style="margin-top: 8px;">
+                                            <a href="{{ .external_url }}" target="_blank" style="color: #31a3dd; text-decoration: none; font-size: 14px;">
+                                                <i class="fa fa-external-link"></i> View Publication
+                                            </a>
+                                        </div>
                                     {{ end }}
                                 </div>
                             </div>

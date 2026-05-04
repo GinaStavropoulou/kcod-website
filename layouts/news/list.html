@@ -8,6 +8,26 @@
 </section>
 <section class="blog-wrapper">
     <div class="container">
+        <!-- Sidebar -->
+        <aside id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="widget widget_archive">
+                <div class="title">
+                    <h2>ARCHIVES</h2>
+                </div>
+                <ul>
+                    {{ $years := slice }}
+                    {{ range $name, $taxonomy := .Site.Taxonomies.years }}
+                        {{ $years = $years | append (dict "year" $name "count" (len $taxonomy.Pages)) }}
+                    {{ end }}
+                    {{ range sort $years "year" "desc" }}
+                    <li>
+                        <a href="{{ "news/" | absURL }}{{ .year }}/">{{ .year }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </aside>
+        
         <div id="content" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
             <div class="row">
                 <div class="blog-masonry">
@@ -16,7 +36,7 @@
                     {{ $mod := mod $i 2 }}
                     {{ $class := cond (eq $mod 0) "first" "last" }}
                     <div class="col-lg-6 {{ $class }}">
-                        <div class="blog-carousel">
+                        <div class="blog-carousel" id="news-item">
                             <div class="content_entry">
                                 <!-- Image placeholder for future feature -->
                             </div>
@@ -77,26 +97,6 @@
             </div>
             {{ end }}
         </div>
-        
-        <!-- Sidebar -->
-        <aside id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-            <div class="widget widget_archive">
-                <div class="title">
-                    <h2>ARCHIVES</h2>
-                </div>
-                <ul>
-                    {{ $years := slice }}
-                    {{ range $name, $taxonomy := .Site.Taxonomies.years }}
-                        {{ $years = $years | append (dict "year" $name "count" (len $taxonomy.Pages)) }}
-                    {{ end }}
-                    {{ range sort $years "year" "desc" }}
-                    <li>
-                        <a href="{{ "news/" | absURL }}{{ .year }}/">{{ .year }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
-            </div>
-        </aside>
     </div>
 </section>
 {{ end }}

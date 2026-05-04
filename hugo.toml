@@ -7,3 +7,11 @@ pagerSize = 10
 
 [taxonomies]
 year = "years"
+
+[permalinks]
+years = "/news/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

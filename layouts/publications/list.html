@@ -6,13 +6,16 @@
         </div>
     </div>
 </section>
+
 <section class="blog-wrapper">
     <div class="container">
         <div class="row">
             <!-- Sidebar submenu -->
             <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
                 <div class="widget widget_nav_menu">
-                    <div class="title"><h2>Menu</h2></div>
+                    <div class="title">
+                        <h2>Menu</h2>
+                    </div>
                     <div class="menu-publications-container">
                         <ul id="menu-publications" class="menu">
                             <li class="menu-item active"><a href="#" data-filter="articles">Articles</a></li>
@@ -23,29 +26,37 @@
                     </div>
                 </div>
             </div>
+            
             <!-- Main content -->
             <div id="content" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                
-                <!-- Publications: Aggregate from all YAML data files -->
-                {{ $articles := (index .Site.Data.publications "articles").publications }}
-                {{ $reports := (index .Site.Data.publications "reports").publications }}
-                {{ $bookChapters := (index .Site.Data.publications "book-chapters").publications }}
-                {{ $presentations := (index .Site.Data.publications "presentations").publications }}
-                {{ $all := slice }}
-                {{ range $articles }}{{ $all = $all | append . }}{{ end }}
-                {{ range $reports }}{{ $all = $all | append . }}{{ end }}
-                {{ range $bookChapters }}{{ $all = $all | append . }}{{ end }}
-                {{ range $presentations }}{{ $all = $all | append . }}{{ end }}
-                {{ $sorted := sort $all "year" "desc" }}
-                {{ range $sorted }}
-                <div class="publication publication-item" data-category="{{ .category }}" data-year="{{ .year }}" style="margin-bottom: 20px;">
-                    <div class="publication-content">
-                        {{ if .citation }}
-                            <div style="font-family: 'Lato', sans-serif; font-weight: 300; line-height: 1.9; font-size: 14px;">{{ .citation | markdownify }}</div>
-                        {{ end }}
+                <div class="blog-masonry page_desc">
+                    <div class="blog-carousel post-education">
+                        <div class="content_entry"></div>
+                        <div class="blog-desc">
+                            <!-- Publications: Aggregate from all YAML data files -->
+                            {{ $articles := (index .Site.Data.publications "articles").publications }}
+                            {{ $reports := (index .Site.Data.publications "reports").publications }}
+                            {{ $bookChapters := (index .Site.Data.publications "book-chapters").publications }}
+                            {{ $presentations := (index .Site.Data.publications "presentations").publications }}
+                            {{ $all := slice }}
+                            {{ range $articles }}{{ $all = $all | append . }}{{ end }}
+                            {{ range $reports }}{{ $all = $all | append . }}{{ end }}
+                            {{ range $bookChapters }}{{ $all = $all | append . }}{{ end }}
+                            {{ range $presentations }}{{ $all = $all | append . }}{{ end }}
+                            {{ $sorted := sort $all "year" "desc" }}
+                            
+                            {{ range $sorted }}
+                            <div class="publication publication-item" data-category="{{ .category }}" data-year="{{ .year }}" style="margin-bottom: 20px;">
+                                <div class="publication-content">
+                                    {{ if .citation }}
+                                        <div>{{ .citation | markdownify }}</div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
                     </div>
                 </div>
-                {{ end }}
                 
                 <!-- No results message -->
                 <div id="no-results" style="display: none; text-align: center; padding: 40px; color: #666;">

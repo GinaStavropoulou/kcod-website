@@ -50,22 +50,22 @@
             <div id="navbar-collapse-1" class="navbar-collapse collapse navbar-left">
                 <div class="menu-main-container">
                     <ul id="menu-main" class="nav navbar-nav">
-                        <li class="normal_menu mobile_menu_toggle menu-item current-menu-item">
+                        <li class="normal_menu mobile_menu_toggle menu-item{{ if .IsHome }} current_page_item{{ end }}">
                             <a href="{{ "" | absURL }}">Home</a>
                         </li>
-                        <li class="normal_menu mobile_menu_toggle menu-item">
+                        <li class="normal_menu mobile_menu_toggle menu-item{{ if or (eq .Section "news") (eq .Type "years") }} current_page_item{{ end }}">
                             <a href="{{ "news/" | absURL }}">News</a>
                         </li>
-                        <li class="normal_menu mobile_menu_toggle menu-item">
+                        <li class="normal_menu mobile_menu_toggle menu-item{{ if eq .Section "projects" }} current_page_item{{ end }}">
                             <a href="{{ "projects/" | absURL }}">Projects</a>
                         </li>
-                        <li class="normal_menu mobile_menu_toggle menu-item">
+                        <li class="normal_menu mobile_menu_toggle menu-item{{ if eq .Section "publications" }} current_page_item{{ end }}">
                             <a href="{{ "publications/" | absURL }}">Publications</a>
                         </li>
-                        <li class="normal_menu mobile_menu_toggle menu-item">
+                        <li class="normal_menu mobile_menu_toggle menu-item{{ if eq .Section "education" }} current_page_item{{ end }}">
                             <a href="{{ "education/" | absURL }}">Education</a>
                         </li>
-                        <li class="normal_menu mobile_menu_toggle menu-item">
+                        <li class="normal_menu mobile_menu_toggle menu-item{{ if eq .Section "about" }} current_page_item{{ end }}">
                             <a href="{{ "about/" | absURL }}">About</a>
                         </li>
                     </ul>

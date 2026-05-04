@@ -9,47 +9,69 @@
 
 <section class="blog-wrapper">
     <div class="container">
-        <div id="content" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="row">
-                <div class="blog-masonry page_desc">
-                    <div class="col-lg-12">
-                        <div class="blog-carousel">
-                            <div class="blog-header">
-                                <h3>{{ .Title }}</h3>
-                            </div>
-                            <div class="blog-desc">
-                                <h3><a href="https://kidsdirectors.eu/" style="color: #ff0000;">DIgital data-dRiven EduCaTion fOR kidS</a></h3>
-                                <p><a href="https://erasmus-plus.ec.europa.eu/projects/search/details/2023-1-NL01-KA210-SCH-000157821" target="_blank">DIRECTORS (DIgital data-dRiven EduCaTion fOR kidS)</a> is an <a href="https://erasmus-plus.ec.europa.eu/" target="_blank">Erasmus+ project</a> [2023-1-NL01-KA210-SCH-000157821] launched in December 2023 that aims to promote data literacy in primary education through new teaching methods and materials to support updating current curricula on data education.</p>
+        <div class="row">
+            <!-- Sidebar submenu -->
+            <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
+                <div class="widget widget_nav_menu">
+                    <div class="title"><h2>Menu</h2></div>
+                    <div class="menu-projects-container">
+                        <ul id="menu-projects" class="menu">
+                            <li class="menu-item active"><a href="#" data-topic="ongoing">Ongoing projects</a></li>
+                            <li class="menu-item"><a href="#" data-topic="past">Past projects</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Main content -->
+            <div id="content" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="blog-masonry page_desc">
+                        <div class="col-lg-12">
+                            <div class="blog-carousel">
+                                <div class="content_entry"></div>
+                                <div class="blog-desc">
+                                    <!-- Ongoing Projects -->
+                                    <div id="topic-ongoing" class="project-topic-content" style="display:block;">
+                                        <div class="blog-header"><h3>Ongoing Projects</h3></div>
+                                        <h3><a href="https://kidsdirectors.eu/" style="color: #ff0000;">DIgital data-dRiven EduCaTion fOR kidS</a></h3>
+                                        <p><a href="https://erasmus-plus.ec.europa.eu/projects/search/details/2023-1-NL01-KA210-SCH-000157821" target="_blank">DIRECTORS (DIgital data-dRiven EduCaTion fOR kidS)</a> is an <a href="https://erasmus-plus.ec.europa.eu/" target="_blank">Erasmus+ project</a> [2023-1-NL01-KA210-SCH-000157821] launched in December 2023 that aims to promote data literacy in primary education through new teaching methods and materials to support updating current curricula on data education.</p>
 
-                                <h3><a href="https://odeco-research.eu/">Towards a sustainable Open Data ECOsystem (ODECO)</a> (2021-2025)</h3>
-                                <p>ODECO is a 4-year Horizon 2020 Marie-Curie Innovative Training Network initiative (H2020-MSCA-ITN-2020, grant agreement 955569). The central aim of the ODECO consortium network is to train the next generation of creative and innovative early stage open data researchers. The programme runs between October 2021 and September 2025 and will deliver 15 PhD degrees.</p>
+                                        <h3><a href="https://odeco-research.eu/">Towards a sustainable Open Data ECOsystem (ODECO)</a> (2021-2025)</h3>
+                                        <p>ODECO is a 4-year Horizon 2020 Marie-Curie Innovative Training Network initiative (H2020-MSCA-ITN-2020, grant agreement 955569). The central aim of the ODECO consortium network is to train the next generation of creative and innovative early stage open data researchers. The programme runs between October 2021 and September 2025 and will deliver 15 PhD degrees.</p>
 
-                                <h3><a href="{{ "opensdi/" | absURL }}">Open Spatial Data Infrastructure (Open SDI)</a></h3>
-                                <p>In the search for the ideal spatial data infrastructure a common ground has been established for the development of open spatial data infrastructures. In this project we assess the openness of Spatial Data Infrastructures. Part of this project is the creation of the 'Map of Open SDI in Europe'.</p>
+                                        <h3><a href="{{ "opensdi/" | absURL }}">Open Spatial Data Infrastructure (Open SDI)</a></h3>
+                                        <p>In the search for the ideal spatial data infrastructure a common ground has been established for the development of open spatial data infrastructures. In this project we assess the openness of Spatial Data Infrastructures. Part of this project is the creation of the 'Map of Open SDI in Europe'.</p>
+                                    </div>
 
-                                <h3>Safeguarding data protection in an open data world (SPOW) (2015-2019)</h3>
-                                <p>This research applies the requirements for effective co-design of data protection and open data regulations to the smart city domains of transport, energy and eHealth with a view to boosting innovation and strengthening the economy.</p>
+                                    <!-- Past Projects -->
+                                    <div id="topic-past" class="project-topic-content" style="display:none;">
+                                        <div class="blog-header"><h3>Past Projects</h3></div>
 
-                                <h3><a href="http://e-gos.eu">Effective governance of Open Spatial Data (E-GOS) (2016-2018)</a></h3>
-                                <p>The research project 'Effective Governance of Open Spatial Data' (E-GOS) investigates the impact of different models for governing open spatial data on the performance of open spatial data policies in Europe.</p>
+                                        <h3>Safeguarding data protection in an open data world (SPOW) (2015-2019)</h3>
+                                        <p>This research applies the requirements for effective co-design of data protection and open data regulations to the smart city domains of transport, energy and eHealth with a view to boosting innovation and strengthening the economy.</p>
 
-                                <h3>The STIG: Stress Testing the Infrastructure for Geographic information (2011-2019)</h3>
-                                <p>In this research, we propose a new method for SDI assessment: The STIG, a Stress test for Infrastructures of Geographical information. The development and application of the Stress-test methodology will provide new valuable information for decision-makers.</p>
+                                        <h3><a href="http://e-gos.eu">Effective governance of Open Spatial Data (E-GOS) (2016-2018)</a></h3>
+                                        <p>The research project 'Effective Governance of Open Spatial Data' (E-GOS) investigates the impact of different models for governing open spatial data on the performance of open spatial data policies in Europe.</p>
 
-                                <h3>4D Open Spatial Information Infrastructure for Participatory Urban Planning Monitoring (2016-2019)</h3>
-                                <p>This PhD research project investigates how to design and implement participatory 4D information system for urban planning monitoring built on open Spatial Information Infrastructures.</p>
+                                        <h3>The STIG: Stress Testing the Infrastructure for Geographic information (2011-2019)</h3>
+                                        <p>In this research, we propose a new method for SDI assessment: The STIG, a Stress test for Infrastructures of Geographical information. The development and application of the Stress-test methodology will provide new valuable information for decision-makers.</p>
 
-                                <h3><a href="http://e-gos.eu">Effective governance of Open Spatial Data at Local level (E-GOS Local) (2016-2018)</a></h3>
-                                <p>The E-GOS Local project investigates the governance and performance of open spatial data policies at organizational level, as well as the link between the national and organizational policies.</p>
+                                        <h3>4D Open Spatial Information Infrastructure for Participatory Urban Planning Monitoring (2016-2019)</h3>
+                                        <p>This PhD research project investigates how to design and implement participatory 4D information system for urban planning monitoring built on open Spatial Information Infrastructures.</p>
 
-                                <h3>E-conveyancing & cyber security (blockchain) (2017)</h3>
-                                <p>This project researches the legal risks associated with e-conveyancing and their potential impact on cross-border real estate transactions.</p>
+                                        <h3><a href="http://e-gos.eu">Effective governance of Open Spatial Data at Local level (E-GOS Local) (2016-2018)</a></h3>
+                                        <p>The E-GOS Local project investigates the governance and performance of open spatial data policies at organizational level, as well as the link between the national and organizational policies.</p>
 
-                                <h3>Exploring the sustainability of open data business models (2017)</h3>
-                                <p>This research assesses the effects of open data policies on the business model of National Mapping Agencies, including effects on the way the organisations are able to (re)finance their operational costs.</p>
+                                        <h3>E-conveyancing & cyber security (blockchain) (2017)</h3>
+                                        <p>This project researches the legal risks associated with e-conveyancing and their potential impact on cross-border real estate transactions.</p>
 
-                                <h3>Location data processing by social and commercial platforms (2017)</h3>
-                                <p>This research project explores the location data value chain, starting with the collection of the location data and ending with the use of these data by third parties.</p>
+                                        <h3>Exploring the sustainability of open data business models (2017)</h3>
+                                        <p>This research assesses the effects of open data policies on the business model of National Mapping Agencies, including effects on the way the organisations are able to (re)finance their operational costs.</p>
+
+                                        <h3>Location data processing by social and commercial platforms (2017)</h3>
+                                        <p>This research project explores the location data value chain, starting with the collection of the location data and ending with the use of these data by third parties.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,4 +80,21 @@
         </div>
     </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuItems = document.querySelectorAll('#menu-projects .menu-item');
+    const topicContents = document.querySelectorAll('.project-topic-content');
+    menuItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            menuItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+            const topic = this.querySelector('a').getAttribute('data-topic');
+            topicContents.forEach(tc => {
+                tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
+            });
+        });
+    });
+});
+</script>
 {{ end }}

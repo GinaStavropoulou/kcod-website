@@ -96,3 +96,27 @@ body, h1, h2, h3, h4, h5, h6, p, em, blockquote {
 	font-size: 18px;
 	line-height:200%;		
 }
+
+/* Sidebar menu active item styling */
+.widget_nav_menu .menu-item.active > a {
+    background-color: #000000;
+    color: #fff !important ;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 4px;
+}
+
+.widget_nav_menu .menu-item > a {
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.2s, color 0.2s;
+    border: none;
+    outline: none;
+}
+
+.widget_nav_menu .menu-item > a:hover {
+    background-color: #31a3dd;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}

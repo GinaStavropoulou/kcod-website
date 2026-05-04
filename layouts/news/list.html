@@ -8,28 +8,28 @@
 </section>
 <section class="blog-wrapper">
     <div class="container">
-        <!-- Sidebar -->
-        <aside id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-            <div class="widget widget_archive">
-                <div class="title">
-                    <h2>ARCHIVES</h2>
+        <div class="row">
+            <!-- Sidebar submenu -->
+            <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
+                <div class="widget widget_nav_menu">
+                    <div class="title"><h2>ARCHIVES</h2></div>
+                     <div class="menu-news-container">
+                        <ul id="menu-news" class="menu">
+                            {{ $years := slice }}
+                            {{ range $name, $taxonomy := .Site.Taxonomies.years }}
+                                {{ $years = $years | append (dict "year" $name "count" (len $taxonomy.Pages)) }}
+                            {{ end }}
+                            {{ range sort $years "year" "desc" }}
+                            <li>
+                                <a href="{{ "news/" | absURL }}{{ .year }}/">{{ .year }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
                 </div>
-                <ul>
-                    {{ $years := slice }}
-                    {{ range $name, $taxonomy := .Site.Taxonomies.years }}
-                        {{ $years = $years | append (dict "year" $name "count" (len $taxonomy.Pages)) }}
-                    {{ end }}
-                    {{ range sort $years "year" "desc" }}
-                    <li>
-                        <a href="{{ "news/" | absURL }}{{ .year }}/">{{ .year }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
             </div>
-        </aside>
-        
+        <!-- Main content -->
         <div id="content" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-            <div class="row">
                 <div class="blog-masonry">
                     {{ $pages := (.Paginate (where .Pages "Kind" "page") 10).Pages }}
                     {{ range $i, $p := $pages }}
@@ -61,7 +61,6 @@
                     </div>
                     {{ end }}
                 </div>
-            </div>
             
             <!-- Pagination -->
             {{ if gt .Paginator.TotalPages 1 }}
@@ -96,6 +95,7 @@
                 </div>
             </div>
             {{ end }}
+        </div>
         </div>
     </div>
 </section>

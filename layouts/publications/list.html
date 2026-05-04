@@ -9,18 +9,22 @@
 <section class="blog-wrapper">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    
-                
-                <!-- Filter Buttons -->
-                <div class="publication-filters" style="margin-bottom: 30px; text-align: center;">
-                    <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-lg filter-btn active" data-filter="articles">Articles</button>
-                        <button type="button" class="btn btn-lg filter-btn" data-filter="reports">Reports</button>
-                        <button type="button" class="btn btn-lg filter-btn" data-filter="book-chapters">Book Chapters</button>
-                        <button type="button" class="btn btn-lg filter-btn" data-filter="presentations">Presentations</button>
+            <!-- Sidebar submenu -->
+            <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
+                <div class="widget widget_nav_menu">
+                    <div class="title"><h2>Menu</h2></div>
+                    <div class="menu-publications-container">
+                        <ul id="menu-publications" class="menu">
+                            <li class="menu-item active"><a href="#" data-filter="articles">Articles</a></li>
+                            <li class="menu-item"><a href="#" data-filter="reports">Reports</a></li>
+                            <li class="menu-item"><a href="#" data-filter="book-chapters">Book Chapters</a></li>
+                            <li class="menu-item"><a href="#" data-filter="presentations">Presentations</a></li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+            <!-- Main content -->
+            <div id="content" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 
                 <!-- Publications: Aggregate from all YAML data files -->
                 {{ $articles := (index .Site.Data.publications "articles").publications }}
@@ -37,7 +41,7 @@
                 <div class="publication publication-item" data-category="{{ .category }}" data-year="{{ .year }}" style="margin-bottom: 20px;">
                     <div class="publication-content">
                         {{ if .citation }}
-                            <div style="font-size: 14px; line-height: 1.6;">{{ .citation | markdownify }}</div>
+                            <div style="font-family: 'Lato', sans-serif; font-weight: 300; line-height: 1.9; font-size: 14px;">{{ .citation | markdownify }}</div>
                         {{ end }}
                     </div>
                 </div>
@@ -54,34 +58,32 @@
     </div>
 </section>
 
-<!-- CSS for filter buttons has been moved to the main stylesheet -->
 <!-- JavaScript for Filtering -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
+    const menuItems = document.querySelectorAll('#menu-publications .menu-item');
     const publications = document.querySelectorAll('.publication-item');
     const noResults = document.getElementById('no-results');
 
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const filter = this.getAttribute('data-filter');
+    menuItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            const filter = this.querySelector('a').getAttribute('data-filter');
 
-            // Update button states
-            filterButtons.forEach(btn => {
-                btn.classList.remove('active');
-            });
+            // Update menu item states
+            menuItems.forEach(i => i.classList.remove('active'));
             this.classList.add('active');
 
             // Filter publications
             let visibleCount = 0;
 
-            publications.forEach(item => {
-                const category = item.getAttribute('data-category');
+            publications.forEach(pub => {
+                const category = pub.getAttribute('data-category');
                 if (category === filter) {
-                    item.style.display = 'block';
+                    pub.style.display = 'block';
                     visibleCount++;
                 } else {
-                    item.style.display = 'none';
+                    pub.style.display = 'none';
                 }
             });
 
@@ -95,8 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Show only articles by default
-    filterButtons[0].click();
+    menuItems[0].click();
 });
 </script>
-
 {{ end }}

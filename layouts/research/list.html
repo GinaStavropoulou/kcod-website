@@ -1,0 +1,117 @@
+{{ define "main" }}
+<section class="post-wrapper-top section-shadow clearfix">
+    <div class="container">
+        <div class="col-lg-12">
+            <h2>{{ .Title }}</h2>
+        </div>
+    </div>
+</section>
+<section class="blog-wrapper">
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar submenu -->
+            <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 hidden-xs">
+                <div class="widget widget_nav_menu">
+                    <div class="title"><h2>Menu</h2></div>
+                    <div class="menu-research-container">
+                        <ul id="menu-research" class="menu">
+                            <li class="menu-item active"><a href="#" data-topic="ongoing">Key Research themes</a></li>
+                            <li class="menu-item"><a href="#" data-topic="past">Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Main content -->
+            <div id="content" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="blog-masonry page_desc">
+                        <div class="col-lg-12">
+                            <div class="blog-carousel">
+                                <div class="content_entry"></div>
+                                <div class="blog-desc">
+                                    <!-- Key Research themes -->
+                                    <div id="topic-ongoing" class="project-topic-content" style="display:block;">
+                                        <div class="blog-header"><h3>Key Research themes</h3></div>
+
+                                        <h4>Assessment of open data infrastructures</h4>
+                                        <p>Assessment and evaluation of open data initiatives and infrastructures is a useful tool for all actors and organizations directly or indirectly involved in these initiatives, including policy makers, public servants, researchers, citizens, journalists and other stakeholders. Since the moment governments started with setting up national, sectoral or organizational open data initiatives, assessment frameworks were developed to prepare, monitor and evaluate the implementation of these initiatives. Our research critically examines mainstream approaches to assess open data initiatives and explores new approaches and methods for assessing the readiness, implementation and impact of open data.</p>
+
+                                        <h4>Governance of open data</h4>
+                                        <p>Different governance models are being utilized for managing the relationships and dependencies between all involved actors, units and organizations. Due to the lack of research on the governance of open spatial data policies, it still remains difficult to understand the impact of implemented governance models on the success of open spatial data initiatives. As a result, practitioners and policy makers remain uninformed and uncertain about the success and appropriateness of their open spatial data governance model. The KCOD investigates the adoption of different governance instruments and mechanisms in the development and implementation of open data infrastructures.</p>
+
+                                        <h4>Open data business models</h4>
+                                        <p>A key challenge in the development and implementation of data infrastructures is the adaptation and alignment of existing business models of the involved actors and organizations. On the other hand, the move towards open data also led to the emergence of new business models, such as 'infomediary' business models, focused on connecting data providers and end-users through the development of services on top of open data. Our research explores the diversity of business models that are driven by open data.</p>
+
+                                        <h4>Legal framework for open data</h4>
+                                        <p>The rights and values underlying Open Data need to be balanced with the countervailing ones that might be dented by releasing data as open. The technical and legal openness promoted by open data laws and regulations is logically bound to clash with other rights, freedoms, and interests, when the latter regulate or impede information disclosure. The rights to privacy and to the protection of personal data, in particular, are amongst the starkest and most notable limits to Open Data. The KCOD research explores the imbalance between open data regulation and regulations hindering or restricting open data.</p>
+
+                                        <h4>Use and users of open data</h4>
+                                        <p>Most countries and public administrations are implementing a strongly supply-driven open data policy, focusing on making their data available according to the principles of open data. So far, the impact of these initiatives in stimulating the uptake and use of open geographic data has been rather limited, and governments are looking for new approaches to stimulate the use of open data. KCOD's research focuses on monitoring and assessing the use of open data and on designing effective and innovative strategies for promoting and stimulating the use of open data.</p>
+
+                                    </div>
+
+                                    <!--Projects -->
+                                    <div id="topic-past" class="project-topic-content" style="display:none;">
+
+                                        <div class="blog-header"><h3>Projects</h3></div>
+                                        <h4><a href="https://kidsdirectors.eu/" style="color: #ff0000;">DIgital data-dRiven EduCaTion fOR kidS</a></h4>
+                                        <p><a href="https://erasmus-plus.ec.europa.eu/projects/search/details/2023-1-NL01-KA210-SCH-000157821" target="_blank">DIRECTORS (DIgital data-dRiven EduCaTion fOR kidS)</a> is an <a href="https://erasmus-plus.ec.europa.eu/" target="_blank">Erasmus+ project</a> [2023-1-NL01-KA210-SCH-000157821] launched in December 2023 that aims to promote data literacy in primary education through new teaching methods and materials to support updating current curricula on data education.</p>
+
+                                        <h4><a href="https://odeco-research.eu/">Towards a sustainable Open Data ECOsystem (ODECO)</a> (2021-2025)</h4>
+                                        <p>ODECO is a 4-year Horizon 2020 Marie-Curie Innovative Training Network initiative (H2020-MSCA-ITN-2020, grant agreement 955569). The central aim of the ODECO consortium network is to train the next generation of creative and innovative early stage open data researchers. The programme runs between October 2021 and September 2025 and will deliver 15 PhD degrees.</p>
+
+                                        <h4><a href="{{ "opensdi/" | absURL }}">Open Spatial Data Infrastructure (Open SDI)</a></h4>
+                                        <p>In the search for the ideal spatial data infrastructure a common ground has been established for the development of open spatial data infrastructures. In this project we assess the openness of Spatial Data Infrastructures. Part of this project is the creation of the 'Map of Open SDI in Europe'.</p>
+                                    
+
+                                        <h4>Safeguarding data protection in an open data world (SPOW) (2015-2019)</h4>
+                                        <p>This research applies the requirements for effective co-design of data protection and open data regulations to the smart city domains of transport, energy and eHealth with a view to boosting innovation and strengthening the economy.</p>
+
+                                        <h4><a href="http://e-gos.eu">Effective governance of Open Spatial Data (E-GOS) (2016-2018)</a></h4>
+                                        <p>The research project 'Effective Governance of Open Spatial Data' (E-GOS) investigates the impact of different models for governing open spatial data on the performance of open spatial data policies in Europe.</p>
+
+                                        <h4>The STIG: Stress Testing the Infrastructure for Geographic information (2011-2019)</h4>
+                                        <p>In this research, we propose a new method for SDI assessment: The STIG, a Stress test for Infrastructures of Geographical information. The development and application of the Stress-test methodology will provide new valuable information for decision-makers.</p>
+
+                                        <h4>4D Open Spatial Information Infrastructure for Participatory Urban Planning Monitoring (2016-2019)</h4>
+                                        <p>This PhD research project investigates how to design and implement participatory 4D information system for urban planning monitoring built on open Spatial Information Infrastructures.</p>
+
+                                        <h4><a href="http://e-gos.eu">Effective governance of Open Spatial Data at Local level (E-GOS Local) (2016-2018)</a></h4>
+                                        <p>The E-GOS Local project investigates the governance and performance of open spatial data policies at organizational level, as well as the link between the national and organizational policies.</p>
+
+                                        <h4>E-conveyancing & cyber security (blockchain) (2017)</h4>
+                                        <p>This project researches the legal risks associated with e-conveyancing and their potential impact on cross-border real estate transactions.</p>
+
+                                        <h4>Exploring the sustainability of open data business models (2017)</h4>
+                                        <p>This research assesses the effects of open data policies on the business model of National Mapping Agencies, including effects on the way the organisations are able to (re)finance their operational costs.</p>
+
+                                        <h4>Location data processing by social and commercial platforms (2017)</h4>
+                                        <p>This research project explores the location data value chain, starting with the collection of the location data and ending with the use of these data by third parties.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuItems = document.querySelectorAll('#menu-projects .menu-item');
+    const topicContents = document.querySelectorAll('.project-topic-content');
+    menuItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            menuItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+            const topic = this.querySelector('a').getAttribute('data-topic');
+            topicContents.forEach(tc => {
+                tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
+            });
+        });
+    });
+});
+</script>
+{{ end }}

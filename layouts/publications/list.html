@@ -21,7 +21,6 @@
                             <li class="menu-item active"><a href="#" data-filter="articles">Articles</a></li>
                             <li class="menu-item"><a href="#" data-filter="reports">Reports</a></li>
                             <li class="menu-item"><a href="#" data-filter="book-chapters">Book Chapters</a></li>
-                            <li class="menu-item"><a href="#" data-filter="presentations">Presentations</a></li>
                         </ul>
                     </div>
                 </div>
@@ -37,12 +36,10 @@
                             {{ $articles := (index .Site.Data.publications "articles").publications }}
                             {{ $reports := (index .Site.Data.publications "reports").publications }}
                             {{ $bookChapters := (index .Site.Data.publications "book-chapters").publications }}
-                            {{ $presentations := (index .Site.Data.publications "presentations").publications }}
                             {{ $all := slice }}
                             {{ range $articles }}{{ $all = $all | append . }}{{ end }}
                             {{ range $reports }}{{ $all = $all | append . }}{{ end }}
                             {{ range $bookChapters }}{{ $all = $all | append . }}{{ end }}
-                            {{ range $presentations }}{{ $all = $all | append . }}{{ end }}
                             {{ $sorted := sort $all "year" "desc" }}
                             
                             {{ range $sorted }}

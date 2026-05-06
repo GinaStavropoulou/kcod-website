@@ -15,8 +15,8 @@
                     <div class="title"><h2>Menu</h2></div>
                     <div class="menu-research-container">
                         <ul id="menu-research" class="menu">
-                            <li class="menu-item active"><a href="#" data-topic="ongoing">Key Research themes</a></li>
-                            <li class="menu-item"><a href="#" data-topic="past">Projects</a></li>
+                            <li class="menu-item active"><a href="#" data-topic="key-themes">Key Research themes</a></li>
+                            <li class="menu-item"><a href="#" data-topic="projects">Projects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                                 <div class="content_entry"></div>
                                 <div class="blog-desc">
                                     <!-- Key Research themes -->
-                                    <div id="topic-ongoing" class="project-topic-content" style="display:block;">
+                                    <div id="topic-key-themes" class="project-topic-content" style="display:block;">
                                         <div class="blog-header"><h3>Key Research themes</h3></div>
 
                                         <h4>Assessment of open data infrastructures</h4>
@@ -51,10 +51,10 @@
                                     </div>
 
                                     <!--Projects -->
-                                    <div id="topic-past" class="project-topic-content" style="display:none;">
+                                    <div id="topic-projects" class="project-topic-content" style="display:none;">
 
                                         <div class="blog-header"><h3>Projects</h3></div>
-                                        <h4><a href="https://kidsdirectors.eu/" style="color: #ff0000;">DIgital data-dRiven EduCaTion fOR kidS</a></h4>
+                                        <h4><a href="https://kidsdirectors.eu/">DIgital data-dRiven EduCaTion fOR kidS</a> (2023-Now)</h4>
                                         <p><a href="https://erasmus-plus.ec.europa.eu/projects/search/details/2023-1-NL01-KA210-SCH-000157821" target="_blank">DIRECTORS (DIgital data-dRiven EduCaTion fOR kidS)</a> is an <a href="https://erasmus-plus.ec.europa.eu/" target="_blank">Erasmus+ project</a> [2023-1-NL01-KA210-SCH-000157821] launched in December 2023 that aims to promote data literacy in primary education through new teaching methods and materials to support updating current curricula on data education.</p>
 
                                         <h4><a href="https://odeco-research.eu/">Towards a sustainable Open Data ECOsystem (ODECO)</a> (2021-2025)</h4>
@@ -99,7 +99,7 @@
 </section>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const menuItems = document.querySelectorAll('#menu-projects .menu-item');
+    const menuItems = document.querySelectorAll('#menu-research .menu-item');
     const topicContents = document.querySelectorAll('.project-topic-content');
     menuItems.forEach(item => {
         item.addEventListener('click', function(e) {

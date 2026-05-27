@@ -52,11 +52,13 @@ publications:
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **No longer hype, not yet mainstream? Recalibrating city digital twins' expectations and reality: a case study perspective**. Frontiers in Big Data, 6."
+    external_url: "https://www.frontiersin.org/articles/10.3389/fdata.2023.1236397/full"
   - title: "Preface to the Proceedings of the 26th AGILE Conference on Geographic Information Science"
     category: "articles"
     year: 2023
     author: "van Oosterom, P., Ploeger, H., Mansourian, A., Scheider, S., Lemmens, R., and van Loenen, B."
     citation: "van Oosterom, P., Ploeger, H., Mansourian, A., Scheider, S., Lemmens, R., and van Loenen, B. (2023). **Preface to the Proceedings of the 26th AGILE Conference on Geographic Information Science**. GIScience Series, 4(1): 1-2."
+    external_url: "http://www.gdmc.nl/publications/2023/agile-giss-4-1-2023"
   - title: "Shaping a Data Commoning Polity: Prospects and Challenges of a European Digital Sovereignty"
     category: "articles"
     year: 2023
@@ -80,41 +82,49 @@ publications:
     year: 2023
     author: "Calzati, S., and Van Loenen, B."
     citation: "Calzati, S., and Van Loenen, B. (2023). **A fourth way to the digital transformation: The data republic as a fair data ecosystem**. Data and Policy, 5, E21."
+    external_url: "https://doi.org/10.1017/dap.2023.18"
   - title: "Active teaching and learning in GI sciences: lessons learned from the BSc. Course Open Urban Data Governance"
     category: "articles"
     year: 2023
     author: "van Loenen, B., Ploeger, H., van Everdingen, N., Cuervo, K., Monahan, J., Pille, J., and Verhaeghe, C."
     citation: "van Loenen, B., Ploeger, H., van Everdingen, N., Cuervo, K., Monahan, J., Pille, J., and Verhaeghe, C. (2023). **Active teaching and learning in GI sciences: lessons learned from the BSc. Course Open Urban Data Governance**. AGILE GIScience Ser., 4, 14."
+    external_url: "https://doi.org/10.5194/agile-giss-4-14-2023"
   - title: "From Big Data Epistemology to AI Politics"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **From Big Data Epistemology to AI Politics**. Journal of Information Communication and Ethics in Society."
+    external_url: "https://doi.org/10.1108/JICES-12-2022-0108"
   - title: "Stimulating (Open) Data Literacy at the Basis of Society: Approaches for Active Learning and Teaching to Young Children"
     category: "articles"
     year: 2023
     author: "Bosnić, I., Kuveždić Divjak, A. and van Loenen, B."
     citation: "Bosnić, I., Kuveždić Divjak, A. and van Loenen, B. (2023). **Stimulating (Open) Data Literacy at the Basis of Society: Approaches for Active Learning and Teaching to Young Children**. Croatian Society for Information, Communication and Electronic Technology – MIPRO: International Convention on Information and Communication Technology, Electronics and Microelectronics, p. 1-7."
+    external_url: "http://www.mipro.hr/Dokumentim/Zbornici/tabid/196/language/hr-HR/Default.aspx"
   - title: "The Social Imaginaries on Governance through Data: Q-methodological Analysis of Data Professionals' Views in the Field of Mobility"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **The Social Imaginaries on Governance through Data: Q-methodological Analysis of Data Professionals' Views in the Field of Mobility**. Futures."
+    external_url: "https://www.sciencedirect.com/science/article/pii/S0016328723001027"
   - title: "Assessment of the Croatian Open Data Portal Using User-Oriented Metrics"
     category: "articles"
     year: 2023
     author: "Miletić A, Kuveždić Divjak A, Welle Donker F."
     citation: "Miletić A, Kuveždić Divjak A, Welle Donker F. (2023). **Assessment of the Croatian Open Data Portal Using User-Oriented Metrics**. ISPRS International Journal of Geo-Information, 12(5):185."
+    external_url: "https://doi.org/10.3390/ijgi12050185"
   - title: "An ethics assessment list for geoinformation ecosystems: revisiting the integrated geospatial information framework of the United Nations"
     category: "articles"
     year: 2023
     author: "Calzati, S., and van Loenen, B."
     citation: "Calzati, S., and van Loenen, B. (2023). **An ethics assessment list for geoinformation ecosystems: revisiting the integrated geospatial information framework of the United Nations**. International Journal of Digital Earth, 16:1, 1418-1438."
+    external_url: "http://10.0.4.56/17538947.2023.2200041"
   - title: "Huawei knowledge transfer in Africa: Corporate communication and users' responses on social networks"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **Huawei knowledge transfer in Africa: Corporate communication and users' responses on social networks**. Global Media and Communication, 19(1), 77-99."
+    external_url: "https://journals.sagepub.com/doi/10.1177/17427665231156691"
   # 2022
   - title: "Towards a Common Definition of Open Data Intermediaries"
     category: "articles"

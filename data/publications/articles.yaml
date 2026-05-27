@@ -313,7 +313,8 @@ publications:
     category: "articles"
     year: 2017
     author: "Dalla Corte, Lorenzo, and Milda Macenaite"
-    citation: "Dalla Corte, Lorenzo, and Milda Macenaite (2017). **Asian Data Protection Law; Trade and Human Rights Perspectives, Book Review**. European Data Protection Law Review Volume 3 (2017), Issue 4,Pages 558 – 562, DOI: https://doi.org/10.21552/edpl/2017/4/23"
+    citation: "Dalla Corte, Lorenzo, and Milda Macenaite (2017). **Asian Data Protection Law; Trade and Human Rights Perspectives, Book Review**. European Data Protection Law Review Volume 3 (2017), Issue 4,Pages 558 – 562."
+    external_url: "https://doi.org/10.21552/edpl/2017/4/23"
   - title: "Multi-Domain Master Spatial Data Management for Open SII in Indonesian Smart Cities"
     category: "articles"
     year: 2017

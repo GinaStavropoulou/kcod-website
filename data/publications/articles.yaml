@@ -255,7 +255,8 @@ publications:
     category: "articles"
     year: 2019
     author: "Ploeger, H., Prins, M., Straub, A., and Van den Brink, R."
-    citation: "Ploeger, H., Prins, M., Straub, A., and Van den Brink, R. (2019). **Circular economy and real estate: the legal (im)possibilities of operational lease**. Facilities, 37(9-10), 653-668. https://doi.org/10.110/F-01-2018-0006"
+    citation: "Ploeger, H., Prins, M., Straub, A., and Van den Brink, R. (2019). **Circular economy and real estate: the legal (im)possibilities of operational lease**. Facilities, 37(9-10), 653-668."
+    external_url: "https://doi.org/10.110/F-01-2018-0006"
   - title: "Scoping Personal Data: Towards a Nuanced Interpretation of the Material Scope of EU Data Protecton Law"
     category: "articles"
     year: 2019

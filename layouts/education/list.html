@@ -44,7 +44,29 @@
                                         {{ with $gimaPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
                                     </div>
                                     <div id="topic-topics" class="edu-topic-content" style="display:none;">
-                                        {{ with $topicPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
+                                        {{ with $topicPage }}
+                                        <div class="blog-header"><h3>{{ .Title }}</h3></div>
+                                        <div class="thesis-topics-accordion">
+                                            {{ $content := .Content }}
+                                            {{ $sections := split $content "<h2" }}
+                                            {{ range $index, $section := $sections }}
+                                                {{ if gt $index 0 }}
+                                                    {{ $parts := split $section "</h2>" }}
+                                                    {{ $titlePart := index $parts 0 }}
+                                                    {{ $titleText := replaceRE ".*>" "" $titlePart }}
+                                                    {{ $contentPart := index $parts 1 }}
+                                                    <div class="topic-item">
+                                                        <h4 class="topic-title" onclick="toggleTopic(this)">
+                                                            <span class="toggle-icon">▶</span> {{ $titleText | safeHTML }}
+                                                        </h4>
+                                                        <div class="topic-content" style="display:none;">
+                                                            {{ $contentPart | safeHTML }}
+                                                        </div>
+                                                    </div>
+                                                {{ end }}
+                                            {{ end }}
+                                        </div>
+                                        {{ end }}
                                     </div>
                                     <div id="topic-other" class="edu-topic-content" style="display:none;">
                                         {{ with $otherPage }}<div class="blog-header"><h3>{{ .Title }}</h3></div>{{ .Content }}{{ end }}
@@ -58,7 +80,51 @@
         </div>
     </div>
 </section>
+<style>
+.thesis-topics-accordion .topic-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.thesis-topics-accordion .topic-title {
+    cursor: pointer;
+    padding: 10px 0;
+    margin: 0;
+    color: #31a3dd;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.thesis-topics-accordion .topic-title:hover {
+    color: #0367bf;
+}
+.thesis-topics-accordion .toggle-icon {
+    display: inline-block;
+    transition: transform 0.3s;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.thesis-topics-accordion .topic-title.active .toggle-icon {
+    transform: rotate(90deg);
+}
+.thesis-topics-accordion .topic-content {
+    padding: 10px 0 10px 30px;
+    line-height: 1.6;
+}
+</style>
 <script>
+function toggleTopic(element) {
+    const content = element.nextElementSibling;
+    const isActive = element.classList.contains('active');
+    
+    if (isActive) {
+        element.classList.remove('active');
+        content.style.display = 'none';
+    } else {
+        element.classList.add('active');
+        content.style.display = 'block';
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const menuItems = document.querySelectorAll('#menu-education .menu-item');
     const topicContents = document.querySelectorAll('.edu-topic-content');

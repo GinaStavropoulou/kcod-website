@@ -27,6 +27,7 @@ publications:
     year: 2024
     author: "Shaharudin, A., López Reyes, M. E., Pantazatou, K., Storm, I., Larsen, B., van Loenen, B., and Kronborg Mazzoli, U."
     citation: "Shaharudin, A., López Reyes, M. E., Pantazatou, K., Storm, I., Larsen, B., van Loenen, B., and Kronborg Mazzoli, U. (2024). **Workshop on Data Ecosystems and Spatial Data Infrastructure – Facilitators for Data Value Creation**. EuroSDR/European Spatial Data Research. Joint workshop of Danish Agency for Data Supply and Infrastructure, KU Leuven, TU Delft, IGN France, DAFAGO and EuroSDR, December 12th-13th 2023 – Copenhagen, Denmark."
+    external_url: "http://resolver.tudelft.nl/uuid:ff64a530-96e0-419f-a866-ecad7712374b"
   - title: "Exploring the contributions of open data intermediaries for a sustainable open data ecosystem"
     category: "articles"
     year: 2024
@@ -131,74 +132,89 @@ publications:
     year: 2022
     author: "Shaharudin, A., Van Loenen, B., and Janssen, M."
     citation: "Shaharudin, A., Van Loenen, B., and Janssen, M. (2022). **Towards a Common Definition of Open Data Intermediaries**. Digital Government: Research and Practice."
+    external_url: "https://dl.acm.org/doi/pdf/10.1145/3585537"
   - title: "On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium"
     category: "articles"
     year: 2022
     author: "Calzati, S., Santos, F., and Casarola, G."
     citation: "Calzati, S., Santos, F., and Casarola, G. (2022). **On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium**. Frontiers in Sustainable Cities, 4."
+    external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/124941294/frsc_04_934604.pdf"
   - title: "Identifying and Overcoming the Barriers Towards Open Data of Public Undertakings"
     category: "articles"
     year: 2022
     author: "Boone, F., and van Loenen, B."
     citation: "Boone, F., and van Loenen, B. (2022). **Identifying and Overcoming the Barriers Towards Open Data of Public Undertakings**. Interdisciplinary Description of Complex Systems: INDECS, 20(2), 96-111."
+    external_url: "https://doi.org/10.7906/indecs.20.2.3"
   - title: "Open National CORS data ecosystems: A cross-jurisdictional comparison"
     category: "articles"
     year: 2022
     author: "Supinajaroen, W., van Loenen, B., and Korthals Altes, W."
     citation: "Supinajaroen, W., van Loenen, B., and Korthals Altes, W. (2022). **Open National CORS data ecosystems: A cross-jurisdictional comparison**. Interdisciplinary Description of Complex Systems: INDECS, 20(2), 78-95."
+    external_url: "https://hrcak.srce.hr/clanak/402092"
   - title: "Showcase of active learning and teaching practices in spatial data infrastructure (SDI) education"
     category: "articles"
     year: 2022
     author: "Welle Donker, F., van Loenen, B., Keßler, C., Küppers, N., Panek, M., Mansourian, A., Zhou, P., Vancauwenberghe, G., Tomić, H., and Kević, K. "
     citation: "Welle Donker, F., van Loenen, B., Keßler, C., Küppers, N., Panek, M., Mansourian, A., Zhou, P., Vancauwenberghe, G., Tomić, H., and Kević, K. (2022). **Showcase of active learning and teaching practices in spatial data infrastructure (SDI) education**. AGILE: GIScience Series, 3, 1-11."
+    external_url: "https://agile-giss.copernicus.org/articles/3/18/2022/agile-giss-3-18-2022.pdf"
   - title: "(Non) negotiable spaces of algorithmic governance: Perceptions on the Ubenwa health app as a 'relocated' solution"
     category: "articles"
     year: 2022
     author: "Masso, A., Chukwu, M., and Calzati, S."
     citation: "Masso, A., Chukwu, M., and Calzati, S. (2022). **(Non) negotiable spaces of algorithmic governance: Perceptions on the Ubenwa health app as a 'relocated' solution**. new media and society, 24(4), 845-865."
+    external_url: "https://journals.sagepub.com/doi/pdf/10.1177/14614448221079027"
   - title: "Federated data as a commons: a third way to subject-centric and collective-centric approaches to data epistemology and politics"
     category: "articles"
     year: 2022
     author: "Calzati, S."
     citation: "Calzati, S. (2022). **Federated data as a commons: a third way to subject-centric and collective-centric approaches to data epistemology and politics**. Journal of Information, Communication and Ethics in Society."
+    external_url: "https://www.emerald.com/insight/content/doi/10.1108/JICES-09-2021-0097/full/html"
   - title: "Towards Digital Innovation: Stakeholder Interactions in Agricultural Data Ecosystem in Croatia"
     category: "articles"
     year: 2022
     author: "Hrustek, L., Tomičić Furjan, M., Varga, F., Džidić, A., van Loenen, B., and Šalamon, D."
     citation: "Hrustek, L., Tomičić Furjan, M., Varga, F., Džidić, A., van Loenen, B., and Šalamon, D. (2022). **Towards Digital Innovation: Stakeholder Interactions in Agricultural Data Ecosystem in Croatia**. Interdisciplinary Description of Complex Systems: INDECS, 20(2), 189-207."
+    external_url: "https://doi.org/10.7906/indecs.20.2.10"
   # 2021
   - title: "Flipped Classroom Real-World Activities for Learning Open Computing Concepts"
     category: "articles"
     year: 2021
     author: "Bosnić, I., Čavrak, I., and van Loenen, B."
     citation: "Bosnić, I., Čavrak, I., and van Loenen, B. (2021). **Flipped Classroom Real-World Activities for Learning Open Computing Concepts**. International Journal of Emerging Technologies in Learning (iJET), 17(7), 293-312."
+    external_url: "https://doi.org/10.3991/ijet.v17i07.25767"
   - title: "4D Musrenbang: Designing User Experience (UX) to Support Public Participation in Spatial Planning for Indonesia"
     category: "articles"
     year: 2021
     author: "Nur An Nisa Milyana, N. A., van Loenen, B., Korthals Altes, W. K., and Ploeger, H. D."
     citation: "Nur An Nisa Milyana, N. A., van Loenen, B., Korthals Altes, W. K., and Ploeger, H. D. (2021). **4D Musrenbang: Designing User Experience (UX) to Support Public Participation in Spatial Planning for Indonesia**. In Proceedings of the 7th International FIG Workshop on 3D Cadastres (Virtual/online event). International Federation of Surveyors (FIG)."
+    external_url: "https://repository.tudelft.nl/islandora/object/uuid:f1c6655b-4b0a-43a0-bb6d-90357d12ecc2"
   - title: "Towards value-creating and sustainable open data ecosystems: A comparative case study and a research agenda"
     category: "articles"
     year: 2021
     author: "van Loenen, B., Zuiderwijk, A. ., Vancauwenberghe, G., Lopez-Pellicer, F. J., Mulder, I., Alexopoulos, C. ., Magnussen, R., Saddiqa, M., Dulong de Rosnay, M., Crompvoets, J., Polini, A., Re, B., and Casiano Flores, C."
     citation: "van Loenen, B., Zuiderwijk, A., Vancauwenberghe, G., Lopez-Pellicer, F. J., Mulder, I., Alexopoulos, C., Magnussen, R., Saddiqa, M., Dulong de Rosnay, M., Crompvoets, J., Polini, A., Re, B., and Casiano Flores, C. (2021). **Towards value-creating and sustainable open data ecosystems: A comparative case study and a research agenda**. JeDEM – EJournal of EDemocracy and Open Government, 13(2), 1-27."
+    external_url: "https://doi.org/10.29379/jedem.v13i2.644"
   - title: "Development and Usability Testing of the Participatory Urban Plan Monitoring Prototype for Indonesian Smart Cities Based on Digital Triplets"
     category: "articles"
     year: 2021
     citation: "Indrajit, A., Yusa, M. H., van Loenen, B., van Oosterom, P., and Suwardhi, D. (2021). **Development and Usability Testing of the Participatory Urban Plan Monitoring Prototype for Indonesian Smart Cities Based on Digital Triplets**. FIG Working Week Proceedings (peer reviewed)."
+    external_url: "https://fig.net/resources/proceedings/fig_proceedings/fig2021/papers/ws_03.4/WS_03.4_indrajit_yusa_et_al_11023.pdf"
   - title: "Implementation of the spatial plan information package for improving ease of doing business in Indonesian cities"
     category: "articles"
     year: 2021
     citation: "Indrajit, A., van Loenen, B., Suprajaka, Jaya, V. E., Ploeger, H., Lemmen, C., and van Oosterom, P. (2021). **Implementation of the spatial plan information package for improving ease of doing business in Indonesian cities**. Land Use Policy, 105, 105338."
+    external_url: "https://www.sciencedirect.com/science/article/pii/S0264837721000612"
   # 2020
   - title: "Status of National Open Spatial Data Infrastructures: a Comparison Across Continents"
     category: "articles"
     year: 2020
     citation: "Mulder, A. E., Wiersma, G., and van Loenen, B. (2020). **Status of National Open Spatial Data Infrastructures: a Comparison Across Continents**. International Journal of Spatial Data Infrastructures Research, Vol.15, 56-87."
+    external_url: "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498"
   - title: "Towards an Open Data Research Ecosystem in Croatia"
     category: "articles"
     year: 2020
     citation: "van Loenen, B., Welle Donker, F., Zuiderwijk, A., Tutić, D., and Alexopoulos, C. (2020). **Towards an Open Data Research Ecosystem in Croatia**. Proceedings of Ongoing Research, Practitioners, Posters, Workshops, and Projects at EGOV-CeDEM-ePart 2020 co-located with the IFIP WG 8.5 International Conference EGOV-CeDEM-ePart 2020, pp. 59-70."
+    external_url: "http://ceur-ws.org/Vol-2797/paper5.pdf"
   - title: "A right to a rule: On the substance and essence of the fundamental right to personal data protection"
     category: "articles"
     year: 2020

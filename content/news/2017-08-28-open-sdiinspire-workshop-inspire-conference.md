@@ -18,11 +18,11 @@ More information on the workshop and the INSPIRE Conference 2017 can be found [h
 **Part 1: Introduction and experts’ views:**
 
   * Introduction – Bastiaan van Loenen (KCOD)
-  * [A Finnish perspective](../../../../wp-content/uploads/2017/09/Openness-of-the-Finnish-SDI-Jaana-Mäkelä.pdf) – Jaana Mäkelä (Spatineo)
-  * [An SME perspective](../../../../wp-content/uploads/2017/09/smeSpire_Martirano.pdf) – Giacomo Martirano (SmeSpire/Epsilon Italia)
-  * [A technological perspective](../../../../wp-content/uploads/2017/09/energic-od_v1.pdf) – Francisco J. Lopez-Pellicer (Universidad Zaragoza)
+  * [A Finnish perspective](files/2017/09/Openness-of-the-Finnish-SDI-Jaana-Mäkelä.pdf) – Jaana Mäkelä (Spatineo)
+  * [An SME perspective](files/2017/09/smeSpire_Martirano.pdf) – Giacomo Martirano (SmeSpire/Epsilon Italia)
+  * [A technological perspective](files/2017/09/energic-od_v1.pdf) – Francisco J. Lopez-Pellicer (Universidad Zaragoza)
   * _Intermezzo: let’s test!_
-  * [Our Map of Open SDI/INSPIRE](../../../../wp-content/uploads/2017/09/2017-INSPIRE-workshop-OpenSDI.pdf) – Glenn Vancauwenberghe (KCOD)
+  * [Our Map of Open SDI/INSPIRE](files/2017/09/2017-INSPIRE-workshop-OpenSDI.pdf) – Glenn Vancauwenberghe (KCOD)
 
 
 

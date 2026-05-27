@@ -14,11 +14,11 @@ The ‘[Map of Open SDI in Europe](../../../../opensdi.html)’ explores the ope
 **Part 1: Introduction and experts’ views:**
 
   * Introduction – Bastiaan van Loenen (KCOD)
-  * [A Finnish perspective](../../../../wp-content/uploads/2017/09/Openness-of-the-Finnish-SDI-Jaana-Mäkelä.pdf) – Jaana Mäkelä (Spatineo)
-  * [An SME perspective](../../../../wp-content/uploads/2017/09/smeSpire_Martirano.pdf) – Giacomo Martirano (SmeSpire/Epsilon Italia)
-  * [A technological perspective](../../../../wp-content/uploads/2017/09/energic-od_v1.pdf) – Francisco J. Lopez-Pellicer (Universidad Zaragoza)
+  * [A Finnish perspective](files/2017/09/Openness-of-the-Finnish-SDI-Jaana-Mäkelä.pdf) – Jaana Mäkelä (Spatineo)
+  * [An SME perspective](files/2017/09/smeSpire_Martirano.pdf) – Giacomo Martirano (SmeSpire/Epsilon Italia)
+  * [A technological perspective](files/2017/09/energic-od_v1.pdf) – Francisco J. Lopez-Pellicer (Universidad Zaragoza)
   * _Intermezzo: let’s test!_
-  * [Our Map of Open SDI/INSPIRE](../../../../wp-content/uploads/2017/09/2017-INSPIRE-workshop-OpenSDI.pdf) – Glenn Vancauwenberghe (KCOD)
+  * [Our Map of Open SDI/INSPIRE](files/2017/09/2017-INSPIRE-workshop-OpenSDI.pdf) – Glenn Vancauwenberghe (KCOD)
 
 
 
@@ -30,8 +30,8 @@ The ‘[Map of Open SDI in Europe](../../../../opensdi.html)’ explores the ope
 
 #### Participants’ views on Open SDI
 
-![](../../../../wp-content/uploads/2017/09/Open-SDIINSPIRE-participants-views-300x201.png)
+![](files/2017/09/Open-SDIINSPIRE-participants-views-300x201.png)
 
 #### Pictures from the workshop
 
-![](../../../../wp-content/uploads/2017/09/Francisco-J.-Lopez-Pellicer-300x200.jpeg)![](../../../../wp-content/uploads/2017/09/Giacomo-Martirano-300x200.jpeg)
+![](files/2017/09/Francisco-J.-Lopez-Pellicer-300x200.jpeg)![](files/2017/09/Giacomo-Martirano-300x200.jpeg)

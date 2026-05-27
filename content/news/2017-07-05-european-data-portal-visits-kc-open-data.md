@@ -5,7 +5,7 @@ years: ["2017"]
 draft: false
 ---
 
-![](../../../../wp-content/uploads/2017/07/EDP-300x224.png)
+![](files/2017/07/EDP-300x224.png)
 
 Heleen Vollers and Jorn Berends of the [European Data Portal](http://www.europeandataportal.eu) project visited the Knowledge Center Open Data on July 3rd. Together with a group of Geomatics students we discussed the need for data portals, the experiences of the students with data portals and reviewed the European Data Portal.
 

@@ -20,20 +20,20 @@ Programme
   </td><td>
   Affiliation
   </td></tr><tr><td>14:00</td><td>Welcome</td><td>Dr. Frederika Welle Donker</td><td>
-Delft University of Technology, Netherlands  </td></tr><tr><td>   14:05   </td><td>[  Introduction to the Safeguarding Personal data protection   in an Open data World (SPOW) project](https://kcopendata.bk.tudelft.nl/files/2019/07/2020-seminar-od-legal-intro-spow.pdf) </td><td>
+Delft University of Technology, Netherlands  </td></tr><tr><td>   14:05   </td><td>[  Introduction to the Safeguarding Personal data protection   in an Open data World (SPOW) project](/files/2019/07/2020-seminar-od-legal-intro-spow.pdf) </td><td>
   Dr. Bastiaan van Loenen
   </td><td>
   Delft University of Technology, Netherlands
   </td></tr><tr><td>
   14:10
-  </td><td> [Open data and proportionality: the case of data protection](https://kcopendata.bk.tudelft.nl/files/2019/07/211020-OD-Workshop-LDC.pdf) </td><td>
+  </td><td> [Open data and proportionality: the case of data protection](/files/2019/07/211020-OD-Workshop-LDC.pdf) </td><td>
   Dr. Lorenzo Dalla Corte
   </td><td>
   Australian National University Cyber Institute & Australian
   National University College of Law, Australia
   </td></tr><tr><td>
   14:35
-  </td><td>[   The conflict between the open courts principle and privacy when it   comes to the publication of court and tribunal decisions online  ](https://kcopendata.bk.tudelft.nl/files/2019/07/2020-Scassa-Open-Courts-Open-Data-and-Privacy.pdf) </td><td>
+  </td><td>[   The conflict between the open courts principle and privacy when it   comes to the publication of court and tribunal decisions online  ](/files/2019/07/2020-Scassa-Open-Courts-Open-Data-and-Privacy.pdf) </td><td>
   Prof. Teresa Scassa
   </td><td>
   University of Ottawa, Canada
@@ -43,13 +43,13 @@ Delft University of Technology, Netherlands  </td></tr><tr><td>   14:05   </td><
 **BREAK**
 </td></tr><tr><td>
   15:15
-  </td><td> [The EU Open data directive critically assessed](https://kcopendata.bk.tudelft.nl/files/2019/07/2020-OD-Workshop-TUDelft-21-Oct-2020-Anamarija-Musa.pdf) </td><td>
+  </td><td> [The EU Open data directive critically assessed](/files/2019/07/2020-OD-Workshop-TUDelft-21-Oct-2020-Anamarija-Musa.pdf) </td><td>
   Dr. Anamarija Musa
   </td><td>
   University of Zagreb, Croatia
   </td></tr><tr><td>
   15:40
-  </td><td> [  Institutional dimensions for the design of open data activities: why   open data projects fail](https://kcopendata.bk.tudelft.nl/files/2019/07/2020-OpenData-IgbalSafarov.pdf) </td><td>
+  </td><td> [  Institutional dimensions for the design of open data activities: why   open data projects fail](/files/2019/07/2020-OpenData-IgbalSafarov.pdf) </td><td>
   Dr. Igbal Safarov
   </td><td>
   Utrecht University, Netherlands
@@ -59,7 +59,7 @@ Delft University of Technology, Netherlands  </td></tr><tr><td>   14:05   </td><
 **BREAK**
 </td></tr><tr><td>
   16:20
-  </td><td> [Towards an sustainable open data ecosystem   ](https://kcopendata.bk.tudelft.nl/files/2019/07/2020-seminar-sustainable-open-data-ecosystem1.pdf)</td><td>
+  </td><td> [Towards an sustainable open data ecosystem   ](/files/2019/07/2020-seminar-sustainable-open-data-ecosystem1.pdf)</td><td>
   Dr. Bastiaan van Loenen
   </td><td>
   Delft University of Technology, Netherlands

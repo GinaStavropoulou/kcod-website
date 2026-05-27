@@ -3,44 +3,50 @@ publications:
   - title: "Hergebruikers van open data in beeld"
     category: "reports"
     year: 2019
-    author: "Welle Donker, R. Braggaar, B. van Loenen"
-    citation: "Welle Donker, R. Braggaar, B. van Loenen (2019). **Hergebruikers van open data in beeld**. Onderzoek in opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties."
+    author: "Welle Donker, F., Braggaar, R., van Loenen, B."
+    citation: "Welle Donker, F., Braggaar, R., van Loenen, B. (2019). **Hergebruikers van open data in beeld**. Onderzoek in opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties."
+    external_url: "https://repository.tudelft.nl/islandora/object/uuid%3Ad6018780-cd9c-4122-adb9-db40d3824326?collection=research"
   
   # 2018
   - title: "Governancemodellen van open data bij gemeenten en de performantie van open data"
     category: "reports"
     year: 2018
-    author: "Welle Donker, F., G. Vancauwenberghe, B. van Loenen"
-    citation: "Welle Donker, F., G. Vancauwenberghe, B. van Loenen (2018). **Governancemodellen van open data bij gemeenten en de performantie van open data**. Onderzoek uitgevoerd in opdracht van: AMS – Amsterdam Institute for Advanced Metropolitan Solutions"
+    author: "Welle Donker, F., Vancauwenberghe, G., van Loenen, B."
+    citation: "Welle Donker, F., Vancauwenberghe, G., van Loenen, B. (2018). **Governancemodellen van open data bij gemeenten en de performantie van open data**. Onderzoek uitgevoerd in opdracht van: AMS – Amsterdam Institute for Advanced Metropolitan Solutions"
+    external_url: "https://pure.tudelft.nl/portal/en/publications/ams-egos-governance-modellen-van-open-data-bij-gemeenten-en-de-performantie-van-open-data(68aceea8-d889-4155-8ec8-070cb7fff73f).html"
   - title: "Overheid en sociale locatiedata"
     category: "reports"
     year: 2018
-    author: "Van Loenen, Bastiaan; Frederika Welle Donker; Deniz Kilic"
-    citation: "Van Loenen, Bastiaan; Frederika Welle Donker; Deniz Kilic (2018). **Overheid en \"sociale\" locatiedata; Een verkennend onderzoek naar de stand van social media (locatie)data gebruik Nederlandse overheid**. Onderzoek uitgevoerd in opdracht van Geonovum."
+    author: "Van Loenen, B., Welle Donker, F., Kilic, D."
+    citation: "Van Loenen, B., Welle Donker, F., Kilic, D. (2018). **Overheid en \"sociale\" locatiedata; Een verkennend onderzoek naar de stand van social media (locatie)data gebruik Nederlandse overheid**. Onderzoek uitgevoerd in opdracht van Geonovum."
+    external_url: "https://pure.tudelft.nl/portal/en/publications/overheid-en-sociale-locatiedata(9187527d-6f48-4ccb-a6fa-c63930407999).html"
   
   #2017
   - title: "Verkenning locatiegegevens en sociale platforms"
     category: "reports"
     year: 2017
-    author: "van Loenen, Bastiaan, Deniz Kilic, Rob van de Velde"
-    citation: "van Loenen, Bastiaan, Deniz Kilic en Rob van de Velde (2017). **Verkenning locatiegegevens en sociale platforms**. Geonovum."
+    author: "van Loenen, B., Kilic, D., van de Velde, R."
+    citation: "van Loenen, B., Kilic, D., van de Velde, R. (2017). **Verkenning locatiegegevens en sociale platforms**. Geonovum."
+    external_url: "https://www.geonovum.nl/onderwerpen/locatie-marketing/nieuws/verkenning-locatiegegevens-en-sociale-platforms"
   - title: "Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results"
     category: "reports"
     year: 2017
-    author: "Welle Donker, F., Crompvoets, J. & van Loenen, B."
-    citation: "Welle Donker, F., Crompvoets, J. & van Loenen, B. (2017). **Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results**. Leuven: EuroSDR Official Publication no. 67. 36 p."
+    author: "Welle Donker, F., Crompvoets, J., van Loenen, B."
+    citation: "Welle Donker, F., Crompvoets, J., van Loenen, B. (2017). **Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results**. Leuven: EuroSDR Official Publication no. 67. 36 p."
+    external_url: "files/2017/12/2017_EuroSDR-Pub67_NMCAs_BusinesModels_OD.pdf"
   - title: "Maatschappelijke kosten-batenanalyse open data"
     category: "reports"
     year: 2017
     author: "Welle Donker, F., van Loenen, B. & Korthals Altes, W."
     citation: "Welle Donker, F., van Loenen, B. & Korthals Altes, W. (2017). **Maatschappelijke kosten-batenanalyse open data**. Delft: OTB-Onderzoek voor de gebouwde omgeving. Faculteit Bouwkunde, TU Delft. 128 p."
+    external_url: "https://pure.tudelft.nl/portal/en/publications/maatschappelijke-kostenbatenanalyse-open-data(b34165f8-7a62-431f-8b20-6120cafc6ae8).html"
   
   # 2016
   - title: "De stand in opendataland 2016"
     category: "reports"
     year: 2016
-    author: "van Loenen, B., & Welle Donker, F. M."
-    citation: "van Loenen, B., & Welle Donker, F. M. (2016). **De stand in opendataland 2016**. Delft: Kenniscentrum Open Data, TU Delft."
+    author: "van Loenen, B., & Welle Donker, F."
+    citation: "van Loenen, B., & Welle Donker, F. (2016). **De stand in opendataland 2016**. Delft: Kenniscentrum Open Data, TU Delft."
   - title: "Ontsluiten handelsregister met open data nader belicht"
     category: "reports"
     year: 2016
@@ -59,15 +65,15 @@ publications:
   - title: "Geodata – brandstof van de zelfrijdende auto; verkenning naar de zelfrijdende auto en geo-informatie"
     category: "reports"
     year: 2016
-    author: "de Boer, Arnoud, Bastiaan van Loenen, Frans Jorna, Rob van de Velde"
-    citation: "de Boer, Arnoud, Bastiaan van Loenen, Frans Jorna, Rob van de Velde (2016). **Geodata – brandstof van de zelfrijdende auto; verkenning naar de zelfrijdende auto en geo-informatie**. Geonovum."
+    author: "de Boer, A., van Loenen, B., Frans Jorna, R., van de Velde, R."
+    citation: "de Boer, A., van Loenen, B., Frans Jorna, R., van de Velde, R. (2016). **Geodata – brandstof van de zelfrijdende auto; verkenning naar de zelfrijdende auto en geo-informatie**. Geonovum."
   
   # 2015
   - title: "Duurzame businessmodellen voor open data"
     category: "reports"
     year: 2015
-    author: "Welle Donker, F. & B. van Loenen"
-    citation: "Welle Donker, F. & B. van Loenen (2015). **Duurzame businessmodellen voor open data**. Delft: Kenniscentrum Open Data, TU Delft."
+    author: "Welle Donker, F. & van Loenen, B."
+    citation: "Welle Donker, F. & van Loenen, B. (2015). **Duurzame businessmodellen voor open data**. Delft: Kenniscentrum Open Data, TU Delft."
   - title: "Effecten open data Liander 2014"
     category: "reports"
     year: 2015
@@ -124,8 +130,8 @@ publications:
   - title: "Roadmap Kernregistraties. Van open naar trusted data"
     category: "reports"
     year: 2013
-    author: "Kok, B.C., J. Crompvoets & B. van Loenen"
-    citation: "Kok, B.C., J. Crompvoets & B. van Loenen (2013). **Roadmap Kernregistraties. Van open naar trusted data**. Delft: Onderzoeksinstituut OTB: 38"
+    author: "Kok, B.C., Crompvoets, J. & van Loenen, B."
+    citation: "Kok, B.C., Crompvoets, J. & van Loenen, B. (2013). **Roadmap Kernregistraties. Van open naar trusted data**. Delft: Onderzoeksinstituut OTB: 38"
   - title: "De mogelijkheid van een open data beleid voor het Actueel Hoogtebestand Nederland nader onderzocht"
     category: "reports"
     year: 2013
@@ -186,5 +192,6 @@ publications:
   - title: "Databeleid Rijkswaterstaat Deel: Hoofdwatersysteem; Een overzicht van de juridische kaders omtrent het omgaan met data"
     category: "reports"
     year: 2011
-    author: "Loenen, B. van, F.M. Welle Donker, S. Kulk, D.A. Groetelaers, J. de Jong, H.D. Ploeger"
-    citation: "Loenen, B. van, F.M. Welle Donker, S. Kulk, D.A. Groetelaers, J. de Jong, H.D. Ploeger (2011). **Databeleid Rijkswaterstaat Deel: Hoofdwatersysteem; Een overzicht van de juridische kaders omtrent het omgaan met data**. Onderzoek in opdracht van Rijkswaterstaat."
+    author: "van Loenen, B., Welle Donker, F.M., Kulk, S., Groetelaers, D.A., de Jong, J. & Ploeger, H.D."
+    citation: "van Loenen, B., Welle Donker, F.M., Kulk, S., Groetelaers, D.A., de Jong, J. & Ploeger, H.D. (2011). **Databeleid Rijkswaterstaat Deel: Hoofdwatersysteem; Een overzicht van de juridische kaders omtrent het omgaan met data**. Onderzoek in opdracht van Rijkswaterstaat."
+    external_link: "https://repository.tudelft.nl/record/uuid:1ef3f623-6730-4f3a-a60b-9279965a08a6"

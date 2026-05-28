@@ -27,4 +27,4 @@ Please contact Urbanism’s Bastiaan van Loenen, Frederika Welle Donker or Hendr
 
 ERASMUS+ Strategic Partnerships Grant 2019-1-DE01-KA203-005042
 
-<figure class="wp-block-image"><img alt="" class="wp-image-1743" height="132" loading="lazy" sizes="(max-width: 602px) 100vw, 602px" src="files/2019/10/image.png" srcset="files/2019/10/image.png 602w, files/2019/10/image-300x66.png 300w" width="602"/></figure>
+<figure class="wp-block-image"><img alt="" class="wp-image-1743" height="132" loading="lazy" sizes="(max-width: 602px) 100vw, 602px" src="/files/2019/10/image.png" srcset="/files/2019/10/image.png 602w, /files/2019/10/image-300x66.png 300w" width="602"/></figure>

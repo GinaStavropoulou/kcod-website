@@ -5,7 +5,7 @@ years: ["2017"]
 draft: false
 ---
 
-![](files/2017/07/PHDday-KUL-TUD-300x168.jpg)
+![](/files/2017/07/PHDday-KUL-TUD-300x168.jpg)
 
 On June 30 PhD candidates of the Katholieke Universiteit Leuven and Delft University of Technology exchanged their PhD research concepts and ideas with each other in Leuven. Joep Crompvoets welcomed the Delft guest and introduced KU Leuven and the Public Governance Institute and Bastiaan van Loenen introduced the Knowledge Center Open Data. The PhD candidates that presented their research were:
 

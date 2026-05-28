@@ -9,4 +9,4 @@ On Wednesday June 13, Agung Indrajit and Frederika Welle Donker presented their 
 
 Frederika presented in her presentation ‘[Societal costs and benefits of high-value open government data: a case study of the Netherlands](https://drive.google.com/file/d/128UzxOrvBjRLyTeySemuvX8_Yp8ZJNWU/view)’ the conclusions of the work of the Knowledge Center for the Ministry of the Interior.
 
-<img alt="" class="alignnone size-medium wp-image-1480" height="168" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" src="files/2018/06/agile-2018-300x168.jpg" srcset="files/2018/06/agile-2018-300x168.jpg 300w, files/2018/06/agile-2018-768x429.jpg 768w, files/2018/06/agile-2018-1024x572.jpg 1024w" width="300"/>
+<img alt="" class="alignnone size-medium wp-image-1480" height="168" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" src="/files/2018/06/agile-2018-300x168.jpg" srcset="/files/2018/06/agile-2018-300x168.jpg 300w, f/iles/2018/06/agile-2018-768x429.jpg 768w, /files/2018/06/agile-2018-1024x572.jpg 1024w" width="300"/>

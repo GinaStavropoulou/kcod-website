@@ -8,4 +8,4 @@ author: "admin"
 
 On October 31st Warakan Supinajaroen successfully defended his PhD thesis: "Optimising the Use of National CORS Data in the Context of Thailand: Policy Outlooks from an Data Ecosystem Perspective". Congrats!
 
-![Warakan defense](files/2022/11/Warakan-defense.jpeg)
+![Warakan defense](/files/2022/11/Warakan-defense.jpeg)

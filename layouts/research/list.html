@@ -15,9 +15,9 @@
                     <div class="title"><h2>Menu</h2></div>
                     <div class="menu-research-container">
                         <ul id="menu-research" class="menu">
-                            <li class="menu-item active"><a href="#" data-topic="key-themes">Key Research themes</a></li>
-                            <li class="menu-item"><a href="#" data-topic="projects">Projects</a></li>
-                            <li class="menu-item"><a href="#" data-topic="publications">Publications</a></li>
+                            <li class="menu-item active"><a href="#key-themes" data-topic="key-themes">Key Research themes</a></li>
+                            <li class="menu-item"><a href="#projects" data-topic="projects">Projects</a></li>
+                            <li class="menu-item"><a href="#publications" data-topic="publications">Publications</a></li>
                         </ul>
                     </div>
                 </div>
@@ -170,20 +170,35 @@
 </section>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Menu switching functionality
     const menuItems = document.querySelectorAll('#menu-research .menu-item');
     const topicContents = document.querySelectorAll('.project-topic-content');
+
+    function activateTopic(topic) {
+        const validTopics = ['key-themes', 'projects', 'publications'];
+        if (!validTopics.includes(topic)) topic = 'key-themes';
+        menuItems.forEach(i => i.classList.remove('active'));
+        topicContents.forEach(tc => {
+            tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
+        });
+        const activeLink = document.querySelector('#menu-research a[data-topic="' + topic + '"]');
+        if (activeLink) activeLink.closest('.menu-item').classList.add('active');
+    }
+
     menuItems.forEach(item => {
         item.addEventListener('click', function(e) {
             e.preventDefault();
-            menuItems.forEach(i => i.classList.remove('active'));
-            this.classList.add('active');
             const topic = this.querySelector('a').getAttribute('data-topic');
-            topicContents.forEach(tc => {
-                tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
-            });
+            history.pushState(null, '', '#' + topic);
+            activateTopic(topic);
         });
     });
+
+    window.addEventListener('popstate', function() {
+        activateTopic(window.location.hash.slice(1));
+    });
+
+    // Activate based on URL hash on load
+    activateTopic(window.location.hash.slice(1) || 'key-themes');
 });
 </script>
 {{ end }}

@@ -15,10 +15,10 @@
                     <div class="title"><h2>Menu</h2></div>
                     <div class="menu-education-container">
                         <ul id="menu-education" class="menu">
-                            <li class="menu-item active"><a href="#" data-topic="geomatics">MSc Geomatics</a></li>
-                            <li class="menu-item"><a href="#" data-topic="gima">MSc GIMA</a></li>
-                            <li class="menu-item"><a href="#" data-topic="topics">MSc thesis topics</a></li>
-                            <li class="menu-item"><a href="#" data-topic="other">Other education &amp; training</a></li>
+                            <li class="menu-item active"><a href="#geomatics" data-topic="geomatics">MSc Geomatics</a></li>
+                            <li class="menu-item"><a href="#gima" data-topic="gima">MSc GIMA</a></li>
+                            <li class="menu-item"><a href="#topics" data-topic="topics">MSc thesis topics</a></li>
+                            <li class="menu-item"><a href="#other" data-topic="other">Other education &amp; training</a></li>
                         </ul>
                     </div>
                 </div>
@@ -128,17 +128,33 @@ function toggleTopic(element) {
 document.addEventListener('DOMContentLoaded', function() {
     const menuItems = document.querySelectorAll('#menu-education .menu-item');
     const topicContents = document.querySelectorAll('.edu-topic-content');
+
+    function activateTopic(topic) {
+        const validTopics = ['geomatics', 'gima', 'topics', 'other'];
+        if (!validTopics.includes(topic)) topic = 'geomatics';
+        menuItems.forEach(i => i.classList.remove('active'));
+        topicContents.forEach(tc => {
+            tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
+        });
+        const activeLink = document.querySelector('#menu-education a[data-topic="' + topic + '"]');
+        if (activeLink) activeLink.closest('.menu-item').classList.add('active');
+    }
+
     menuItems.forEach(item => {
         item.addEventListener('click', function(e) {
             e.preventDefault();
-            menuItems.forEach(i => i.classList.remove('active'));
-            this.classList.add('active');
             const topic = this.querySelector('a').getAttribute('data-topic');
-            topicContents.forEach(tc => {
-                tc.style.display = tc.id === 'topic-' + topic ? 'block' : 'none';
-            });
+            history.pushState(null, '', '#' + topic);
+            activateTopic(topic);
         });
     });
+
+    window.addEventListener('popstate', function() {
+        activateTopic(window.location.hash.slice(1));
+    });
+
+    // Activate based on URL hash on load
+    activateTopic(window.location.hash.slice(1) || 'geomatics');
 });
 </script>
 {{ end }}

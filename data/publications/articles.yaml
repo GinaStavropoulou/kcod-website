@@ -1,7 +1,17 @@
 publications:
-  # 2025
+  # 2026
+  - title: "Business model archetypes of open data intermediaries; Empirical insights from practice"
+    category: "articles"
+    
+    year: 2026
+    author: "Shaharudin, A., van Loenen, B., Janssen, M."
+    citation: "Shaharudin, A., van Loenen, B., Janssen, M., (2026). Business model archetypes of open data intermediaries: Empirical insights from practice. Electronic Markets,36(1), Article 19."
+    external_url: "https://doi.org/10.1007/s12525-026-00882-3"  
+    
+    # 2025
   - title: "Decoding open data intermediation business models: More than just a bridge"
     category: "articles"
+    
     year: 2025
     author: "Shaharudin, A."
     citation: "Shaharudin, A. (2025). **Decoding open data intermediation business models: More than just a bridge**. PhD dissertation, Delft University of Technology (TU Delft)."

@@ -4,9 +4,9 @@ Source for [kcopendata.bk.tudelft.nl](https://kcopendata.bk.tudelft.nl/), built 
 
 ---
 
-## Adding Content thourgh Github
+## Adding Content through Github
 
-You can make changes to the content of the website by directly modifying files in github and commiting the changes. Anything that is pushed or merged to `main` will be automatically published to the website after a few minutes. 
+You can make changes to the content of the website by directly modifying files in github and committing the changes. Anything that is pushed or merged to `main` will be automatically published to the website after a few minutes. 
 
 ### How to add a news article
 Navigate to [`content/news/`](https://github.com/tudelft3d/kcod-website/tree/main/content/news) and press `Add File` to create a new `.md` file. The filename must start with the publication date in `YYYY-MM-DD` format, e.g. `2024-03-15-my-article-title.md`. 
@@ -30,7 +30,7 @@ After you have added your content, press the `commit changes` button. You can th
 
 ### Publication (article, book chapter, etc.)
 
-Add an entry to the appropriate YAML file in [`data/publications/`](https://github.com/tudelft3d/kcod-website/tree/main/data/publications), by presssing the edit button. Entries follow this structure:
+Add an entry to the appropriate YAML file in [`data/publications/`](https://github.com/tudelft3d/kcod-website/tree/main/data/publications), by pressing the edit button. Entries follow this structure:
 
 ```yaml
 - title: "Maatschappelijke kosten-batenanalyse open data"
@@ -41,7 +41,7 @@ Add an entry to the appropriate YAML file in [`data/publications/`](https://gith
   external_url: "https://pure.tudelft.nl/..."
 ```
 
-After you verify your entry has the right format, press the `commit changes` button. ou can then monitor the build status on the [Actions page](https://github.com/tudelft3d/kcod-website/actions).
+After you verify your entry has the right format, press the `commit changes` button. You can then monitor the build status on the [Actions page](https://github.com/tudelft3d/kcod-website/actions).
 ---
 
 ## Local development

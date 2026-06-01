@@ -18,9 +18,12 @@ Then open [http://localhost:1313](http://localhost:1313) in your browser.
 
 ## Adding content
 
+This can be done either by pushing changes from your local repository to the remote main branch or by directly modifying files in github and commiting the changes. 
+Anything that is pushed or merged to `main` will be automatically published to the website after a few minutes. 
+
 ### News article
 
-Create a new `.md` file in `content/news/`. The filename must start with the publication date in `YYYY-MM-DD` format, e.g. `2024-03-15-my-article-title.md`.
+Create a new `.md` file in [`content/news/`](https://github.com/tudelft3d/kcod-website/tree/main/content/news). The filename must start with the publication date in `YYYY-MM-DD` format, e.g. `2024-03-15-my-article-title.md`.
 
 The file should start with this front matter:
 
@@ -39,7 +42,7 @@ Article content goes here.
 
 ### Publication (article, book chapter, etc.)
 
-Add an entry to the appropriate YAML file in `data/publications/`. Entries follow this structure:
+Add an entry to the appropriate YAML file in [`data/publications/`](https://github.com/tudelft3d/kcod-website/tree/main/data/publications). Entries follow this structure:
 
 ```yaml
 - title: "Maatschappelijke kosten-batenanalyse open data"
@@ -50,6 +53,7 @@ Add an entry to the appropriate YAML file in `data/publications/`. Entries follo
   external_url: "https://pure.tudelft.nl/..."
 ```
 
+If you are on github, don't forget to press the `commit changes` button. 
 ---
 
 ## Deploying changes

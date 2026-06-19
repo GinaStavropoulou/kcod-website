@@ -65,7 +65,7 @@ publications:
     year: 2023
     author: "van Oosterom, P., Ploeger, H., Mansourian, A., Scheider, S., Lemmens, R., and van Loenen, B."
     citation: "van Oosterom, P., Ploeger, H., Mansourian, A., Scheider, S., Lemmens, R., and van Loenen, B. (2023). **Preface to the Proceedings of the 26th AGILE Conference on Geographic Information Science**. GIScience Series, 4(1): 1-2."
-    external_url: "http://www.gdmc.nl/publications/2023/agile-giss-4-1-2023"
+    external_url: "https://doi.org/10.5194/agile-giss-4-1-2023"
   - title: "Shaping a Data Commoning Polity: Prospects and Challenges of a European Digital Sovereignty"
     category: "articles"
     year: 2023
@@ -332,8 +332,8 @@ publications:
   - title: "Asian Data Protection Law; Trade and Human Rights Perspectives, Book Review"
     category: "articles"
     year: 2017
-    author: "Dalla Corte, Lorenzo, and Milda Macenaite"
-    citation: "Dalla Corte, Lorenzo, and Milda Macenaite (2017). **Asian Data Protection Law; Trade and Human Rights Perspectives, Book Review**. European Data Protection Law Review Volume 3 (2017), Issue 4,Pages 558 – 562."
+    author: "Dalla Corte, L. , & Macenaite, M."
+    citation: "Dalla Corte, L. , & Macenaite, M. (2017). **Asian Data Protection Law; Trade and Human Rights Perspectives, Book Review**. European Data Protection Law Review Volume 3 (2017), Issue 4, Pages 558 – 562."
     external_url: "https://doi.org/10.21552/edpl/2017/4/23"
   - title: "Multi-Domain Master Spatial Data Management for Open SII in Indonesian Smart Cities"
     category: "articles"

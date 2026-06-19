@@ -4,25 +4,14 @@ Source for [kcopendata.bk.tudelft.nl](https://kcopendata.bk.tudelft.nl/), built 
 
 ---
 
-## Local development
+## Adding Content through Github
 
-```bash
-git clone https://github.com/tudelft3d/kcod-website.git
-cd kcod-website
-hugo server -e development
-```
+You can make changes to the content of the website by directly modifying files in github and committing the changes. Anything that is pushed or merged to `main` will be automatically published to the website after a few minutes. 
 
-Then open [http://localhost:1313](http://localhost:1313) in your browser.
+### How to add a news article
+Navigate to [`content/news/`](https://github.com/tudelft3d/kcod-website/tree/main/content/news) and press `Add File` to create a new `.md` file. The filename must start with the publication date in `YYYY-MM-DD` format, e.g. `2024-03-15-my-article-title.md`. 
 
----
-
-## Adding content
-
-### News article
-
-Create a new `.md` file in `content/news/`. The filename must start with the publication date in `YYYY-MM-DD` format, e.g. `2024-03-15-my-article-title.md`.
-
-The file should start with this front matter:
+The file should start with this information and format:
 
 ```yaml
 ---
@@ -37,9 +26,11 @@ Article content goes here.
 
 > The `years` field controls which year archive page the article appears under.
 
+After you have added your content, press the `commit changes` button. You can then monitor the build status on the [Actions page](https://github.com/tudelft3d/kcod-website/actions).
+
 ### Publication (article, book chapter, etc.)
 
-Add an entry to the appropriate YAML file in `data/publications/`. Entries follow this structure:
+Add an entry to the appropriate YAML file in [`data/publications/`](https://github.com/tudelft3d/kcod-website/tree/main/data/publications), by pressing the edit button. Entries follow this structure:
 
 ```yaml
 - title: "Maatschappelijke kosten-batenanalyse open data"
@@ -50,11 +41,23 @@ Add an entry to the appropriate YAML file in `data/publications/`. Entries follo
   external_url: "https://pure.tudelft.nl/..."
 ```
 
+After you verify your entry has the right format, press the `commit changes` button. You can then monitor the build status on the [Actions page](https://github.com/tudelft3d/kcod-website/actions).
 ---
 
-## Deploying changes
+## Local development
 
-Push your changes to the `main` branch and the website will be updated automatically.
+### Run locally
+```bash
+git clone https://github.com/tudelft3d/kcod-website.git
+cd kcod-website
+hugo server -e development
+```
+
+Then open [http://localhost:1313](http://localhost:1313) in your browser.
+
+### Deploy changes
+
+If you are working on your local repo, push your changes to the `main` branch and the website will be updated automatically.
 
 ```bash
 git status                      # review changed files

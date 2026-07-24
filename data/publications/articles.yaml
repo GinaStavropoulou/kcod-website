@@ -178,7 +178,7 @@ publications:
     year: 2022
     author: Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C.
     citation: Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C. (2022). Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities. Sustainability, 14(19), Article 12014. http://10.3390/su141912014
-    external_url: http://10.3390/su141912014
+    external_url: "http://10.3390/su141912014"
   
   - title: "On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium"
     category: "articles"

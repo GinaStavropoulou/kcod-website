@@ -8,7 +8,7 @@ publications:
     external_url: "https://repository.tudelft.nl/islandora/object/uuid%3Ad6018780-cd9c-4122-adb9-db40d3824326?collection=research"
   
   # 2018
-  - title: "Governancemodellen van open data bij gemeenten en de performantie van open data"
+  - title: "Governance modellen van open data bij gemeenten en de performantie van open data"
     category: "reports"
     year: 2018
     author: "Welle Donker, F., Vancauwenberghe, G., van Loenen, B."
@@ -47,35 +47,35 @@ publications:
     year: 2016
     author: "van Loenen, B., and Welle Donker, F."
     citation: "van Loenen, B., and Welle Donker, F. (2016). **De stand in opendataland 2016**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:b76cb0d8-e9b5-4125-8d7c-b452de1da0d0"
     
   - title: "Ontsluiten handelsregister met open data nader belicht"
     category: "reports"
     year: 2016
     author: "van Loenen, B., Korthals Altes, W., Groetelaers, D., and Welle Donker, F."
     citation: "van Loenen, B., Korthals Altes, W., Groetelaers, D., and Welle Donker, F. (2016). **Ontsluiten handelsregister met open data nader belicht**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:2c053185-fb19-49cb-a6db-55efdd567647"
     
   - title: "RIVM open data"
     category: "reports"
     year: 2016
     author: "van Loenen, B., Welle Donker, F., and Ploeger, H."
     citation: "van Loenen, B., Welle Donker, F., and Ploeger, H. (2016). **RIVM open data**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:c4df5c20-d2d8-4045-8bed-833163125f98"
     
   - title: "Open NETPOS nader belicht: Concept rapport"
     category: "reports"
     year: 2016
     author: "Ploeger, H., and van Loenen, B."
     citation: "Ploeger, H., and van Loenen, B. (2016). **Open NETPOS nader belicht: Concept rapport**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:585a3b9e-f8d1-40e3-80cf-c366a5e67e44"
     
   - title: "Geodata – brandstof van de zelfrijdende auto; verkenning naar de zelfrijdende auto en geo-informatie"
     category: "reports"
     year: 2016
     author: "de Boer, A., van Loenen, B., Frans Jorna, R., van de Velde, R."
     citation: "de Boer, A., van Loenen, B., Frans Jorna, R., van de Velde, R. (2016). **Geodata – brandstof van de zelfrijdende auto; verkenning naar de zelfrijdende auto en geo-informatie**. Geonovum."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:5282023a-afd4-4e48-9f18-694db068330f"
   
   # 2015
   - title: "Duurzame businessmodellen voor open data"
@@ -83,35 +83,35 @@ publications:
     year: 2015
     author: "Welle Donker, F. and van Loenen, B."
     citation: "Welle Donker, F. and van Loenen, B. (2015). **Duurzame businessmodellen voor open data**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:f91f4c7d-a767-499e-8982-a7fa674a257c"
     
   - title: "Effecten open data Liander 2014"
     category: "reports"
     year: 2015
     author: "Welle Donker, F. M., Bregt, A., Zweistra, M., and van Loenen, B."
     citation: "Welle Donker, F. M., Bregt, A., Zweistra, M., and van Loenen, B. (2015). **Effecten open data Liander 2014**. Delft: OTB – Onderzoek voor de gebouwde omgeving."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:a439f460-1354-4b14-a0a6-daee6e944d09"
     
   - title: "Open licences for ELF"
     category: "reports"
     year: 2015
     author: "van Loenen, B., and Welle Donker, F. M."
     citation: "van Loenen, B., and Welle Donker, F. M. (2015). **Open licences for ELF**. Delft: Delft University of Technology."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:63c73190-884b-49e7-aa30-237268db4c5d"
     
   - title: "Privacy op zijn plaats: Tussen willen weten en wetten"
     category: "reports"
     year: 2015
     author: "van Oortmarssen, A., de Vries, M., and van Loenen, B."
     citation: "van Oortmarssen, A., de Vries, M., and van Loenen, B. (2015). **Privacy op zijn plaats: Tussen willen weten en wetten**. Amersfoort: Geonovum."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:a36742d6-697a-44be-9e96-5f614f39c2cd"
     
-  - title: "Wettelijke evaluatie Kadaster, GI50/Eindrapport"
+  - title: "Werken aan maatschappelijke meerwaarde binnen de context van een open overheid; Wettelijke evaluatie Kadaster, GI50/Eindrapport"
     category: "reports"
     year: 2015
     author: "van Loenen, B., and Ploeger, H. D."
-    citation: "van Loenen, B., and Ploeger, H. D. (2015). **Wettelijke evaluatie Kadaster, GI50/Eindrapport**. Utrecht: Andersson Elffers Felix."
-    external_url:
+    citation: "van Loenen, B., and Ploeger, H. D. (2015). **Werken aan maatschappelijke meerwaarde binnen de context van een open overheid; Wettelijke evaluatie Kadaster, GI50/Eindrapport**. Utrecht: Andersson Elffers Felix."
+    external_url: "https://resolver.tudelft.nl/uuid:cd90fdd7-d25d-4700-9f11-543a0dd95bc1"
   
   # 2014
   - title: "Open data beoordelingsraamwerk: Deel: review kosten-batenanalyses"
@@ -119,42 +119,42 @@ publications:
     year: 2014
     author: "van Loenen, B., and Welle Donker, F. M."
     citation: "van Loenen, B., and Welle Donker, F. M. (2014). **Open data beoordelingsraamwerk: Deel: review kosten-batenanalyses**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:1b625050-db83-4457-ae4f-1c28ee9a862e"
     
   - title: "De stand in opendataland"
     category: "reports"
     year: 2014
     author: "van Loenen, B., and Welle Donker, F. M."
     citation: "van Loenen, B., and Welle Donker, F. M. (2014). **De stand in opendataland**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:7b425db6-2f9a-4be6-b5f0-3492055268d8"
     
   - title: "Open data and beyond II: Measuring the impact and modelling the data"
     category: "reports"
     year: 2014
     author: "Welle Donker, F. M., van Loenen, B., and Bregt, A."
     citation: "Welle Donker, F. M., van Loenen, B., and Bregt, A. (2014). **Open data and beyond II: Measuring the impact and modelling the data**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:20e12471-e417-43f1-9c44-2462111aaad3"
     
-  - title: "Second opinion open data beleid"
+  - title: "Second opinion open data beleid Rijkswaterstaat"
     category: "reports"
     year: 2014
     author: "van Loenen, B., and Welle Donker, F. M."
     citation: "van Loenen, B., and Welle Donker, F. M. (2014). **Second opinion open data beleid**. Delft: Kenniscentrum Open Data, TU Delft."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:927c6af9-8cb1-4220-9f0a-740a42f18dd6"
     
   - title: "LAPSI 2.0 thematic network: D2.1 Good practices collection on access to data"
     category: "reports"
     year: 2014
     author: "van Eechoud, M., van Velze, S., Caspers, M., Eskens, S.J., Leerssen, P., Austere, L., Broomfield, H., de Terwanghe, C., Ellis, J. Miska, M., Lubarda, M., Valero-Torrijos, J., Pardo-Lopez, M., Grothe, M., van Loenen, B., Vrecar, S. and de Vries, M."
     citation: "van Eechoud, M., van Velze, S., Caspers, M., Eskens, S.J., Leerssen, P., Austere, L., Broomfield, H., de Terwanghe, C., Ellis, J. Miska, M., Lubarda, M., Valero-Torrijos, J., Pardo-Lopez, M., Grothe, M., van Loenen, B., Vrecar, S. and de Vries, M. (2014). **LAPSI 2.0 thematic network: D2.1 Good practices collection on access to data**. s.l.: CIP."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:d9065c5b-cbe3-4bcf-bc55-0bd9f75d9782"
   
   - title: "LAPSI 2.0 thematic network: D2.2 Position paper access to data"
     category: "reports"
     year: 2014
     author: "van Eechoud, M., van Velze, S., Caspers, M., Eskens, S. J., Leerssen, P., Austere, L., Broomfield, H., de Terwanghe, C., Ellis, J., Hittmar, G., Morando, F., Lubarda, M., van Loenen, B., Sappa, C. and de Vries, M."
     citation: "van Eechoud, M., van Velze, S., Caspers, M., Eskens, S. J., Leerssen, P., Austere, L., Broomfield, H., de Terwanghe, C., Ellis, J., Hittmar, G., Morando, F., Lubarda, M., van Loenen, B., Sappa, C. and de Vries, M. (2014). **LAPSI 2.0 thematic network: D2.2 Position paper access to data**. s.l.: CIP."
-    external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:e83a171b-9218-4f1c-8f8c-abed89555831"
   
   # 2013
   - title: "Roadmap Kernregistraties. Van open naar trusted data"
@@ -162,26 +162,28 @@ publications:
     year: 2013
     author: "Kok, B.C., Crompvoets, J. and van Loenen, B."
     citation: "Kok, B.C., Crompvoets, J. and van Loenen, B. (2013). **Roadmap Kernregistraties. Van open naar trusted data**. Delft: Onderzoeksinstituut OTB: 38"
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:925f032b-0983-4784-8d9a-b76b8be9af89"" 
 
   - title: "De mogelijkheid van een open data beleid voor het Actueel Hoogtebestand Nederland nader onderzocht"
     category: "reports"
     year: 2013
     author: "Ploeger, H. D., and van Loenen, B."
     citation: "Ploeger, H. D., and van Loenen, B. (2013). **De mogelijkheid van een open data beleid voor het Actueel Hoogtebestand Nederland nader onderzocht**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:e106773c-33e6-4ad0-ae42-064761e36346"
+
   - title: "Advies open data beleid 1.0"
     category: "reports"
     year: 2013
     author: "van Loenen, B., and Ploeger, H. D."
     citation: "van Loenen, B., and Ploeger, H. D. (2013). **Advies open data beleid 1.0**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:07f2c8b4-b253-4206-a464-e1f3cf996792"
+  
   - title: "Monitoren van de effecten van open data voor Rijkswaterstaat: De (mogelijke) effecten van het NWB en het AHN als open data"
     category: "reports"
     year: 2013
     author: "Welle Donker, F. M., and van Loenen, B."
     citation: "Welle Donker, F. M., and van Loenen, B. (2013). **Monitoren van de effecten van open data voor Rijkswaterstaat: De (mogelijke) effecten van het NWB en het AHN als open data**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:5cd68aeb-6ee7-43e0-b46a-163cbab28e07"
 
   # 2012
   - title: "Open data and beyond. Exploring existing open data projects to prepare a successful open data strategy. Deelrapport organisatorische aspecten voor een succesvolle open data strategie"
@@ -189,49 +191,56 @@ external_url:
     year: 2012
     author: "Bregt, A.K., Castelein, W. and Dignum, V."
     citation: "Bregt, A.K., Castelein, W. and Dignum, V. (2012). **Open data and beyond. Exploring existing open data projects to prepare a successful open data strategy. Deelrapport organisatorische aspecten voor een succesvolle open data strategie**. Delft: Onderzoeksinstituut OTB: 14"
-external_url:
+    external_url:"" 
+
   - title: "Open data and beyond: exploring existing open data projects to prepare a successful open data strategy"
     category: "reports"
     year: 2012
     author: "Kulk, S., and van Loenen, B."
     citation: "Kulk, S., and van Loenen, B. (2012). **Open data and beyond: exploring existing open data projects to prepare a successful open data strategy**. Delft: Onderzoekstinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:bc9233d9-be64-495c-92ae-60e9cc104171"
+ 
   - title: "Open data and beyond: exploring existing open data projects to prepare a succesful open data strategy. Deelrapport: privacy"
     category: "reports"
     year: 2012
     author: "Kulk, S., and van Loenen, B."
     citation: "Kulk, S., and van Loenen, B. (2012). **Open data and beyond: exploring existing open data projects to prepare a succesful open data strategy. Deelrapport: privacy**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:d7115d87-1955-424b-9cc7-4be80fa000bf"
+ 
   - title: "Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport aansprakelijkheid"
     category: "reports"
     year: 2012
     author: "Kulk, S., van Loenen, B., and Ploeger, H. D."
     citation: "Kulk, S., van Loenen, B., and Ploeger, H. D. (2012). **Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport aansprakelijkheid**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:628fa356-aa55-40bd-a016-62a322f91eb3"
+
   - title: "Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport inleiding open data"
     category: "reports"
     year: 2012
     author: "van Loenen, B."
     citation: "van Loenen, B. (2012). **Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport inleiding open data**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:3c7e1986-5c3b-4dda-a9d5-ac3ddcc76a24"
+
   - title: "Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport: overige gronden die zich tegen open data kunnen verzetten"
     category: "reports"
     year: 2012
     author: "van Loenen, B."
     citation: "van Loenen, B. (2012). **Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport: overige gronden die zich tegen open data kunnen verzetten**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url: "https://resolver.tudelft.nl/uuid:934398a0-64a9-4a05-a3cf-cc528c803379"
+
   - title: "Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport instrumenten voor de monitoring van de impact van open data (bij Alliander)"
     category: "reports"
     year: 2012
     author: "van Loenen, B., and Bregt, A. K."
     citation: "van Loenen, B., and Bregt, A. K. (2012). **Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport instrumenten voor de monitoring van de impact van open data (bij Alliander)**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:5ce12fd7-9bf1-4fdc-bf07-6d90dd7abccf"
+
   - title: "Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport: randvoorwaarden van de Elektriciteitswet 1998 en de Gaswet voor open data"
     category: "reports"
     year: 2012
     author: "van Loenen, B., and Kulk, S."
     citation: "van Loenen, B., and Kulk, S. (2012). **Open data and beyond: exploring existing open data projects to prepare a successful open data strategy. Deelrapport: randvoorwaarden van de Elektriciteitswet 1998 en de Gaswet voor open data**. Delft: Onderzoeksinstituut OTB."
-external_url:
+    external_url:"https://resolver.tudelft.nl/uuid:75f2dca2-06fe-43d8-b217-d2bca38f2c25"
   # 2011
   - title: "Databeleid Rijkswaterstaat Deel: Hoofdwatersysteem; Een overzicht van de juridische kaders omtrent het omgaan met data"
     category: "reports"
@@ -239,3 +248,12 @@ external_url:
     author: "van Loenen, B., Welle Donker, F.M., Kulk, S., Groetelaers, D.A., de Jong, J. and Ploeger, H.D."
     citation: "van Loenen, B., Welle Donker, F.M., Kulk, S., Groetelaers, D.A., de Jong, J. and Ploeger, H.D. (2011). **Databeleid Rijkswaterstaat Deel: Hoofdwatersysteem; Een overzicht van de juridische kaders omtrent het omgaan met data**. Onderzoek in opdracht van Rijkswaterstaat."
     external_url: "https://repository.tudelft.nl/record/uuid:1ef3f623-6730-4f3a-a60b-9279965a08a6"
+
+- title: "Beschikbaar stellen van geo-informatie bij Rijkswaterstaat. Analyse van de (on)mogelijkheden van het op korte termijn vrij beschikbaar stellen van vier geo-data sets"
+    category: "reports"
+    year: 2006
+    author: "van Loenen, B., Welle Donker, FM., Ploeger, HD., & Zevenbergen, JA."
+    citation: "van Loenen, B., Welle Donker, FM., Ploeger, HD., & Zevenbergen, JA. (2006). **Beschikbaar stellen van geo- informatie bij Rijkswaterstaat. Analyse van de (on)mogelijkheden van het op korte termijn vrij beschikbaar stellen van vier geo-data sets.** Delft University of Technology, Onderzoeksinstituut OTB"
+    external_url:"https://resolver.tudelft.nl/uuid:85657ea6-d5b8-4dda-8d8b-b6155d671261"
+
+    

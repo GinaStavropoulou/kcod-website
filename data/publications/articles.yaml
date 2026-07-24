@@ -176,8 +176,8 @@ publications:
  -  title: "Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities."
     category: "articles"
     year: 2022
-    author: Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C.
-    citation: Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C. (2022). Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities. Sustainability, 14(19), Article 12014. http://10.3390/su141912014
+    author: "Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C."
+    citation: "Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C. (2022). **Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities.** Sustainability, 14(19), Article 12014. http://10.3390/su141912014"
     external_url: "http://10.3390/su141912014"
   
   - title: "On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium"
@@ -269,23 +269,27 @@ publications:
     year: 2020
     citation: "Mulder, A. E., Wiersma, G., and van Loenen, B. (2020). **Status of National Open Spatial Data Infrastructures: a Comparison Across Continents**. International Journal of Spatial Data Infrastructures Research, Vol.15, 56-87."
     external_url: "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498"
+  
   - title: "Towards an Open Data Research Ecosystem in Croatia"
     category: "articles"
     year: 2020
     citation: "van Loenen, B., Welle Donker, F., Zuiderwijk, A., Tutić, D., and Alexopoulos, C. (2020). **Towards an Open Data Research Ecosystem in Croatia**. Proceedings of Ongoing Research, Practitioners, Posters, Workshops, and Projects at EGOV-CeDEM-ePart 2020 co-located with the IFIP WG 8.5 International Conference EGOV-CeDEM-ePart 2020, pp. 59-70."
     external_url: "http://ceur-ws.org/Vol-2797/paper5.pdf"
+  
   - title: "A right to a rule: On the substance and essence of the fundamental right to personal data protection"
     category: "articles"
     year: 2020
     author: "Dalla Corte, L."
     citation: "Dalla Corte, L. (2020). **A right to a rule: On the substance and essence of the fundamental right to personal data protection**. In D. Hallinan, R. Leenes, S. Gutwirth, and P. De Hert (Eds.), Data protection and privacy: Data protection and democracy(pp. 27-58). Hart Publishing."
     external_url: "https://www.bloomsburyprofessional.com/uk/data-protection-and-privacy-9781509932740/"
+  
   - title: "Developing a spatial planning information package in ISO 19152 land administration domain model"
     category: "articles"
     year: 2020
     author: "Indrajit, A., van Loenen, B., Ploeger, H. and van Oosterom, P."
     citation: "Indrajit, A., van Loenen, B., Ploeger, H., and van Oosterom, P. (2020). **Developing a spatial planning information package in ISO 19152 land administration domain model**. Land Use Policy, 98, pp. 104-111."
-
+    external_url: "https://www.doi.org/10.1016/j.landusepol.2019.104111"
+    
   # 2019
   - title: "Assessing Spatial Information Themes in the Spatial Information Infrastructure for Participatory Urban Planning Monitoring: Indonesian Cities"
     category: "articles"
@@ -293,12 +297,14 @@ publications:
     author: "Indrajit, A., van Loenen, B., and van Oosterom, P.J.M."
     citation: "Indrajit, A., van Loenen, B., and van Oosterom, P.J.M. (2019). **Assessing Spatial Information Themes in the Spatial Information Infrastructure for Participatory Urban Planning Monitoring: Indonesian Cities**. ISPRS Int. J. Geo-Inf. 2019, 8, 305"
     external_url: "https://repository.tudelft.nl/islandora/object/uuid:bb5f1ecc-bcb4-421a-8977-4b4a798a2ccc?collection=research"
+  
   - title: "Governing Open Spatial Data Infrastructures: The Case of the United Kingdom"
     category: "articles"
     year: 2019
     author: "Vancauwenberghe, G. and van Loenen, B."
     citation: "Vancauwenberghe, G. and van Loenen, B. (2019). **Governing Open Spatial Data Infrastructures: The Case of the United Kingdom**. In: Governance Models for Creating Public Value in Open Data Initiatives. Rodriquez Boliver, M. P., Bwalya, K. J. and Reddick, C. G. (eds.). Cham, Switzerland: Springer, p. 33-54 21 p. (Public Administration and Information Technology; vol. 31)"
     external_url: "https://www.springer.com/gp/book/9783030144456"
+  
   - title: "Implementation of Spatial Planning Package for Construction of an LADM Country Profile: Reducing Asymmetric Access to Information of RRRs in Indonesia"
     category: "articles"
     year: 2019

@@ -1,28 +1,28 @@
 publications:
 
-#2025
-- title: "Decoding Open Data Intermediation Business Models: More than Just a Bridge"
-  category: "book-chapters"
-  year: 2025
-  author: "Shaharudin, A."
-  citation: "Shaharudin, A. (2025). **Decoding Open Data Intermediation Business Models: More than Just a Bridge.** [Dissertation (TU Delft), Delft University of Technology]. https://doi.org/10.71690/abe.2025.22"
-  external_url: "https://doi.org/10.71690/abe.2025.22"
+  # 2025
+  - title: "Decoding Open Data Intermediation Business Models: More than Just a Bridge"
+    category: "book-chapters"
+    year: 2025
+    author: "Shaharudin, A."
+    citation: "Shaharudin, A. (2025). **Decoding Open Data Intermediation Business Models: More than Just a Bridge.** [Dissertation (TU Delft), Delft University of Technology]. https://doi.org/10.71690/abe.2025.22"
+    external_url: "https://doi.org/10.71690/abe.2025.22"
 
-#2022
-- title: "Optimising the use of National CORS data in the context of Thailand: policy outlooks from a data ecosystem perspective."
-  category: "book-chapters"
-  year: 2022
-  author: "Supinajaroen, W."
-  citation: "Supinajaroen, W. (2022). **Optimising the use of National CORS data in the context of Thailand: policy outlooks from a data ecosystem perspective.** [Dissertation (TU Delft), Delft University of Technology]."
-  external_url: "https://doi.org/10.7480/abe.2022.18"
+  # 2022
+  - title: "Optimising the use of National CORS data in the context of Thailand: policy outlooks from a data ecosystem perspective."
+    category: "book-chapters"
+    year: 2022
+    author: "Supinajaroen, W."
+    citation: "Supinajaroen, W. (2022). **Optimising the use of National CORS data in the context of Thailand: policy outlooks from a data ecosystem perspective.** [Dissertation (TU Delft), Delft University of Technology]."
+    external_url: "https://doi.org/10.7480/abe.2022.18"
 
-#2021
-- title: "4d open spatial information infrastructure: Participatory urban plan monitoring in indonesian cities"
-  category: "book-chapters"
-  year: 2021
-  author: "Indrajit, A."
-  citation: "Indrajit, A. (2021). **4d open spatial information infrastructure: Participatory urban plan monitoring in indonesian cities.**[Dissertation (TU Delft), Delft University of Technology]. A+BE | Architecture and the Built Environment.."
-  external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/93901745/Dissertation_Agung_Indrajit.pdf" 
+  # 2021
+  - title: "4d open spatial information infrastructure: Participatory urban plan monitoring in indonesian cities"
+    category: "book-chapters"
+    year: 2021
+    author: "Indrajit, A."
+    citation: "Indrajit, A. (2021). **4d open spatial information infrastructure: Participatory urban plan monitoring in indonesian cities.**[Dissertation (TU Delft), Delft University of Technology]. A+BE | Architecture and the Built Environment.."
+    external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/93901745/Dissertation_Agung_Indrajit.pdf"
 
   # 2020
   - title: "Safeguarding data protection in an open data world"
@@ -31,7 +31,7 @@ publications:
     author: "Dalla Corte, L."
     citation: "Dalla Corte, L. (2020). **Safeguarding data protection in an open data world; On the idea of balancing open dataand data protection in the development of the smart city environment**. Dissertation."
     external_url: "https://research.tilburguniversity.edu/en/publications/safeguarding-data-protection-in-an-open-data-world-on-the-idea-of/"
- 
+
   # 2019
   - title: "Governing Open Spatial Data Infrastructures: The Case of the United Kingdom"
     category: "book-chapters"
@@ -43,9 +43,8 @@ publications:
     year: 2019
     author: "van Loenen, B., Kulk, S., Grothe, M. and Rovers, A."
     citation: "van Loenen, B., Kulk, S., Grothe, M. and Rovers, A. (2019). **Open geographic data in the Netherlands**. In: Quality of Life: Legal and Tax systems to implement Sustainable Development Goals (SDGS) in Japan and the Netherlands. Shiba, Y., Oosugi, M. and Goto, K. (eds.). Japan: ITSC Co., p. 206-219 14 p."
-  
-  #2018
-  
+
+  # 2018
   - title: "Open Data Exposed"
     category: "book-chapters"
     year: 2018
@@ -121,13 +120,14 @@ publications:
     year: 2018
     author: "Vandenbroucke, D., G. Vancauwenberghe, A. Dangol, and F. Pignatelli"
     citation: "Vandenbroucke, D., G. Vancauwenberghe, A. Dangol, and F. Pignatelli (2018). **Performance Measurement of Location Enabled e-Government Processes: A Case Study on Traffic Safety Monitoring**. Chapter 17 in J. Brown Kruse, J. Crompvoets, and F. Pearlman (eds.) GEOValue; The Socioeconomic Value of Geospatial Information. Boca Raton (US): CRC Press, pp. 297-316"
- 
+
   # 2017
   - title: "Governance of open spatial data infrastructures in Europe"
     category: "book-chapters"
     year: 2017
     author: "Vancauwenberghe, G. and van Loenen, B."
     citation: "Vancauwenberghe, G. and van Loenen, B. (2017). **Governance of open spatial data infrastructures in Europe**. In: The Social Dynamics of Open Data. François van Schalkwyk, Stefaan G Verhulst, Gustavo Magalhaes, Juan Pane, Johanna Walker (eds.). African Minds, pp. 63-88."
+
   # 2016
   - title: "From access to re-use: a user's perspective on public sector information availability"
     category: "book-chapters"
@@ -140,6 +140,7 @@ publications:
     year: 2016
     author: "Nushi, B., van Loenen, B. and Crompvoets, J."
     citation: "Nushi, B., van Loenen, B. and Crompvoets, J. (2016). **Blueprint for the STIG1.0: Defining core SDI principles and setting up performance indicators**. In D. Coleman, A. Rajabifard, and J. Crompvoets (Eds.), Spatial Enablement in a Smart World. (pp. 29-51). Gilbertville (USA): GSDI Association Press."
+
   # 2012
   - title: "The STIG: framework for the stress – test for infrastructures of geographic information"
     category: "book-chapters"

@@ -2,7 +2,6 @@ publications:
   # 2026
   - title: "Business model archetypes of open data intermediaries; Empirical insights from practice"
     category: "articles"
-    
     year: 2026
     author: "Shaharudin, A., van Loenen, B., Janssen, M."
     citation: "Shaharudin, A., van Loenen, B., Janssen, M., (2026). Business model archetypes of open data intermediaries: Empirical insights from practice. Electronic Markets,36(1), Article 19."
@@ -15,35 +14,30 @@ publications:
     author: "Shaharudin, A."
     citation: "Shaharudin, A. (2025). **Decoding open data intermediation business models: More than just a bridge**. PhD dissertation, Delft University of Technology (TU Delft)."
     external_url: "https://doi.org/10.71690/abe.2025.22"
-
   - title: "Slimme kaarten op de basisschool: Ervaringen uit het DIRECTORS-project."
     category: "articles"
     year: 2025
     author: "Van Loenen, B., Ploeger, H. D., Welle Donker, F. M., Jonker, T., Kuveždić Divjak, A., & Bosnic, I."
     citation: "Van Loenen, B., Ploeger, H. D., Welle Donker, F. M., Jonker, T., Kuveždić Divjak, A., & Bosnic, I. (2025). **Slimme kaarten op de basisschool: Ervaringen uit het DIRECTORS-project**. Geografie, 25(9), 34-37."
     external_url: "https://resolver.tudelft.nl/uuid:09df4f17-1b5c-4191-8ff2-d4b833ecbff5"
-
   - title: "Developing an Open Data Intermediation Business Model: Insights From the Case of Esri"
     category: "articles"
     year: 2025
     author: "Shaharudin, A., van Loenen, B., and Janssen, M."
     citation: "Shaharudin, A., van Loenen, B., and Janssen, M. (2025). **Developing an Open Data Intermediation Business Model: Insights From the Case of Esri**. Transactions in GIS, 29(1), Article e13304."
     external_url: "https://doi.org/10.1111/tgis.13304"
-
   - title: "From Data Governance to Data Ethics: Invoking Epistemological Plurality for Enabling a Critical Turn in ICT4D"
     category: "articles"
     year: 2025
     author: "Calzati, S."
     citation: "Calzati, S. (2025). **From Data Governance to Data Ethics: Invoking Epistemological Plurality for Enabling a Critical Turn in ICT4D**. In A. Akbari, and S. Masiero (Eds.), Critical ICT4D (Information and Communication Technologies for Development) (pp. 139-156). Routledge – Taylor and Francis Group."
     external_url: "https://doi.org/10.4324/9781003395966-12"
-
   - title: "Promoting Digital Data Literacy in Primary Education: First Lessons from the DIRECTORS Project"
     category: "articles"
     year: 2025
     author: "Kuveždić Divjak, A., Welle Donker, F. M., Bosnić, I. & van Loenen, B. "
     citation: "Kuveždić Divjak, A., Welle Donker, F. M., Bosnić, I. & van Loenen, B. (2025). **Promoting Digital Data Literacy in Primary Education: First Lessons from the DIRECTORS Project**, 2025 MIPRO 48th ICT and Electronics Convention, p. 1-6. doi: 10.1109/MIPRO65660.2025.11131845."
     external_url: "https://doi.org/10.1109/MIPRO65660.2025.11131845"
-
   - title: "Integrating Engineering Principles in Data Literacy Workshops for Primary Education"
     category: "articles"
     year: 2025
@@ -58,21 +52,18 @@ publications:
     author: "Shaharudin, A., López Reyes, M. E., Pantazatou, K., Storm, I., Larsen, B., van Loenen, B., and Kronborg Mazzoli, U."
     citation: "Shaharudin, A., López Reyes, M. E., Pantazatou, K., Storm, I., Larsen, B., van Loenen, B., and Kronborg Mazzoli, U. (2024). **Workshop on Data Ecosystems and Spatial Data Infrastructure – Facilitators for Data Value Creation**. EuroSDR/European Spatial Data Research. Joint workshop of Danish Agency for Data Supply and Infrastructure, KU Leuven, TU Delft, IGN France, DAFAGO and EuroSDR, December 12th-13th 2023 – Copenhagen, Denmark."
     external_url: "http://resolver.tudelft.nl/uuid:ff64a530-96e0-419f-a866-ecad7712374b"
-  
   - title: "Exploring the contributions of open data intermediaries for a sustainable open data ecosystem"
     category: "articles"
     year: 2024
     author: "Shaharudin, A., van Loenen, B., and Janssen, M."
     citation: "Shaharudin, A., van Loenen, B., and Janssen, M. (2024). **Exploring the contributions of open data intermediaries for a sustainable open data ecosystem**. Data and Policy, 6, Article e56."
-    external_url: "https://doi.org/10.1017/dap.2024.63"
- 
+    external_url: "https://doi.org/10.1017/dap.2024.63" 
   - title: "Problem-solving? No, problem-opening! A method to reframe and teach data ethics as a transdisciplinary endeavour"
     category: "articles"
     year: 2024
     author: "Calzati, S., and Ploeger, H."
     citation: "Calzati, S., and Ploeger, H. (2024). **Problem-solving? No, problem-opening! A method to reframe and teach data ethics as a transdisciplinary endeavour**. Big Data and Society, 11(3)."
-    external_url: "https://doi.org/10.1177/20539517241270687"
-  
+    external_url: "https://doi.org/10.1177/20539517241270687"  
   - title: "Quantum Ecology: Why and How New Information Technologies Will Reshape Societies"
     category: "articles"
     year: 2024
@@ -86,92 +77,79 @@ publications:
     year: 2023
     author: "Duenas-Cid, D., and Calzati, S."
     citation: "Duenas-Cid, D., and Calzati, S. (2023). **Dis/Trust and data-driven technologies**. Internet Policy Review, 12(4)."
-    external_url: "https://doi.org/10.14763/2023.4.1727"
- 
+    external_url: "https://doi.org/10.14763/2023.4.1727" 
   - title: "No longer hype, not yet mainstream? Recalibrating city digital twins' expectations and reality: a case study perspective"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **No longer hype, not yet mainstream? Recalibrating city digital twins' expectations and reality: a case study perspective**. Frontiers in Big Data, 6."
-    external_url: "https://www.frontiersin.org/articles/10.3389/fdata.2023.1236397/full"
-  
+    external_url: "https://www.frontiersin.org/articles/10.3389/fdata.2023.1236397/full"  
   - title: "Preface to the Proceedings of the 26th AGILE Conference on Geographic Information Science"
     category: "articles"
     year: 2023
     author: "van Oosterom, P., Ploeger, H., Mansourian, A., Scheider, S., Lemmens, R., and van Loenen, B."
     citation: "van Oosterom, P., Ploeger, H., Mansourian, A., Scheider, S., Lemmens, R., and van Loenen, B. (2023). **Preface to the Proceedings of the 26th AGILE Conference on Geographic Information Science**. GIScience Series, 4(1): 1-2."
     external_url: "https://doi.org/10.5194/agile-giss-4-1-2023"
-  
   - title: "Shaping a Data Commoning Polity: Prospects and Challenges of a European Digital Sovereignty"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **Shaping a Data Commoning Polity: Prospects and Challenges of a European Digital Sovereignty**. In: Edelmann, N., Danneels, L., Novak, AS., Panagiotopoulos, P., Susha, I. (eds) Electronic Participation. ePart 2023. Lecture Notes in Computer Science, vol 14153. Springer, Cham."
     external_url: "https://doi.org/10.1007/978-3-031-41617-0_10"
-  
   - title: "Beyond federated data: A data commoning proposition for the EU's citizen-centric digital strategy"
     category: "articles"
     year: 2023
     author: "Calzati, S. and van Loenen, B."
     citation: "Calzati, S. and van Loenen, B. (2023). **Beyond federated data: A data commoning proposition for the EU's citizen-centric digital strategy**. AI and Society."
     external_url: "https://doi.org/10.1007/s00146-023-01743-9"
-  
   - title: "Towards a citizen- and citizenry-centric digitalization of the urban environment: Urban digital twinning as commoning"
     category: "articles"
     year: 2023
     author: "Calzati, S. and van Loenen, B."
     citation: "Calzati, S. and van Loenen, B. (2023). **Towards a citizen- and citizenry-centric digitalization of the urban environment: Urban digital twinning as commoning**. Digital Society, 2, 38."
     external_url: "https://doi.org/10.1007/s44206-023-00064-0"
-  
   - title: "A fourth way to the digital transformation: The data republic as a fair data ecosystem"
     category: "articles"
     year: 2023
     author: "Calzati, S., and Van Loenen, B."
     citation: "Calzati, S., and Van Loenen, B. (2023). **A fourth way to the digital transformation: The data republic as a fair data ecosystem**. Data and Policy, 5, E21."
     external_url: "https://doi.org/10.1017/dap.2023.18"
- 
   - title: "Active teaching and learning in GI sciences: lessons learned from the BSc. Course Open Urban Data Governance"
     category: "articles"
     year: 2023
     author: "van Loenen, B., Ploeger, H., van Everdingen, N., Cuervo, K., Monahan, J., Pille, J., and Verhaeghe, C."
     citation: "van Loenen, B., Ploeger, H., van Everdingen, N., Cuervo, K., Monahan, J., Pille, J., and Verhaeghe, C. (2023). **Active teaching and learning in GI sciences: lessons learned from the BSc. Course Open Urban Data Governance**. AGILE GIScience Ser., 4, 14."
     external_url: "https://doi.org/10.5194/agile-giss-4-14-2023"
- 
   - title: "From Big Data Epistemology to AI Politics"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **From Big Data Epistemology to AI Politics**. Journal of Information Communication and Ethics in Society."
     external_url: "https://doi.org/10.1108/JICES-12-2022-0108"
-
   - title: "Stimulating (Open) Data Literacy at the Basis of Society: Approaches for Active Learning and Teaching to Young Children"
     category: "articles"
     year: 2023
     author: "Bosnić, I., Kuveždić Divjak, A. and van Loenen, B."
     citation: "Bosnić, I., Kuveždić Divjak, A. and van Loenen, B. (2023). **Stimulating (Open) Data Literacy at the Basis of Society: Approaches for Active Learning and Teaching to Young Children**. Croatian Society for Information, Communication and Electronic Technology – MIPRO: International Convention on Information and Communication Technology, Electronics and Microelectronics, p. 1-7."
     external_url: "http://www.mipro.hr/Dokumentim/Zbornici/tabid/196/language/hr-HR/Default.aspx"
- 
   - title: "The Social Imaginaries on Governance through Data: Q-methodological Analysis of Data Professionals' Views in the Field of Mobility"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **The Social Imaginaries on Governance through Data: Q-methodological Analysis of Data Professionals' Views in the Field of Mobility**. Futures."
     external_url: "https://www.sciencedirect.com/science/article/pii/S0016328723001027"
-
   - title: "Assessment of the Croatian Open Data Portal Using User-Oriented Metrics"
     category: "articles"
     year: 2023
     author: "Miletić A, Kuveždić Divjak A, Welle Donker F."
     citation: "Miletić A, Kuveždić Divjak A, Welle Donker F. (2023). **Assessment of the Croatian Open Data Portal Using User-Oriented Metrics**. ISPRS International Journal of Geo-Information, 12(5):185."
     external_url: "https://doi.org/10.3390/ijgi12050185"
-
   - title: "An ethics assessment list for geoinformation ecosystems: revisiting the integrated geospatial information framework of the United Nations"
     category: "articles"
     year: 2023
     author: "Calzati, S., and van Loenen, B."
     citation: "Calzati, S., and van Loenen, B. (2023). **An ethics assessment list for geoinformation ecosystems: revisiting the integrated geospatial information framework of the United Nations**. International Journal of Digital Earth, 16:1, 1418-1438."
     external_url: "http://10.0.4.56/17538947.2023.2200041"
-
   - title: "Huawei knowledge transfer in Africa: Corporate communication and users' responses on social networks"
     category: "articles"
     year: 2023
@@ -184,58 +162,50 @@ publications:
     category: "articles"
     year: 2022
     author: "Shaharudin, A., Van Loenen, B., and Janssen, M."
-    citation: "Shaharudin, A., Van Loenen, B., and Janssen, M. (2022). **Towards a Common Definition of Open Data Intermediaries**. Digital Government: Research and Practice."
-    external_url: "https://dl.acm.org/doi/pdf/10.1145/3585537"
-    
+    citation: "Shaharudin, A., Van Loenen, B., and Janssen, M. (2022). **Towards a Common Definition of Open Data Intermediaries**. Digital Government: Research and Practice, Vol. 4, No. 2, Article 6, https://dl.acm.org/doi/pdf/10.1145/3585537"
+    external_url: "https://dl.acm.org/doi/pdf/10.1145/3585537"   
   - title: "Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities."
     category: "articles"
     year: 2022
     author: "Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C."
     citation: "Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C. (2022). **Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities.** Sustainability, 14(19), Article 12014. http://10.3390/su141912014"
-    external_url: "http://10.3390/su141912014"
-  
+    external_url: "http://10.3390/su141912014"  
   - title: "On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium"
     category: "articles"
     year: 2022
     author: "Calzati, S., Santos, F., and Casarola, G."
     citation: "Calzati, S., Santos, F., and Casarola, G. (2022). **On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium**. Frontiers in Sustainable Cities, 4."
-    external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/124941294/frsc_04_934604.pdf"
-  
+    external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/124941294/frsc_04_934604.pdf" 
   - title: "Identifying and Overcoming the Barriers Towards Open Data of Public Undertakings"
     category: "articles"
     year: 2022
     author: "Boone, F., and van Loenen, B."
     citation: "Boone, F., and van Loenen, B. (2022). **Identifying and Overcoming the Barriers Towards Open Data of Public Undertakings**. Interdisciplinary Description of Complex Systems: INDECS, 20(2), 96-111."
     external_url: "https://doi.org/10.7906/indecs.20.2.3"
-
   - title: "Open National CORS data ecosystems: A cross-jurisdictional comparison"
     category: "articles"
     year: 2022
     author: "Supinajaroen, W., van Loenen, B., and Korthals Altes, W."
     citation: "Supinajaroen, W., van Loenen, B., and Korthals Altes, W. (2022). **Open National CORS data ecosystems: A cross-jurisdictional comparison**. Interdisciplinary Description of Complex Systems: INDECS, 20(2), 78-95."
     external_url: "https://hrcak.srce.hr/clanak/402092"
-
   - title: "Showcase of active learning and teaching practices in spatial data infrastructure (SDI) education"
     category: "articles"
     year: 2022
     author: "Welle Donker, F., van Loenen, B., Keßler, C., Küppers, N., Panek, M., Mansourian, A., Zhou, P., Vancauwenberghe, G., Tomić, H., and Kević, K. "
     citation: "Welle Donker, F., van Loenen, B., Keßler, C., Küppers, N., Panek, M., Mansourian, A., Zhou, P., Vancauwenberghe, G., Tomić, H., and Kević, K. (2022). **Showcase of active learning and teaching practices in spatial data infrastructure (SDI) education**. AGILE: GIScience Series, 3, 1-11."
     external_url: "https://agile-giss.copernicus.org/articles/3/18/2022/agile-giss-3-18-2022.pdf"
-
   - title: "(Non) negotiable spaces of algorithmic governance: Perceptions on the Ubenwa health app as a 'relocated' solution"
     category: "articles"
     year: 2022
     author: "Masso, A., Chukwu, M., and Calzati, S."
     citation: "Masso, A., Chukwu, M., and Calzati, S. (2022). **(Non) negotiable spaces of algorithmic governance: Perceptions on the Ubenwa health app as a 'relocated' solution**. new media and society, 24(4), 845-865."
     external_url: "https://journals.sagepub.com/doi/pdf/10.1177/14614448221079027"
-
   - title: "Federated data as a commons: a third way to subject-centric and collective-centric approaches to data epistemology and politics"
     category: "articles"
     year: 2022
     author: "Calzati, S."
     citation: "Calzati, S. (2022). **Federated data as a commons: a third way to subject-centric and collective-centric approaches to data epistemology and politics**. Journal of Information, Communication and Ethics in Society."
     external_url: "https://www.emerald.com/insight/content/doi/10.1108/JICES-09-2021-0097/full/html"
-
   - title: "Towards Digital Innovation: Stakeholder Interactions in Agricultural Data Ecosystem in Croatia"
     category: "articles"
     year: 2022
@@ -250,27 +220,23 @@ publications:
     author: "Bosnić, I., Čavrak, I., and van Loenen, B."
     citation: "Bosnić, I., Čavrak, I., and van Loenen, B. (2021). **Flipped Classroom Real-World Activities for Learning Open Computing Concepts**. International Journal of Emerging Technologies in Learning (iJET), 17(7), 293-312."
     external_url: "https://doi.org/10.3991/ijet.v17i07.25767"
-
   - title: "4D Musrenbang: Designing User Experience (UX) to Support Public Participation in Spatial Planning for Indonesia"
     category: "articles"
     year: 2021
     author: "Nur An Nisa Milyana, N. A., van Loenen, B., Korthals Altes, W. K., and Ploeger, H. D."
     citation: "Nur An Nisa Milyana, N. A., van Loenen, B., Korthals Altes, W. K., and Ploeger, H. D. (2021). **4D Musrenbang: Designing User Experience (UX) to Support Public Participation in Spatial Planning for Indonesia**. In Proceedings of the 7th International FIG Workshop on 3D Cadastres (Virtual/online event). International Federation of Surveyors (FIG)."
     external_url: "https://repository.tudelft.nl/islandora/object/uuid:f1c6655b-4b0a-43a0-bb6d-90357d12ecc2"
-
   - title: "Towards value-creating and sustainable open data ecosystems: A comparative case study and a research agenda"
     category: "articles"
     year: 2021
     author: "van Loenen, B., Zuiderwijk, A. ., Vancauwenberghe, G., Lopez-Pellicer, F. J., Mulder, I., Alexopoulos, C. ., Magnussen, R., Saddiqa, M., Dulong de Rosnay, M., Crompvoets, J., Polini, A., Re, B., and Casiano Flores, C."
     citation: "van Loenen, B., Zuiderwijk, A., Vancauwenberghe, G., Lopez-Pellicer, F. J., Mulder, I., Alexopoulos, C., Magnussen, R., Saddiqa, M., Dulong de Rosnay, M., Crompvoets, J., Polini, A., Re, B., and Casiano Flores, C. (2021). **Towards value-creating and sustainable open data ecosystems: A comparative case study and a research agenda**. JeDEM – EJournal of EDemocracy and Open Government, 13(2), 1-27."
     external_url: "https://doi.org/10.29379/jedem.v13i2.644"
- 
   - title: "Development and Usability Testing of the Participatory Urban Plan Monitoring Prototype for Indonesian Smart Cities Based on Digital Triplets"
     category: "articles"
     year: 2021
     citation: "Indrajit, A., Yusa, M. H., van Loenen, B., van Oosterom, P., and Suwardhi, D. (2021). **Development and Usability Testing of the Participatory Urban Plan Monitoring Prototype for Indonesian Smart Cities Based on Digital Triplets**. FIG Working Week Proceedings (peer reviewed)."
     external_url: "https://fig.net/resources/proceedings/fig_proceedings/fig2021/papers/ws_03.4/WS_03.4_indrajit_yusa_et_al_11023.pdf"
- 
   - title: "Implementation of the spatial plan information package for improving ease of doing business in Indonesian cities"
     category: "articles"
     year: 2021
@@ -282,21 +248,18 @@ publications:
     category: "articles"
     year: 2020
     citation: "Mulder, A. E., Wiersma, G., and van Loenen, B. (2020). **Status of National Open Spatial Data Infrastructures: a Comparison Across Continents**. International Journal of Spatial Data Infrastructures Research, Vol.15, 56-87."
-    external_url: "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498"
-  
+    external_url: "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498" 
   - title: "Towards an Open Data Research Ecosystem in Croatia"
     category: "articles"
     year: 2020
     citation: "van Loenen, B., Welle Donker, F., Zuiderwijk, A., Tutić, D., and Alexopoulos, C. (2020). **Towards an Open Data Research Ecosystem in Croatia**. Proceedings of Ongoing Research, Practitioners, Posters, Workshops, and Projects at EGOV-CeDEM-ePart 2020 co-located with the IFIP WG 8.5 International Conference EGOV-CeDEM-ePart 2020, pp. 59-70."
     external_url: "http://ceur-ws.org/Vol-2797/paper5.pdf"
-  
   - title: "A right to a rule: On the substance and essence of the fundamental right to personal data protection"
     category: "articles"
     year: 2020
     author: "Dalla Corte, L."
     citation: "Dalla Corte, L. (2020). **A right to a rule: On the substance and essence of the fundamental right to personal data protection**. In D. Hallinan, R. Leenes, S. Gutwirth, and P. De Hert (Eds.), Data protection and privacy: Data protection and democracy(pp. 27-58). Hart Publishing."
     external_url: "https://www.bloomsburyprofessional.com/uk/data-protection-and-privacy-9781509932740/"
-  
   - title: "Developing a spatial planning information package in ISO 19152 land administration domain model"
     category: "articles"
     year: 2020
@@ -311,14 +274,12 @@ publications:
     author: "Indrajit, A., van Loenen, B., and van Oosterom, P.J.M."
     citation: "Indrajit, A., van Loenen, B., and van Oosterom, P.J.M. (2019). **Assessing Spatial Information Themes in the Spatial Information Infrastructure for Participatory Urban Planning Monitoring: Indonesian Cities**. ISPRS Int. J. Geo-Inf. 2019, 8, 305"
     external_url: "https://repository.tudelft.nl/islandora/object/uuid:bb5f1ecc-bcb4-421a-8977-4b4a798a2ccc?collection=research"
-  
   - title: "Governing Open Spatial Data Infrastructures: The Case of the United Kingdom"
     category: "articles"
     year: 2019
     author: "Vancauwenberghe, G. and van Loenen, B."
     citation: "Vancauwenberghe, G. and van Loenen, B. (2019). **Governing Open Spatial Data Infrastructures: The Case of the United Kingdom**. In: Governance Models for Creating Public Value in Open Data Initiatives. Rodriquez Boliver, M. P., Bwalya, K. J. and Reddick, C. G. (eds.). Cham, Switzerland: Springer, p. 33-54 21 p. (Public Administration and Information Technology; vol. 31)"
     external_url: "https://www.springer.com/gp/book/9783030144456"
-  
   - title: "Implementation of Spatial Planning Package for Construction of an LADM Country Profile: Reducing Asymmetric Access to Information of RRRs in Indonesia"
     category: "articles"
     year: 2019

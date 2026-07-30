@@ -36,6 +36,20 @@ publications:
     author: "Calzati, S."
     citation: "Calzati, S. (2025). **From Data Governance to Data Ethics: Invoking Epistemological Plurality for Enabling a Critical Turn in ICT4D**. In A. Akbari, and S. Masiero (Eds.), Critical ICT4D (Information and Communication Technologies for Development) (pp. 139-156). Routledge – Taylor and Francis Group."
     external_url: "https://doi.org/10.4324/9781003395966-12"
+
+  - title: "Promoting Digital Data Literacy in Primary Education: First Lessons from the DIRECTORS Project"
+    category: "articles"
+    year: 2025
+    author: "Kuveždić Divjak, A., Welle Donker, F. M., Bosnić, I. & van Loenen, B. "
+    citation: "Kuveždić Divjak, A., Welle Donker, F. M., Bosnić, I. & van Loenen, B. (2025). **Promoting Digital Data Literacy in Primary Education: First Lessons from the DIRECTORS Project**, 2025 MIPRO 48th ICT and Electronics Convention, p. 1-6. doi: 10.1109/MIPRO65660.2025.11131845."
+    external_url: "https://doi.org/10.1109/MIPRO65660.2025.11131845"
+
+  - title: "Integrating Engineering Principles in Data Literacy Workshops for Primary Education"
+    category: "articles"
+    year: 2025
+    author: "Bosnić, I., Kuveždić Divjak, A., Welle Donker, F. M. & van Loenen, B. "
+    citation: "Bosnić, I., Kuveždić Divjak, A., Welle Donker, F. M. & van Loenen, B. (2025). Integrating Engineering Principles in Data Literacy Workshops for Primary Education, p.1-6. doi: 10.1109/MIPRO65660.2025.11132082."
+    external_url: "https://doi.org/10.1109/MIPRO65660.2025.11132082"
   
   # 2024
   - title: "Workshop on Data Ecosystems and Spatial Data Infrastructure – Facilitators for Data Value Creation"

@@ -411,8 +411,8 @@ publications:
     category: "articles"
     year: 2016
     author: "Welle Donker, F., and van Loenen, B."
-    citation: "Welle Donker, F., and van Loenen, B. (2016). **How to assess the success of the open data ecosystem? International Journal of Digital Earth: a new journal for a new vision**, 1-23. DOI: http://dx.doi.org/10.1080/17538947.2016.1224938."
-    external_url: "https://pure.tudelft.nl/portal/en/publications/how-to-assess-the-success-of-the-open-data-ecosystem(375b9d36-3001-46db-aa2f-e442fc81562b).html"
+    citation: "Welle Donker, F., and van Loenen, B. (2016). **How to assess the success of the open data ecosystem?**, 1-23. DOI: http://dx.doi.org/10.1080/17538947.2016.1224938."
+    external_url: "http://dx.doi.org/10.1080/17538947.2016.1224938"
   - title: "Open Data and Beyond"
     category: "articles"
     year: 2016
@@ -422,9 +422,9 @@ publications:
   - title: "Sustainable Business Models for Public Sector Open Data Providers"
     category: "articles"
     year: 2016
-    author: "Welle Donker, F., van Loenen, B., and Bregt, A. K."
-    citation: "Welle Donker, F., van Loenen, B., and Bregt, A. K. (2016). **Sustainable Business Models for Public Sector Open Data Providers**. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61."
-    external_url: "https://pure.tudelft.nl/portal/en/publications/sustainable-business-models-for-public-sector-open-data-providers(3df7a32d-d574-4a65-86ab-101ec95e293c).html"
+    author: "Welle Donker, F., van Loenen, B."
+    citation: "Welle Donker, F., van Loenen, B.(2016). **Sustainable Business Models for Public Sector Open Data Providers**. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61."
+    external_url: "https://resolver.tudelft.nl/uuid:3df7a32d-d574-4a65-86ab-101ec95e293c"
   # 2015
   - title: "The STIG: A new SDI assessment method"
     category: "articles"

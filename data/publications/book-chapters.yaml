@@ -52,7 +52,8 @@ publications:
 
   # 2018
   - title: "Open Data Exposed"
-    category: "book-chapters"year: 2018
+    category: "book-chapters"
+    year: 2018
     author: "van Loenen, B. (ed.), Vancauwenberghe, G. (ed.) and Crompvoets, J. (ed.)"
     citation: "van Loenen, B. (ed.), Vancauwenberghe, G. (ed.) and Crompvoets, J. (ed.) (2018). **Open Data Exposed**. The Hague: TMC Asser Press. 290 p. (Information Technology and Laws Series; vol. 30). DOI: 10.1007/978-94-6265-261-3"
   - title: "Open Data Exposed (Chapter 1-10)"

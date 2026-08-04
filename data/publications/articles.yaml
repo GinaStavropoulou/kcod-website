@@ -44,7 +44,7 @@ publications:
     author: "Bosnić, I., Kuveždić Divjak, A., Welle Donker, F. M. & van Loenen, B. "
     citation: "Bosnić, I., Kuveždić Divjak, A., Welle Donker, F. M. & van Loenen, B. (2025). Integrating Engineering Principles in Data Literacy Workshops for Primary Education, p.1-6. doi: 10.1109/MIPRO65660.2025.11132082."
     external_url: "https://doi.org/10.1109/MIPRO65660.2025.11132082"
-  
+
   # 2024
   - title: "Workshop on Data Ecosystems and Spatial Data Infrastructure – Facilitators for Data Value Creation"
     category: "articles"
@@ -57,33 +57,33 @@ publications:
     year: 2024
     author: "Shaharudin, A., van Loenen, B., and Janssen, M."
     citation: "Shaharudin, A., van Loenen, B., and Janssen, M. (2024). **Exploring the contributions of open data intermediaries for a sustainable open data ecosystem**. Data and Policy, 6, Article e56."
-    external_url: "https://doi.org/10.1017/dap.2024.63" 
+    external_url: "https://doi.org/10.1017/dap.2024.63"
   - title: "Problem-solving? No, problem-opening! A method to reframe and teach data ethics as a transdisciplinary endeavour"
     category: "articles"
     year: 2024
     author: "Calzati, S., and Ploeger, H."
     citation: "Calzati, S., and Ploeger, H. (2024). **Problem-solving? No, problem-opening! A method to reframe and teach data ethics as a transdisciplinary endeavour**. Big Data and Society, 11(3)."
-    external_url: "https://doi.org/10.1177/20539517241270687"  
+    external_url: "https://doi.org/10.1177/20539517241270687"
   - title: "Quantum Ecology: Why and How New Information Technologies Will Reshape Societies"
     category: "articles"
     year: 2024
     author: "Calzati, S., D. de Kerckhove"
     citation: "Calzati, S., D. de Kerckhove (2024). **Quantum Ecology: Why and How New Information Technologies Will Reshape Societies**. The MIT Press."
     external_url: "https://doi.org/10.7551/mitpress/14061.001.0001"
-    
+
   # 2023
   - title: "Dis/Trust and data-driven technologies"
     category: "articles"
     year: 2023
     author: "Duenas-Cid, D., and Calzati, S."
     citation: "Duenas-Cid, D., and Calzati, S. (2023). **Dis/Trust and data-driven technologies**. Internet Policy Review, 12(4)."
-    external_url: "https://doi.org/10.14763/2023.4.1727" 
+    external_url: "https://doi.org/10.14763/2023.4.1727"
   - title: "No longer hype, not yet mainstream? Recalibrating city digital twins' expectations and reality: a case study perspective"
     category: "articles"
     year: 2023
     author: "Calzati, S."
     citation: "Calzati, S. (2023). **No longer hype, not yet mainstream? Recalibrating city digital twins' expectations and reality: a case study perspective**. Frontiers in Big Data, 6."
-    external_url: "https://www.frontiersin.org/articles/10.3389/fdata.2023.1236397/full"  
+    external_url: "https://www.frontiersin.org/articles/10.3389/fdata.2023.1236397/full"
   - title: "Preface to the Proceedings of the 26th AGILE Conference on Geographic Information Science"
     category: "articles"
     year: 2023
@@ -163,19 +163,19 @@ publications:
     year: 2022
     author: "Shaharudin, A., Van Loenen, B., and Janssen, M."
     citation: "Shaharudin, A., Van Loenen, B., and Janssen, M. (2022). **Towards a Common Definition of Open Data Intermediaries**. Digital Government: Research and Practice, Vol. 4, No. 2, Article 6, https://dl.acm.org/doi/pdf/10.1145/3585537"
-    external_url: "https://dl.acm.org/doi/pdf/10.1145/3585537"   
+    external_url: "https://dl.acm.org/doi/pdf/10.1145/3585537"
   - title: "Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities."
     category: "articles"
     year: 2022
     author: "Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C."
     citation: "Seljan, S., Viličić, M., Nevistić, Z., Dedić, L., Grubišić, M., Cibilić, I., Kević, K., van Loenen, B., Welle Donker, F. M., & Alexopoulos, C. (2022). **Open Data as a Condition for Smart Application Development: Assessing Access to Hospitals in Croatian Cities.** Sustainability, 14(19), Article 12014. https://doi.org/10.3390/su141912014"
-    external_url: "https://doi.org/10.3390/su141912014"  
+    external_url: "https://doi.org/10.3390/su141912014"
   - title: "On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium"
     category: "articles"
     year: 2022
     author: "Calzati, S., Santos, F., and Casarola, G."
     citation: "Calzati, S., Santos, F., and Casarola, G. (2022). **On the (Non) Institutional Disclosure of Urban Commons: Evidence, Practices and Challenges From the Netherlands and Belgium**. Frontiers in Sustainable Cities, 4."
-    external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/124941294/frsc_04_934604.pdf" 
+    external_url: "https://pure.tudelft.nl/ws/portalfiles/portal/124941294/frsc_04_934604.pdf"
   - title: "Identifying and Overcoming the Barriers Towards Open Data of Public Undertakings"
     category: "articles"
     year: 2022
@@ -248,7 +248,7 @@ publications:
     category: "articles"
     year: 2020
     citation: "Mulder, A. E., Wiersma, G., and van Loenen, B. (2020). **Status of National Open Spatial Data Infrastructures: a Comparison Across Continents**. International Journal of Spatial Data Infrastructures Research, Vol.15, 56-87."
-    external_url: "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498" 
+    external_url: "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498"
   - title: "Towards an Open Data Research Ecosystem in Croatia"
     category: "articles"
     year: 2020
@@ -266,7 +266,7 @@ publications:
     author: "Indrajit, A., van Loenen, B., Ploeger, H. and van Oosterom, P."
     citation: "Indrajit, A., van Loenen, B., Ploeger, H., and van Oosterom, P. (2020). **Developing a spatial planning information package in ISO 19152 land administration domain model**. Land Use Policy, 98, pp. 104-111."
     external_url: "https://www.doi.org/10.1016/j.landusepol.2019.104111"
-    
+
   # 2019
   - title: "Assessing Spatial Information Themes in the Spatial Information Infrastructure for Participatory Urban Planning Monitoring: Indonesian Cities"
     category: "articles"

@@ -128,7 +128,7 @@ publications:
     category: "book-chapters"
     year: 2018
     author: "Vancauwenberghe, G., and B. van Loenen"
-    citation: "Vancauwenberghe, G., and B. van Loenen (2018). **Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe**. In S. Saeed, T. Ramayah, T., and Z. Mahmood, Zaigham (Eds.), User Centric E-government. Challenges and opportunities. New York: Springer International Publishing. 
+    citation: "Vancauwenberghe, G., and B. van Loenen (2018). **Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe**. In S. Saeed, T. Ramayah, T., and Z. Mahmood, Zaigham (Eds.), User Centric E-government. Challenges and opportunities. New York: Springer International Publishing." 
     external_url: "https://resolver.tudelft.nl/uuid:d482f487-4bb5-4104-a9fe-894ff89cf2fb"
   - title: "Business Models for Geographic Information"
     category: "book-chapters"
@@ -157,7 +157,7 @@ publications:
     author: "Welle Donker, F."
     citation: "Welle Donker, F. (2016). **From access to re-use: a user's perspective on public sector information availability**. Doctoral thesis. TU Delft, Faculteit Bouwkunde, Afdeling OTB – Onderzoek voor de gebouwde omgeving"
     external_url: "https://doi.org/10.7480/abe.2016.21.1525"
-  - title: "Blueprint for the STIG1.0: Defining core SDI principles and setting up performance indicators"
+  - title: "Blueprint for the STIG1.0: setting the performance indicators"
     category: "book-chapters"
     year: 2016
     author: "Nushi, B., van Loenen, B. and Crompvoets, J."

@@ -128,12 +128,14 @@ publications:
     category: "book-chapters"
     year: 2018
     author: "Vancauwenberghe, G., and B. van Loenen"
-    citation: "Vancauwenberghe, G., and B. van Loenen (2018). **Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe**. In S. Saeed, T. Ramayah, T., and Z. Mahmood, Zaigham (Eds.), User Centric E-government. Challenges and opportunities. New York: Springer International Publishing. https://resolver.tudelft.nl/uuid:d482f487-4bb5-4104-a9fe-894ff89cf2fb"
+    citation: "Vancauwenberghe, G., and B. van Loenen (2018). **Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe**. In S. Saeed, T. Ramayah, T., and Z. Mahmood, Zaigham (Eds.), User Centric E-government. Challenges and opportunities. New York: Springer International Publishing. 
+    external_url: "https://resolver.tudelft.nl/uuid:d482f487-4bb5-4104-a9fe-894ff89cf2fb"
   - title: "Business Models for Geographic Information"
     category: "book-chapters"
     year: 2018
     author: "Vancauwenberghe, G., F. Welle Donker, and B. van Loenen"
     citation: "Vancauwenberghe, G., F. Welle Donker, and B. van Loenen (2018). **Business Models for Geographic Information**. Chapter 7 in J. Brown Kruse, J. Crompvoets, and F. Pearlman (eds.) GEOValue; The Socioeconomic Value of Geospatial Information. Boca Raton (US): CRC Press, pp. 85-115"
+    external_url: "https://www.routledge.com/GEOValue-The-Socioeconomic-Value-of-Geospatial-Information/Kruse-Crompvoets-Pearlman/p/book/9781498774512"
   - title: "Performance Measurement of Location Enabled e-Government Processes: A Case Study on Traffic Safety Monitoring"
     category: "book-chapters"
     year: 2018
@@ -146,7 +148,8 @@ publications:
     year: 2017
     author: "Vancauwenberghe, G. and van Loenen, B."
     citation: "Vancauwenberghe, G. and van Loenen, B. (2017). **Governance of open spatial data infrastructures in Europe**. In: The Social Dynamics of Open Data. François van Schalkwyk, Stefaan G Verhulst, Gustavo Magalhaes, Juan Pane, Johanna Walker (eds.). African Minds, pp. 63-88."
-
+    external_url: "https://resolver.tudelft.nl/uuid:f720a3ca-1d3c-4a20-9a6f-fb8a6bc9cb6d"
+  
   # 2016
   - title: "From access to re-use: a user's perspective on public sector information availability"
     category: "book-chapters"

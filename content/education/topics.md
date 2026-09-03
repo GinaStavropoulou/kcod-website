@@ -14,7 +14,7 @@ The scope of the open data ecosystem, and especially the incorporation and consi
 
 Contact: [Bastiaan van Loenen](mailto:B.VanLoenen@tudelft.nl)
 
-## The open SDI: the user
+## Open SDI: the user
 The users in first and second generation SDIs are well known and their involvement in the SDI is straightforward. In the first generation SDI, users are typically members of the data providing organisation, well known and embedded in the organisation. In the second generation SDI, users are primarily in government with some known users in the private sector. Also these users are involved in the SDI development through the traditional networks of business associations and national SDI platforms. The third generation SDI builds on the involvement of new non traditional users, among others. However, THE third generation SDI user does not exist: there is a wide variety of user types with different needs, and often the use is unknown to the public data provider. Provided this diversity and uncertainty, one may argue that the user cannot be involved in the third generation decision making processes while on the other hand user involvement is critical for the SDI success. This research will investigate the user needs in the third generation SDI and propose ways to incorporate user involvement in the governance of the third generation SDI.
 
 Contact: [Bastiaan van Loenen](mailto:B.VanLoenen@tudelft.nl)
@@ -29,7 +29,7 @@ The third generation SDI builds on both public, private and volunteered data. Th
 
 Contact: [Bastiaan van Loenen](mailto:B.VanLoenen@tudelft.nl)
 
-## Privacy in the open data ecosystem
+## Data protection in the open data ecosystem
 In a true open data ecosystem, there is an overwhelming number of datasets available. This may have consequences for the identifiability of the data, because if the so-called mosaic-effect: combining several datasets that each on their own does not contain personal data may identify a single person. A clear boundary between personal and non-personal would stimulate open data use, but this appears in many jurisdictions to depend on the specific circumstances of the case. How to balance the utility of a dataset and the protection of personal data remains uncertain. Do we need AI to instantly establish a balancing score of utility versus identifiability to be ‘safe’, do we need to reconsider the concept of personal data?  Will jurisdictions that lack legislation on personal data-processing benefit by developing products building on open data about people and move towards a data dictatorship? These are only a few of the questions that should be subject to further study.
 
 Contact: [Hendrik Ploeger](mailto:H.D.Ploeger@tudelft.nl)
@@ -100,11 +100,9 @@ Contact: [Hendrik Ploeger](mailto:H.D.Ploeger@tudelft.nl)
 ## Financial and economic aspects of the open data ecosystem
 Currently, the benefits of open data befall to society at large, whereas the costs are borne by organisations providing the open data. The funding of organisations with the sole or primary task to collect data face significant challenges. This situation will remain as long as data is not considered key for the functioning of our societies. The introduction of a data tax may be one direction, but inhibits significant transaction costs, something that open data itself managed to diminish to the minimum. Research into funding models ensuring that those that bear the cost of open data will be compensated in a sustainable manner should be subject of further study. Further the sustainability of ‘data’ companies in an – open – data society should be studied. We are aware of the impact open government data may have on ‘data’ companies that provide very similar data, but how sustainable is the open data ecosystem if ‘data’ companies also have to make their data available as open data? 
 
- 
 Contact: [Bastiaan van Loenen](mailto:B.VanLoenen@tudelft.nl)
 
 ## Design of a user driven open data ecosystem
 In the end, the data user should be considered the main player in the open data ecosystem. The design of an effective user driven open data ecosystem will be one of the most challenging questions in open data research and practice. There is still very little knowledge available on users, their needs, and effective strategies to accommodate their needs. While current open data initiatives tend to focus mainly on professional users, there are various other groups that might benefit from using open data and want to apply open data immediately. Especially the needs of citizens are still barely considered . In addition, the issue of the divide between the data haves and the data have-nots is still very real . Because many open data frontrunners are European and North American countries, this may increase the socio-economic differences between these countries and other regions in the world. Within countries or regions themselves, a distinction can also be made between people who can deal with the available data (the ‘data cans’) and those who cannot or only to a limited extent (the ‘data cannots’). Clearly this will have serious social implications or consequences, e.g. because (government) facilities do not appear to be equally accessible to everyone. This urges for more (end) user-friendly data services, but also for accessible training opportunities for all user groups of open data (community capacity building).
-
  
 Contact: [Bastiaan van Loenen](mailto:B.VanLoenen@tudelft.nl)
